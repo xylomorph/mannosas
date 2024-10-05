@@ -51,12 +51,10 @@ The annotation scheme does not introduce further subcategories of justificatory 
 
 The result of a `MAnnoSAS`-guided annotation can be visualized with a reason map as illustrated by the schematic example in Figure 1. There are five annotated text segments: The first text segment represents the main claim ($C$), which is supported by two reasons that are formulated by the second ($R_1$) and the fifth text segment ($R_4$). Both the third ($R_2$) and the fourth text segment ($R_3$) represent reasons against&mdash;that is, objections to the supporting reason $R_1$.
 
-<div style="text-align:center;">
-<figure>
+<figure style="display: grid; place-items: center;">
     <img src="source/figures/fig-annot-guidelines-03.png" alt="Reason Map" style="width:50%; height:auto;"/>
     <figcaption><b>Figure 1:</b> A schematic example of annotating the argumentation structure of an argumentative text. The annotated structure is visualized as an argument map.</figcaption>
 </figure>
-</div>
 
 
 ### 4. Non-Reconstructive Analysis
