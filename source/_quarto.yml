@@ -1,0 +1,62 @@
+project:
+  type: book
+  output-dir: ../docs
+
+book:
+  title: "Analysing Argumentation Structure"
+  subtitle: "Annotation Guidelines for a Minimal Analysis of Argumentation Structure (v1.0)"
+  description: "These guidelines provide clarifications, maxims and hints that will help the annotator to analyse the argumentation structure in argumentative texts."
+  author: 
+    - name: Sebastian Cacean
+      affiliation: 
+      - name: Karlsruhe Institute of Technology (KIT)
+        url: https://www.kit.edu/
+  date: December 1, 2024
+  version: v1.0
+  doi: xxx
+  downloads: [pdf]
+  sharing: [twitter, linkedin]
+  site-url: https://xylomorph.github.io/caas_annotation_guidelines/
+  repo-url: https://github.com/xylomorph/caas_annotation_guidelines/
+  license: "CC BY"
+  chapters:
+    - index.qmd
+    - ch01.qmd
+    - ch02.qmd
+    - ch03.qmd
+    - ch04.qmd
+    - ch05.qmd
+    - ch06.qmd
+    - ch07.qmd
+    - references.qmd
+  keyword: "one, two"
+
+citation: 
+  type: report
+  url: https://xylomorph.github.io/caas_annotation_guidelines/
+  doi: xxx
+
+google-scholar: true
+
+bibliography: references.bib
+
+
+format:
+  html:
+    theme: cosmo
+    toc-depth: 4
+    link-external-newwindow: true
+  pdf:
+    documentclass: scrreprt
+    pdf-engine: pdflatex
+    
+
+crossref:
+  custom:
+    - kind: float
+      reference-prefix: Example
+      key: example
+
+tbl-cap-location: bottom
+
+

@@ -1,0 +1,22 @@
+# Used Examples
+
+To give you a realistic impression of how reasons are formulated, we will use examples from several online articles about two different debates: 
+
+
+## Germline Editing (GE)
+<!-- EO
++ Context knowledge: Germline editing.
+-->
+The GE debate is about a biotechnology called CRISPR, which can alter genetic material more accurately than older gene-modifying technologies. It can be used to create genetically modified crops, develop vaccines, and treat genetic diseases. In contrast to somatic gene therapies, germline gene therapies target reproductive cells, which eventually form embryos, sperms and oocytes. One possible scenario is to use CRISPR in combination with in vitro fertilisation (IVF). After placing a single sperm into a single egg in vitro, CRISPR is used to modify genes of the embryo that cause genetic diseases such as Huntington's disease,  Tay–Sachs disease and Duchenne muscular dystrophy. The important difference between somatic and germline gene therapies is that alterations of germline cells will be passed to further generations. The GE debate gained prominence in 2018 when the Chinese researcher He Jiankui claimed that he used CRISPR to edit the genomes of embryos and that two non-identical twin girls had been born as a result. Scientists worldwide condemned He's actions. Most ethicists and researchers believe that human germline editing should not be used as a therapy at this time because of its unknown risks and side effects. The current GE debate is about the following central questions:
+
++ Should we use GE in the future for therapeutic means? Under which conditions should GE be permitted as a therapy?
++ Should we research germline editing technologies by using embryos? Under which conditions should we allow scientists to alter the genes of embryos for purposes of research? How should we regulate such research?
+
+## Affirmative Action
+<!-- EO
++ Context knowledge: Affirmative action.
+-->
+Affirmative action is an umbrella terminus for practices and regulations that seek to eliminate underrepresentation that resulted from historical injustices based on gender, race or religion of certain groups in education, employment and politics. Affirmative action was first introduced in the United States in 1961 by President John F. Kennedy's Executive Order 10925, which required federal contractors "to ensure that applicants are treated equally without regard to race, colour, religion, sex, or national origin." Measures of affirmative action can differ with respect to the means they employ and with respect to the groups they target.
+
+The text snippets we will analyse are about affirmative action at universities in the United States in college admissions. The main question of this debate is whether it is permissible to include race-based categories in admission criteria to promote diversity on campus and to counteract the underrepresentation of racial minorities at elite universities. 
+

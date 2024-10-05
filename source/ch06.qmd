@@ -1,0 +1,40 @@
+### Identifying the Target of Support and Attack Relations {#sec-identifying-targets}
+<!-- EO
++ Using maxim 10 to disambiguate target indeterminacy by using the principle of accuracy and charity.
+   + *Example for target-ambiguity:* Minorities can gain from affirmative action [@gordon_why_2019].
+-->
+In the last example (@example-13), we used @tip-10 to identify a chain of supporting reasons we did not initially spot. We saw that @tip-10 can help to discern support relations between text segments, even if there are no obvious linguistic cues for these relations. Reformulating the basic idea of reasons in your own words can also help with other problems of identifying the argumentation structure in a text. 
+
+For instance, you might identify a text segment as a presented justification without being able to say for what it is a reason. The linguistic cues might univocally signpost the text segment as a reason but fail to clarify the exact target. Such a situation leaves the analyst to decide between different possibilities as to what is supposed to be justified by this text segment. @tip-10 might help you to decide between these different possibilities. You should formulate the different candidate relations in some of the suggested standard forms and choose among them by applying the principle of charity and accuracy. The main idea is to choose among these possibilities by comparing the different formulations according to their plausibility and how they capture the author's intended idea of the reasons. 
+
+![Illustrating the problem of identifying the target of a reason ($R_4$).](figures/fig-annot-guide-gordon-05){width=75%  #fig-annot-guide-gordon-05}
+
+The example in Figure @fig-annot-guide-gordon-05 continues the example from Figure @fig-annot-guide-gordon-01 and provides a concrete illustration of the problem. The main claim in favour of affirmative action is supported by one reason ($R_1$), which argues that affirmative action will benefit qualified students from minority groups. The text moves on to provide a supporting reason for this claim and points to an increase in income and employment ($R_2$) and the fact that these students are more likely to graduate at elite universities ($R_3$). The last paragraph begins by reformulating $R_1$ and goes on to add another point. The phrase *'not only ..., but also...'* designates this last point as a supporting reason. But it is less clear what exactly is being justified. Since the preceding reasons $R_2$ and $R_3$ support $R_1$, one might speculate whether $R_4$ is another reason in support of $R_1$. However, since the used phrase refers to $R_1$ in the first clause, which supports the main claim $C$, it is similarly possible that $R_4$ is another reason for the main claim. 
+
+According to @tip-10, we should first formulate both possibilities in a way that makes the reason and its target explicit (*explicitness*), which might demand reformulating some text segments.
+
+1. *Support from $R_4$ to $R_1$*: Affirmative action should help those qualified individuals who would benefit the most from an excellent education. Minority students stand to gain quite a bit *since* it might lift entire minority groups by giving them more representation in elite institutions and positions of national leadership. 
+
+2. *Support from $R_4$ to $C$*: But affirmative action is still desperately needed in America's best universities *since* it might lift entire minority groups by giving them more representation in elite institutions and positions of national leadership.
+
+We now have to compare these different possibilities in terms of how strong or plausible the resulting support is (*charity*) and which formulations adhere best to the author's known or hypothesized intention (*accuracy*). From the viewpoint of plausibility, both possibilities seem to be fine: Since whole minority groups benefit from a better representation (first possibility), students that belong to these groups will benefit as well (second possibility). However, accuracy favours the second interpretation. The author's intended point is to justify affirmative action not only in terms of benefits for those individuals from minority groups that study at elite universities as a result of affirmative action but also in terms of how affirmative action will benefit other individuals from these minority groups. A point that is only captured in the second formulation. 
+
+<!-- EO 
++ *Remark:* Maxim 10 will not always succeed to disambiguate target ambiguities.
+-->
+While @tip-10 will often help you identify the target of support and attack relations, some cases remain ambiguous. Different possible interpretations might be similarly charitable and accurate, or there might be a trade-off between charity and accuracy. In these cases, you can pick one of your interpretations to your liking. 
+
+However, keep in mind that the author might intend to justify two different things with the same text segment. In such a case, you should annotate all the relations.
+
+<!-- EO
++ *Remark:* Vagueness of the maxims.
+--> 
+
+Let me close this section with a general comment on the usefulness and scope of the ten tips. Admittedly, these tips are somewhat vague and imprecise. You might encounter cases where the tips will not disambiguate between all possible interpretations, and different analysts might come up with different interpretations when using the tips. These tips, however, do not aspire to lead to unique and objective results. Instead, they are rules of thumb that at least narrow the degree of interpretation to some extent. 
+
+<!-- 
++ *Remarks:*
+   + Reformulation might lead to different interpretations.
+There are two important points to keep in mind when applying maxim 10. First, while using the maxim to reformulate reasons in your own words will often help to understand the function of justificatory relevant elements, it will often introduce some subjectivity into the analysis. What reformulation makes sense to you, might not make sense to someone else. In other words, the analysis of argumentation structure can allow for different interpretations. If you come up with different interpretations and struggle to decide between them, opt for the interpretation that is more in line with the author's intentions. Additionally, you should prefer interpretations that identify rather more than less reasons---without, of course, overinterpreting text segments. For instance, in the last example, I suggested to interpret the *'because'* as an indicator of a presented reason ($R_4$). It can surely be also interpreted as a mere causal relation.
+--> 
+

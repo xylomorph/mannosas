@@ -1,0 +1,51 @@
+# Preface <!-- {.unnumbered} -->
+
+
+## Abstract
+
+lorem ipsum
+
+## Content
+
+lorem ipsum
+
+
+## Licence
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+## Citation
+
+BibTex citation:
+
+```bibtex
+@article{freivogel_assessing_2024,
+  title = {Assessing a {{Formal Model}} of {{Reflective Equilibrium}}},
+  author = {Freivogel, Andreas and Cacean, Sebastian},
+  year = {2024},
+  month = august,
+  doi = {10.5281/zenodo.13294165},
+  langid = {english},
+  url = {https://re-models.github.io/re-technical-report/},
+}
+```
+
+
+::: {.callout-note icon=false}
+
+## For attribution, please cite this works as, for instance:
+
+Freivogel, A., & Cacean, S. (2024). *Assessing a Formal Model of Reflective Equilibrium*. <https://doi.org/10.5281/zenodo.13294165>
+
+:::
+
+## Credits
+
+This report is part of the research project ['How far does Reflective Equilibrium Take us? Investigating the Power of a Philosophical Method']({{< var link.re-project >}}) (SNSF grant 182854 and German Research Foundation grant 412679086). Earlier versions of it were discussed on several occasions with all members of the project. We thank, in particular, Claus Beisbart, Gregor Betz, Georg Brun, Alexander Koch and Richard Lohse for their helpful comments, which helped to improve this report considerably. Finally, the authors acknowledge support by the state of Baden-Württemberg through the joint high-performance computer system [bwHPC]({{< var link.bwHPC >}}).

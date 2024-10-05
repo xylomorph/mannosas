@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[x11names, rgb]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+\usepackage{amsmath}
+%
+%
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}%
+%
+
+\definecolor{attackColor}{RGB}{219,6,10}
+\definecolor{supportColor}{RGB}{50,144,24}
+\definecolor{pro}{RGB}{186, 218, 185}
+\definecolor{con}{RGB}{227, 191, 186}
+
+%\tikzstyle{argument}= [rectangle,rounded corners,draw=black, top color=white, bottom color=black!10, thick, text centered]
+% for using linebreaks with `\\` we use `align = center` (see: https://tex.stackexchange.com/questions/123671/manual-automatic-line-breaks-and-text-alignment-in-tikz-nodes#124114
+%\tikzstyle{argument}= [rectangle,rounded corners,draw=black, top color=white, bottom color=black!10, thick, align=center]
+\tikzstyle{argument}= [rectangle,rounded corners,draw=black, top color=white, bottom color=black!10, thick, align=center]
+\tikzstyle{argument_pro}= [rectangle,rounded corners,draw=black, top color=white, bottom color=pro, thick, align=center]
+\tikzstyle{argument_con}= [rectangle,rounded corners,draw=black, top color=white, bottom color=con, thick, align=center]
+%\tikzstyle{thesis}= [rectangle,rounded corners,draw=black, color=white, thick, align=center]
+\tikzstyle{thesis}= [rectangle,rounded corners,draw=black, thick, align=center]
+
+\tikzstyle{carneades_statement}= [rectangle, draw=black, thick, align=center]
+\tikzstyle{carneades_argument}= [circle,draw=black, thick, align=center]
+\tikzstyle{edge_label}= [rectangle, draw=white, thick, align=center]
+
+
+% fine tuning of edge thickness can be achieved with 'line width=3.8pt'
+%\tikzstyle{attack}= [>=latex',  shorten >=1pt, very thick, color=attackColor, auto, text=black]
+%\tikzstyle{support}= [>=latex',  shorten >=1pt, very thick, color=supportColor, auto, text=black]
+
+\tikzstyle{attack}= [>=latex',  shorten >=1pt, thick, color=attackColor, auto, text=black]
+\tikzstyle{support}= [>=latex',  shorten >=1pt, thick, color=supportColor, auto, text=black]
+\tikzstyle{green_edge}= [thick, color=supportColor, auto, text=black]
+
+
+\begin{document}
+\pagestyle{empty}
+%
+%
+%
+
+\enlargethispage{100cm}
+% Start of code
+% \begin{tikzpicture}[anchor=mid,>=latex',join=bevel,]
+\begin{tikzpicture}[>=latex',join=bevel,]
+\pgfsetlinewidth{1bp}
+%%
+\node (C) at (97.0bp,194.0bp) [draw,ellipse,argument] {\textbf{Main claim}\\We all should change to\\ a vegetarian life style.};
+  \node (A1) at (97.0bp,119.0bp) [draw,ellipse,argument] {\textbf{Reason $R_1$}\\Most mass meat-farming techniques\\are torture to animals.};
+  \node (A2) at (97.0bp,32.0bp) [draw,ellipse,argument] {\textbf{Reason $R_2$}\\Animals feel fear and pain\\like us. Mass meat-farming techniques\\ force those animals to have an unnaturally\\short, miserable and confined life.};
+  \draw [->,support] (A1) ..controls (97.0bp,145.79bp) and (97.0bp,155.04bp)  .. (C);
+  \draw [->,support,] (A2) ..controls (97.0bp,72.47bp) and (97.0bp,81.395bp)  .. (A1);
+%
+\end{tikzpicture}
+% End of code
+
+%
+\end{document}
+%
+<<startfigonlysection>>
+\begin{tikzpicture}[>=latex,join=bevel,]
+\pgfsetlinewidth{1bp}
+%%
+\node (C) at (97.0bp,194.0bp) [draw,ellipse,argument] {\textbf{Main claim}\\We all should change to\\ a vegetarian life style.};
+  \node (A1) at (97.0bp,119.0bp) [draw,ellipse,argument] {\textbf{Reason $R_1$}\\Most mass meat-farming techniques\\are torture to animals.};
+  \node (A2) at (97.0bp,32.0bp) [draw,ellipse,argument] {\textbf{Reason $R_2$}\\Animals feel fear and pain\\like us. Mass meat-farming techniques\\ force those animals to have an unnaturally\\short, miserable and confined life.};
+  \draw [->,support] (A1) ..controls (97.0bp,145.79bp) and (97.0bp,155.04bp)  .. (C);
+  \draw [->,support,] (A2) ..controls (97.0bp,72.47bp) and (97.0bp,81.395bp)  .. (A1);
+%
+\end{tikzpicture}
+<<endfigonlysection>>

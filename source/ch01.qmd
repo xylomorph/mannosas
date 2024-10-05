@@ -1,0 +1,75 @@
+# Visualizing Argumentation Structures with Reason Maps {#sec-intro}
+
+## Argumentative Texts
+
+What are argumentative texts and their argumentation structures? We will say that a text is argumentative if it contains, among other things, reasons and arguments in favour of one or more claims. Additionally, it can also contain objections to these arguments and claims and refutations of the objections. We will use the term *argumentative component* as an umbrella term for these different elements that are expressed in discussions. In other words, argumentative texts contain arguments and reasons, which can be connected in different ways.^[Essays are are typically argumentative. But argumentation can also be found in other text types, such as newspaper articles, scientific articles, transcribed interviews, forum entries, text messages, tweets, blog posts, books, or what have you.] The argumentation structure of an argumenative text is simply the set of the text's expressed argumentative components together with the different argumentative relations between them.
+
+Let's have a look at the transcription of the following hypothetical dialogue, which is about vegetarianism:
+
+> *Clint:* I think we all should change to a vegetarian lifestyle.
+>
+> *Audrey:* Why?
+>
+> *Clint:* Because most mass meat-farming techniques are torture to animals.
+>
+> *Audrey:* Is that so?
+>
+> *Clint:* Yes! There is good evidence that animals feel fear and pain like us. Mass meat-farming techniques force those animals to have an unnaturally short, miserable and confined life. 
+
+
+<!-- EO
++ Justifications (reasons, arguments) are a two-place relation.
+-->
+
+Clint begins by formulating a claim about vegetarianism, and Audrey challenges this claim by asking for a justification. Clint answers this request by providing a reason or, in other words, an argument in favour of that claim. In the following, we will not distinguish between reasons and arguments. We will regard both concepts as more or less interchangeably.^[In argumentation theory, an argument is usually considered a complex entity with an internal premise-conclusion structure. The conclusion is what is supposed to be justified with the argument, and the premises are the sentences that formulate the justification. According to this understanding, reasons are premises as parts of arguments.] What is important, though, and exemplified in the dialogue, is that arguments and reasons are always relational. A reason is always a reason for something; similarly, an argument is always an argument in favour of something. Therefore, a complete description of an argument (or a reason) should be formulated in the following standard form:
+
+::: {.callout-note}
+## Reasons in their standard form
+x is a reason/argument for y.
+:::
+
+
+Identifying an argument (or a reason) demands identifying both relata 'x' and 'y'. In the above example, we can consider Clint's answer to Audrey's first question as a reason (x) for his initial claim (y). 
+
+<!-- EO
++ Determining the target of Clint's second answer.
+-->
+Audrey reacts to Clint's answer by demanding another justification, and Clint willingly provides a further reason. But for what exactly is Clint's last answer a reason? Without the cotext of Clint's second answer---that is, all that was said besides this answer---we can easily imagine the answer to be another reason for vegetarianism. However, the way the dialogue proceeded, another interpretation is more appropriate: Audrey's second question refers to Clint's first answer. She asks whether mass meat farming is the torture of animals. Clint answers in the affirmative and provides a justification for why mass meat farming should be considered torture. In this particular dialogue context, the second answer should be, therefore, considered a reason for the first answer. 
+
+## Reason Maps 
+
+We can describe the structure of the given argumentation thus far as follows: The argumentation contains a claim for which a reason is presented, and this reason is itself backed up by an additional reason.<!--Such a structure is called *serial reasoning* since it concatenates reasons successively to each other.--> @fig-annot-guidelines-01 is a visualization of this structure, which we will call a *reason map* since it visualizes reasons and their relationships to each other and to claims. As we will see, reason maps can get more complex than this simple example. 
+
+<!-- EO
++ The example as a reason map.
+-->
+The nodes of a reason map represent text segments of the dialogue that express argumentative components; the green arrows represent the relation of *x* being a presented reason for *y*, which is visualized by a green arrow from *x* to *y*. In the following, we will refer to this relation as the *support relation*. 
+
+
+![Graphical representation of supporting reasons as a *reason map*.](figures/fig-annot-guidelines-01){width=40%  #fig-annot-guidelines-01}
+
+
+
+<!-- EO
++ Extending the example by an objection.
+-->
+So far, the argumentation structure of this dialogue is quite simple and not very controversial. Let's look at the following more challenging proceeding of the exchange:
+
+> *Audrey:* But even if that were true, there are alternative ways to breed animals. Grass-fed meat comes from animals that are raised in open grass pastures and that are not confined to these cramped living spaces.
+>
+> *Clint:* Yes, but there are other reasons to become a vegetarian. The farming of animals produces more greenhouse gas emissions than the world's entire transport system, and these greenhouse gases are causing dangerous climate change. 
+
+Audrey begins by raising an objection. Similar to reasons, objections are relations: An objection is always an objection to something and should be described in some standard form (e.g., *'x is an objection to y'*), which makes the relata of that relation explicit. Often, an objection to *y* is a reason that *y* is false or implausible. 
+
+<!--
+Comment: This is somewhat problematic. That the objection is an attack on R1 does not become clear without a reconstruction of R1.
+-->
+So, what is the nature and target of Audrey's objection? She does not question that animals feel fear and pain when they grow up in meat farms. As a consequence, the target of her objection is not the second reason ($R_2$).<!-- She also does not question the truth or plausibility that most mass meat-farming techniques can be regarded as torture to animals ($R_2$).--> But she formulates a reason that animal suffering is not a sufficient reason for becoming a vegetarian since there are alternatives to mass-produced meat, which avoid the suffering of animals, or so her reasoning goes. Hence, we could say that the target of Audrey's objection is Clint's first reason ($R_1$) because her objection questions the relevance or sufficiency of $R_1$. 
+
+
+![Graphical representation of the dialogue's argumentation structure as a reason map.](figures/fig-annot-guidelines-02){width=75%  #fig-annot-guidelines-02}
+
+
+Objections will be visualized in a reason map by an attack relation represented by a red arrow as illustrated in Figure @fig-annot-guidelines-02. 
+
+Clint's final utterance illustrates that argument structures can be more branched than the simple serial reasoning we began with. His reply to Audrey does not refute her objection ($R_3$). On the contrary, he seems to concede her point. Hence, Clint's utterance is not an objection to something. Instead, he presents an alternative reason to the main claim as visualized in Figure @fig-annot-guidelines-02. 

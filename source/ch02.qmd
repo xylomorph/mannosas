@@ -1,0 +1,69 @@
+# Two Tasks of Analysing Argumentation Structure
+
+<!-- EO
++ *Definition:* Justificatory relevance.
++ Two tasks of annotating argumentation structure: 
+   1. Annotation of text segment as justificatory relevant.
+-->
+The simple dialogue from @sec-intro exemplifies that analysing the argumentation structure of a text involves two interdependent tasks: 
+
+## Annotation of reasons and claims
+
+::: {.callout-tip #tip-first-task}
+## Annotation of reasons and claims (first task)
+You should annotate a text segment as *justificatory relevant* if (and only if) it is being *presented* as a justification or if some other text segment is presented as a justification for or as an objection to it.
+:::
+
+What we usually identify as arguments, reasons, objections, and refutations is, according to this definition, justificatory relevant. For instance, Audrey's critical questions are not justificatory relevant since they do not formulate reasons or objections on their own. But Clint's replies are justificatory relevant. Similarly, text segments that are the target of arguments, reasons, objections and refutations are justificatory relevant according to this definition. While Clint's first utterance is not presented as a justification for something else, other utterances are presented as a justification for it. 
+
+In the following, we will simply speak of reasons since objections and refutations can always be understood as *reasons against* something. If *x* is an objection to *y*, it can usually be understood as a reason that *y* is false, implausible, not acceptable, irrelevant or something similar. Additionally, we will neither distinguish between reasons and arguments on the one hand nor between different kinds of objections on the other hand.
+
+As the example illustrates, a text segment can have both roles. It can be presented as a justification for something else, and, at the same time, there can be another text segment that is presented as a justification for it (e.g., Clint's second answer). In the following, we will refer to text segments that are not used as a justification for something but that are the target of presented justifications as claims or main claims. 
+
+It is also important to keep in mind that the definition of *justificatory relevance* first and foremost demands understanding the author's intentions. It is about understanding what is *presented* as a justification---independent of how you or others would evaluate the success of this presented justification. 
+
+Finally, the annotation of a text segment demands individuating reasons. What is meant by that? The annotation of a text segment requires determining the start and endpoint of the text segment---often by highlighting the corresponding text segment in some way. The text segments we are interested in can encompass sentences, clauses or even smaller units but will not split up words. Each annotated text segment should correspond to exactly one reason or one target of a reason. If a longer text segment contains more than one justification, you have to split up the longer text segment into smaller units of text segments. The process of identifying justificatory relevant text segments can, therefore, be regarded as the process of individuating reasons in a text. 
+
+
+## Identifying support and attack relations
+<!-- EO
+   2. Determination of the justificatory role of justificatory relevant text segments (type and target).
+-->
+The first task (@tip-first-task) asks you to select and annotate text segments as justificatory relevant; the second task asks you to categorise the exact role of these text segments. 
+
+::: {.callout-tip #tip-second-task}
+## Identifying support and attack relations (second task)
+Categorise for each justificatory relevant text segment its ingoing and outgoing support and attack relations.
+:::
+
+A text segment is justificatory relevant because it is presented as a reason for some other text segment or as the target of a reason. The second task demands categorising these relationships between justificatory relevant text segments. You should only use two fundamental relations: You have to categorise text segments as supporting something (e.g., reasons and arguments) or as attacking something (e.g., objections and refutations), and you have to identify their targets---that is, what they are supporting or attacking. 
+
+A text segment *x* that is presented as a reason for some other text segment *y* should be categorised via the *support relation* between *x* and *y* (represented by a green arrow from *x* to *y*), and a text segment *x* that is being presented as a reason against some other text segment *y* will be categorised via an *attack relation* between *x* and *y* (represented by a red arrow from *x* to *y*). 
+
+
+![A schematic example of annotating the argumentation structure of a text. There are five annotated text segments: The first text segment represents the main claim ($C$), which is supported by two reasons that are formulated by the second ($R_1$) and the fifth text segment ($R_4$). Both the third ($R_2$) and the fourth text segment ($R_3$) represent reasons against---that is, objections to the supporting reason $R_1$.](figures/fig-annot-guidelines-03){width=50%  #fig-annot-guidelines-03}
+
+@fig-annot-guidelines-03 schematically illustrates the result of completing both tasks: an annotated text that identifies justificatory relevant text segments and the categorisation of the interrelationships between these text segments as support and attack relations. 
+
+## Challenges of Annotating Argumentation Structures
+
+<!-- EO
++ Typical challenges of annotating the argumentation structure.
+-->
+The analysis of argumentation structures is often more complicated and challenging than the simple example suggests:
+
++ First, you might find it difficult to decide whether a particular text segment is meant as a reason, objection or something else. You will often find text segments with other functions than simply formulating justifications for some other text segment. The line between what counts as justificatory relevant and justificatory irrelevant is partly blurry and continuous. 
++ Second, you might ask yourself where a reason starts and ends. 
++ Third, what exactly is supposed to be justified by a reason is sometimes ambiguous. It might even happen that the claim that is justified by a text segment is itself implicit---that is, not represented by another text segment. 
++ Finally, you will often wonder whether a text segment that is formulated as a justification represents just one or several reasons. We will refer to this latter challenge as the *problem of reason individuation*.
+
+<!-- EO
++ Interpretational nature of analysing argumentation structure.
+-->
+It is not possible to understand the argumentation structure of a text without understanding the conveyed meaning of the text. Since the understanding of meaning is always an interpretation, which is to some extent subjective and can differ from person to person, the understanding of argumentation structure is also a process of interpretation. Since we can seldom ask the authors for clarifications of what they meant---at least not without considerable effort---the problem of multiple possible interpretations is particularly challenging in our context. However, the degree of interpretation can be increased to some extent by being more precise and explicit about the two mentioned tasks of analysing the structure of argumentation.
+
+In the following, you will be provided with clarifications and maxims that will help you alleviate the problems mentioned. First, we will have to understand what makes text segments justificatory relevant. In other words, we will have to say more about what we mean with reasons, arguments and objections and how they can be distinguished from text segments with functions other than justifying something else (@sec-justificatory-relevance). We will then go on to address problems of individuating reasons (@sec-reason-individuation). Finally, we will look closer at how to determine the targets of the support and attack relations (@sec-identifying-targets). More minor challenges will be dealt with in the form of frequently asked questions at the end of these guidelines (@sec-freq-questions).
+
+
+
+
