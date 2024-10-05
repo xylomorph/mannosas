@@ -156,7 +156,7 @@ To miminize granularisation ambiguity `MAnnoSAS` covers the following aspects:
 + How do we deal with reformulations of the same point or reason? Are they considered as different reason or do they belong to the reason they reformulate? What if reformulations express clarifications or provide illustrative examples?
 + Can one argumentative component be scattered over non-contiguous text segments?  
 
-## Relation Ambiguity
+### Relation Ambiguity
 
 Finally, annotators might disagree in their analysis of the intended justificatory relations between argumentative units. For instance, two analysts might interpret a specific text segment as expressing an objection but disagree on the target of the objection (as exemplified in Figure 4).
 
