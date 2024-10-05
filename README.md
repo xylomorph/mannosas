@@ -127,12 +127,14 @@ In particular, it provides guidance with respect to the following types of ambig
 
 Annotators might come to different conclusions as to whether a particular text segment expresses an argumentative component, in other words, whether it is intended as justificatory relevant. For instance, one annotator might interpret some text segment as intended as an argument, whereas another as something else, say, a mere illustration with no argumentative relevance (as exemplified in Figure 2). 
 
-<div align="center">
 <figure>
-    <img src="figures/fig-node-ambiguity.png" alt="Node ambiguity" style="width:50%; height:auto;">
+    <div align="center">
+    <img src="figures/fig-node-ambiguity.png" alt="Node ambiguity" style="width:50%; height:auto;"/>
+    </div>
+    <div align="center">
     <figcaption><b>Figure 2:</b> An abstract illustration of <em>node ambiguity</em>. In contrast to A<sub>1</sub>, the annotator A<sub>2</sub> does not interpret the text segment S<sub>3</sub> as an argumentative unit.</figcaption>
+    </div>
 </figure>
-</div>
 
 To miminize node ambiguity `MAnnoSAS` covers the following aspects:
 
@@ -145,12 +147,14 @@ To miminize node ambiguity `MAnnoSAS` covers the following aspects:
 Annotators have to identify text segments corresponding to argumentative components; in particular, they must decide where they start and end. As a consequence, annotators might disagree on the number of argumentative components expressed in a particular text segment. For instance, one analyst might interpret the text segment as expressing one
 reason, whereas the other identifies two (as exemplified in Figure 3).
 
-<div align="center">
 <figure>
-    <img src="figures/fig-granularisation-ambiguity.png" alt="Granularisation ambiguity" style="width:50%; height:auto;">
+    <div align="center">
+    <img src="figures/fig-granularisation-ambiguity.png" alt="Granularisation ambiguity" style="width:50%; height:auto;"/>
+    </div>
+    <div align="center">
     <figcaption><b>Figure 3:</b> An abstract illustration of <em>underdetermination of granularisation</em>. Annotator A<sub>1</sub> interprets S<sub>2</sub> and S<sub>3</sub> as two distinct argumentative components (their AC<sub>2</sub> and AC<sub>3</sub> ) and annotator A<sub>2</sub> interprets them as one compound argumentative component (their AC<sub>2</sub>).</figcaption>
+    </div>
 </figure>
-</div>
 
 To miminize granularisation ambiguity `MAnnoSAS` covers the following aspects:
 
@@ -163,12 +167,15 @@ To miminize granularisation ambiguity `MAnnoSAS` covers the following aspects:
 Finally, annotators might disagree in their analysis of the intended justificatory relations between argumentative units. For instance, two analysts might interpret a specific text segment as expressing an objection but disagree on the target of the objection (as exemplified in Figure 4).
 
 
-<div align="center">
 <figure>
-    <img src="figures/fig-relation-ambiguity.png" alt="Relation Ambiguity" style="width:50%; height:auto;">
+    <div align="center">
+    <img src="figures/fig-relation-ambiguity.png" alt="Relation Ambiguity" style="width:50%; height:auto;"/>
+    </div>
+    <div align="center">
     <figcaption><b>Figure 4:</b> An abstract illustration of <em>relation ambiguity</em> Analyst A<sub>1</sub> interprets S<sub>3</sub> as expressing an objection against S<sub>1</sub> and and analyst A<sub>2</sub> interprets it as expressing an objection against S<sub>2</sub>.</figcaption>
+    </div>
 </figure>
-</div>
+
 
 <h2 id="development">🚧 Further Development</h2>
 
