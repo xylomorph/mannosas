@@ -53,7 +53,7 @@ The result of a `MAnnoSAS`-guided annotation can be visualized with a reason map
 
 <div align="center">
 <figure>
-    <img src="source/figures/fig-annot-guidelines-03.png" alt="Reason Map" style="width:50%; height:auto;">
+    <img src="source/figures/fig-annot-guidelines-03.png" alt="Reason Map" style="width:50%; height:auto;"/>
     <figcaption><b>Figure 1:</b> A schematic example of annotating the argumentation structure of an argumentative text. The annotated structure is visualized as an argument map.</figcaption>
 </figure>
 </div>
