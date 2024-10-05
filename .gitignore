@@ -10,7 +10,7 @@ env/
 *.log.*
 
 
-/bc/
+/.bc/
 /docs/
 
 # Created by https://www.gitignore.io/api/python,pycharm,jupyternotebooks

@@ -54,9 +54,8 @@ The result of a `MAnnoSAS`-guided annotation can be visualized with a reason map
 <div align="center">
 <figure>
     <img src="source/figures/fig-annot-guidelines-03.png" alt="Reason Map" style="width:50%; height:auto;">
-    <figcaption></figcaption>
+    <figcaption><b>Figure 1:</b> A schematic example of annotating the argumentation structure of an argumentative text. The annotated structure is visualized as an argument map.</figcaption>
 </figure>
-
 </div>
 
 
@@ -124,41 +123,50 @@ In particular, it provides guidance with respect to the following types of ambig
 
 ### Node Ambiguity
 
-Annotators might come to different conclusions as to whether a particular text segment expresses an argumentative component, in other words, whether it is intended as justificatory relevant. For instance, one
-annotator might interpret some text segment as intended as an argument, whereas another as something else, say, a mere illustration with no argumentative relevance (as exemplified in Figure 2). 
+Annotators might come to different conclusions as to whether a particular text segment expresses an argumentative component, in other words, whether it is intended as justificatory relevant. For instance, one annotator might interpret some text segment as intended as an argument, whereas another as something else, say, a mere illustration with no argumentative relevance (as exemplified in Figure 2). 
 
+<div align="center">
+<figure>
+    <img src="figures/fig-node-ambiguity.png" alt="Node ambiguity" style="width:50%; height:auto;">
+    <figcaption><b>Figure 2:</b> An abstract illustration of <em>node ambiguity</em>. In contrast to A<sub>1</sub>, the annotator A<sub>2</sub> does not interpret the text segment S<sub>3</sub> as an argumentative unit.</figcaption>
+</figure>
+</div>
+
+To miminize node ambiguity `MAnnoSAS` covers the following aspects:
+
++ How can we use cotext and linguistic cues to identify argumentative units?
++ How do you tell apart justificatory and explanatory reasons?
++ Are examples considered as reason? Under which conditions?
 
 ### Underdetermination of Granularisation
 
+Annotators have to identify text segments corresponding to argumentative components; in particular, they must decide where they start and end. As a consequence, annotators might disagree on the number of argumentative components expressed in a particular text segment. For instance, one analyst might interpret the text segment as expressing one
+reason, whereas the other identifies two (as exemplified in Figure 3).
+
+<div align="center">
+<figure>
+    <img src="figures/fig-granularisation-ambiguity.png" alt="Granularisation ambiguity" style="width:50%; height:auto;">
+    <figcaption><b>Figure 3:</b> An abstract illustration of <em>underdetermination of granularisation</em>. Annotator A<sub>1</sub> interprets S<sub>2</sub> and S<sub>3</sub> as two distinct argumentative components (their AC<sub>2</sub> and AC<sub>3</sub> ) and annotator A<sub>2</sub> interprets them as one compound argumentative component (their AC<sub>2</sub>).</figcaption>
+</figure>
+</div>
+
+To miminize granularisation ambiguity `MAnnoSAS` covers the following aspects:
+
++ Can two contiguous text segments express more than one reason? How do we decide in these cases on the number of reasons?^[The individuation of reasons in `MAnnoSAS` is based on a criterion, which I borrowed from Freeman, J. B. (2011). *Argument Structure: Representation and Theory.* Dordrecht: Springer.]
++ How do we deal with reformulations of the same point or reason? Are they considered as different reason or do they belong to the reason they reformulate? What if reformulations express clarifications or provide illustrative examples?
++ Can one argumentative component be scattered over non-contiguous text segments?  
+
 ## Relation Ambiguity
 
-One important aspect concerns the granularisation of argumentation or, in
-other words, the individuation of argumentative components, which can be
-claims, reasons or arguments. The annotator has to identify text segments
-corresponding to argumentative components; in particular, they must decide
-where they start and end. 
+Finally, annotators might disagree in their analysis of the intended justificatory relations between argumentative units. For instance, two analysts might interpret a specific text segment as expressing an objection but disagree on the target of the objection (as exemplified in Figure 4).
 
-We saw that the individuation of arguments is
-slightly different than the individuation of reasons. We should, therefore,
-decide whether analysts should identify reasons or arguments or both.
-Both the individuation of arguments and the individuation of reasons are beset
-with problems. Individuating arguments demands reconstructing arguments,
-and even then, the individuation of arguments will be underdetermined in some
-cases, as I argued in Sections 4.4.2 and 4.4.3. 
 
-The individuation of reasons, on
-the other hand, can be accomplished by employing an intuition-based or the
-syntactical criterion, which I borrowed from Freeman (2011).
-
-Whether two different argumentative units express the same argumentative
-component is often a non-trivial question
-
-Often, an author will reformulate a
-claim or reason that they already made. What is more, the corresponding text
-segments might be non-contiguous to each other. In these cases, the annotator
-will encounter different formulations of the same argumentative component
-at different locations in the text.
-
+<div align="center">
+<figure>
+    <img src="figures/fig-relation-ambiguity.png" alt="Relation Ambiguity" style="width:50%; height:auto;">
+    <figcaption><b>Figure 4:</b> An abstract illustration of <em>relation ambiguity</em> Analyst A<sub>1</sub> interprets S<sub>3</sub> as expressing an objection against S<sub>1</sub> and and analyst A<sub>2</sub> interprets it as expressing an objection against S<sub>2</sub>.</figcaption>
+</figure>
+</div>
 
 <h2 id="development">🚧 Further Development</h2>
 
