@@ -55,11 +55,13 @@ The result of a `MAnnoSAS`-guided annotation can be visualized with a reason map
 <img src="source/figures/fig-annot-guidelines-03.png" alt="Reason Map" style="width:50%; height:auto;"/>
 </div>
 
+asf
+
 <figure>
     <div align="center">
-    <img src="source/figures/fig-annot-guidelines-03.png" alt="Reason Map" style="width:50%; height:auto;" align="center"/>
-    <figcaption><b>Figure 1:</b> A schematic example of annotating the argumentation structure of an argumentative text. The annotated structure is visualized as an argument map.</figcaption>
+    <img src="source/figures/fig-annot-guidelines-03.png" alt="Reason Map" style="width:50%; height:auto;"/>
     </div>
+    <figcaption><b>Figure 1:</b> A schematic example of annotating the argumentation structure of an argumentative text. The annotated structure is visualized as an argument map.</figcaption>
 </figure>
 
 ### 4. Non-Reconstructive Analysis
