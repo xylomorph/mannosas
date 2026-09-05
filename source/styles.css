@@ -1,0 +1,5 @@
+/* Keep the quote text in custom "Example" floats left-aligned. */
+.quarto-float-example blockquote,
+.quarto-float-example blockquote p {
+  text-align: left;
+}

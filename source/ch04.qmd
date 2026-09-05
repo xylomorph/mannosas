@@ -1,78 +1,80 @@
-# Justificatory Relevance {#sec-justificatory-relevance}
+# Identifying Argumentative Units {#sec-justificatory-relevance}
 
 <!-- EO
 + What is not important for justificatory relevance: 
    + **Clarification 1:** You do not have to evaluate presented reasons and objections.
 -->
 
-The given definition of what counts as justificatory relevant (@tip-first-task) covers a lot of different ways to formulate reasons and objections. The notions of reason and objection carry different connotations to different people, and some are irrelevant to the defined concept of argumentative relevance. In particular, you do not have to worry about the following aspects:
+The definition of what counts as an argumentative component provided above (@tip-first-task) covers several different ways to formulate reasons and objections. The notions of reason and objection carry different connotations for different people, and some are irrelevant to the concept of *argumentative component* used in this guideline. In particular, you do not have to worry about the following aspects:
+
+## The Irrelevance of Evaluating Reasons and Objections
 
 ::: {.callout-note #nte-clar-1}
 ## Clarification 1
-You do not have to evaluate presented reasons and objections.
+You do not have to evaluate or assess the strength of reasons and objections.
 :::
 
 <!-- ToDo
 Revise: It is perhaps better to take commitments as the relevant feature (not intented meanings).
 -->
-A text segment counts as justificatory relevant independent of whether the presented justification succeeds in its justification. It does not matter whether a presented reason is a good reason. What counts is the author's intention. You only have to ask yourself if the author meant the text segment to represent a justification. 
+A text segment counts as an argumentative unit, regardless of whether the presented justification succeeds. It does not matter whether a presented reason is a good reason. What counts are the author's intention and commitments. As an annotator, you only have to ask yourself whether the author meant the text segment to represent a justification or whether they are committed to it by what they said. 
+
+## The Irrelevance of the Author's Stance
 
 <!-- EO
    + **Clarification 2:** It is not necessarily about who puts forward a reason. 
       + *Example:* Objection to the consent argument (NHGRI 2017).
 -->
-Often, an author will formulate their own stance. They will present *their* arguments and possibly try to refute other's objections to their own position. However, you can also encounter argumentative texts in which the author presents reasons and objections without revealing their own position. What is essential here: Someone can present reasons without taking a stance. Understanding the author's stance might, in some cases, help to identify the presented reasons. However, whether some text segment counts as justificatory relevant is independent of whose reasons are presented. 
+Often, an author will formulate their own stance on a particular issue. They will present *their* arguments and possibly try to refute other's objections to *their* position. However, you may also encounter argumentative texts in which the author presents reasons and objections without revealing their own position. An author might simply describe others' arguments without evaluating them or revealing their own stance. Understanding the author's stance might, in some cases, help identify the reasons presented. However, whether a text segment counts as an argumentative unit is independent of whose reasons are presented. 
 
-::: {.callout-note}
+::: {.callout-note #nte-clar-2}
 ## Clarification 2
-It is not necessarily about who puts forward a reason.
+A text segment counts as an argumentative unit independent of whose reasons are presented.
 :::
 
 Consider the following example:
 
 ::: {#example-1}
-> Some people worry that it is impossible to obtain informed consent for germline therapy because the patients affected by the edits are the embryo and future generations. The counterargument is that parents already make many decisions that affect their future children, including similarly complicated decisions such as PGD [preimplantation genetic diagnosis] with IVF [in vitro fertilization]. [@nhgri_what_2017]
+> Some people worry that it is impossible to obtain informed consent for germline therapy because the patients affected by the edits are the embryo and future generations. The counterargument is that parents already make many decisions that affect their future children, including similarly complicated decisions such as PGD [preimplantation genetic diagnosis] with IVF [in vitro fertilisation]. [@nhgri_what_2017]
 :::
 
-The authors present two arguments---one pro germline therapy and one against it---without explicitly adopting their own stance. They merely describe two existing arguments without evaluating them and without revealing their own position towards germline therapy.
-
+The authors do not reveal their own stance towards germline therapy. Nevertheless, we have no problems identifying text segments as argumentative units. The first sentence expresses a reason against germline therapy, and the second sentence expresses an objection to that reason. 
 <!-- EO
    + **Clarification 3:** It is not necessarily about persuasion.
 -->
-Consequently, we cannot determine whether the authors want to persuade the audience of something, which brings us to the following clarification.
+In a similar vein, we cannot determine whether the authors want to persuade the audience of something, which brings us to the following clarification.
 
-::: {.callout-note}
+::: {.callout-note #nte-clar-3}
 ## Clarification 3
-It is not necessarily about persuasion.
+Whether a text segment formulates an argumentative component does not depend on whether the author intends to persuade the audience.
 :::
 
-Usually, the author of an argumentative text or utterance formulates reasons with the intention to persuade the audience of their main claims. However, an author might present reasons without such an intention. They might, for instance, simply want to summarize a debate. Identifying justificatory relevant text segments is, therefore, independent of why the author presents something as a reason. 
+Often, the author of an argumentative text presents reasons to persuade the audience of the author's main claims. However, an author might present reasons without such an intention. They might, for instance, seek to summarise a debate. Therefore, identifying argumentative units is independent of *why* the author presents something as a reason. 
 
-The following clarifications will show that the suggested notion of justificatory relevance will include a wide variety of reasons, arguments, objections and refutations.
+## Oblique Reasons
 
 <!-- EO
 + What is important for justificatory relevance:
    + **Clarification 4:** Reasons and objections can be presented in indirect ways. 
-	  + *Example:* Argument from naturelness and evolutional optimization (Doudna and Sternberg 2017).
+   + *Example:* Argument from naturelness and evolutional optimization (Doudna and Sternberg 2017).
 -->
-::: {.callout-note}
-## Clarification 4
-Reasons and objections can be presented indirectly.
-:::
 
-
-The following example contains two different types of indirect presentation of reasons:
+Consider the following example that contains two different types of indirect presentation of reasons:
 
 ::: {#example-2}
 > For many people, the very idea [of germline editing] feels unnatural and wrong, and I was one of those people when I first started thinking about the issue. Humans have been reproducing for millennia, aided only by the DNA mutations that arise naturally, and for us to begin directing the process---similar to the way that plant biologists might genetically modify corn---seems almost perverse at first glance. As National Institutes of Health director Francis Collins put it, "Evolution has been working toward optimizing the human genome for 3.85 billion years. Do we really think that some small group of human genome tinkerers could do better without all sorts of unintended consequences?" [@doudna_opinion_2017]
 :::
 
-The first two sentences appeal to emotions. It is about what people feel toward the idea of germline editing. There is a common misconception that emotions and arguments exclude each other. While it is true that emotions are no reasons on their own, emotions can express or point to reasons. The reason that is implicitly formulated in the above text snippet is known as the argument from naturalness: We should not pursue germline editing because it is unnatural. 
+The first two sentences appeal to emotions. It is about what people feel towards the idea of germline editing. There is a common misconception that emotions and arguments are mutually exclusive. While it is true that emotions are no reasons on their own, emotions can express or point to reasons. The reason implicitly formulated in the snippet above is known as the argument from naturalness: we should not pursue germline editing because it is unnatural. 
 
-The second reason is formulated as a question in the last sentence. The question is clearly meant as a rhetorical question. The presented reason points to the possibility of severe side effects: Germline editing will have unintended side effects because human genome editing cannot be better than evolutionary optimization of the human genome. 
+The second reason is formulated as a rhetorical question in the last sentence. The stated reason points to the possibility of severe side effects: Germline editing will have unintended effects because human genome editing cannot be better than the evolutionary optimisation of the human genome. 
 
-Again, it is not important how we evaluate the argumentative strength of these reasons to categorize them as justificatory relevant (see @nte-clar-1). What the example shows is that reasons can be formulated in indirect ways, for instance, by an appeal to emotions and by rhetorical questions.
+Again, it is unimportant how we evaluate the argumentative strength of these reasons to categorise them as justificatory relevant (see @nte-clar-1). The example shows that reasons can be formulated indirectly, for instance, through appeals to emotion and rhetorical questions.
 
+::: {.callout-note}
+## Clarification 4
+Reasons and objections can be presented indirectly.
+:::
 
 ## Using Linguistic Cues
 
@@ -80,18 +82,18 @@ Again, it is not important how we evaluate the argumentative strength of these r
 <!-- EO
    + **Maxim 1:** Search for linguistic cues that indicate what text segments are presented as justifications!
 -->
-How do we recognize text segments as justificatory relevant? Often, authors employ linguistic cues to tell the audience what they intend to be a reason or objection. 
+How do we recognise text segments as being justificatory relevant? Often, authors employ linguistic cues to signal to the audience what they intend as a reason or an objection. 
 
 ::: {#tip-1 .callout-tip}
-## Lingustic cues
-Search for linguistic cues that indicate which text segments are presented as justifications!
+## Linguistic cues
+Search for linguistic cues that indicate the formulation of argumentative components!
 :::
 
-Linguistic cues are indicator words, phrases, clauses, or whole sentences used by an author (or interlocutor) to help the audience interpret the text's (or utterance's) intended meaning. Linguistic cues for reasons and objections act as direct or indirect signs that characterize text segments as justificatory relevant.
+Linguistic cues are indicator words, phrases, clauses, or whole sentences used by an author (or interlocutor) to help the audience interpret the text's (or utterance's) intended meaning. Linguistic cues for reasons and objections serve as direct or indirect signs that characterise text segments as justificatory relevant.
 
 Typical phrases that indicate a support relation between x and y include:
 
-+ *x is true. Hence/therefore, y.*
++ *x is true. Hence/Therefore, y.*
 + *y because x.*
 + *y since x.*
 + *y for the reason that x.*
@@ -107,82 +109,92 @@ Attack relations can be formulated, for instance, by the following phrases:
 
 Often, text segments are presented as reasons by attributing claims together with their reasons and objections to specific groups or people:
 
-+ *s argues for x by y.*
-+ *The main reason for x is put forward by s. According to them ... y.*
-+ *s objects to x by saying that y.*
++ *S argues for x by y.*
++ *The main reason for x is put forward by S. According to them ... y.*
++ *S objects to x by saying that y.*
 + ...
 
 <!-- EO
 + Annotation of linguistic cues.
 -->
-One important question is whether you should annotate linguistic cues as justificatory relevant---in other words, whether you should count them as belonging to the formulation of reasons. There is no particular reason to do it one way or the other. However, to compare the annotations of different analysts, we should adopt one consistent rule for all analysts. In the following, we will, in most cases, not annotate linguistic cues as justificatory relevant (for more details, see @sec-faq-seven). Nevertheless, searching for linguistic cues and annotating them is very helpful. In the following examples, we will either underline or italicize linguistic cues.
+One important question is whether annotators should consider linguistic cues as part of the corresponding argumentative unit---in other words, whether annotators should count them as belonging to the formulation of reasons. There is no particular reason to do it one way or the other. However, to make the results of different annotators comparable, we should adopt one consistent rule: You should not annotate linguistic cues as part of the argumentative unit (for more details and exceptions, see @sec-faq-seven). Nevertheless, *searching* for linguistic cues and *independently* annotating them is very helpful for the task of identifying argumentative units. In the following examples, we will either underline or italicise linguistic cues.
 
-
-## Considering the Cotext 
+## Relevance of the Cotext 
 <!-- EO
    + **Maxim 2:** Consider the cotext of a text segment to decide on its justificatory relevance! (one example)
       + *Example:* Objection to the consent argument (NHGRI 2017).
 -->
-While recognizing linguistic cues is an indispensable means to identify justificatory relevant text segments, you should not rely on finding linguistic cues. Often, linguistic cues will be amiss. Fortunately, the cotext will usually provide enough information to decide on the justificatory relevance of a text segment. 
+While searching for linguistic cues is an indispensable means to identify argumentative units, you cannot always count on finding informative linguistic cues. Often, linguistic cues will be amiss. Fortunately, the surrounding text---which we will refer to as cotext---will often provide enough information to decide on whether a text segment is an argumentative unit. 
 
-::: {#tip-2 .callout-tip}
-## Cotext
-Consider the cotext of a text segment to decide on its justificatory relevance!
-:::
 
-The cotext of a text segment $S$ in a text $T$ is $T$ minus $S$ itself.\footnote{Depending on the resources, it might even be possible to invoke contextual knowledge of $T$. The context includes every relevant knowledge to the interpretation of $T$ that is not contained in $T$. For instance, other published works of the author might be helpful in interpreting the particular text $T$. However, we assume you do not possess any particular contextual knowledge here. We even ask you not to inquire into additional contextual information to ensure that every analyst invokes roughly the same background knowledge.} Let's have a second look at @example-1:
+<!-- The cotext of a text segment $S$ in a text $T$ is $T$ minus $S$. -->
+<!--\footnote{Depending on the resources, it might even be possible to invoke contextual knowledge of $T$. The context includes every relevant knowledge to the interpretation of $T$ that is not contained in $T$. For instance, other published works of the author might be helpful in interpreting the particular text $T$. However, we assume you do not possess any particular contextual knowledge here. We even ask you not to inquire into additional contextual information to ensure that every analyst invokes roughly the same background knowledge.}-->
+
+Let's have a second look at @example-1:
 
 > *Some people worry that* it is impossible to obtain informed consent for germline therapy because the patients affected by the edits are the embryo and future generations. *The counterargument is that* parents already make many decisions that affect their future children, including similarly complicated decisions such as PGD [preimplantation genetic diagnosis] with IVF [in vitro fertilization]. [@nhgri_what_2017, emphasis added]
 
+We already characterised the first sentence as a reason against germline therapy. How do we know that? The phrase *'Some people worry that x.'* is not a unique linguistic cue for *x* being a reason. It simply presents *x* as being a worry. But often such ascriptions serve as an indirect means of expressing a reason. In this example, the cotext---here, the second sentence---corroborates this interpretation. It contains a linguistic cue (*'The counterargument is '*) for an attack relation. It not only tells us that the second sentence expresses an objection but that some of the preceding sentences must contain a reason to which it is an objection. 
 
-We already characterized the first sentence as a reason against germline therapy. How do we know that? The phrase *'Some people worry that x.'* is not a unique linguistic cue for *x* being a reason. It simply presents *x* as being a worry. But often, such ascriptions serve as indirect means to express a reason. In this example, the cotext---here, the second sentence---corroborates this interpretation. It contains a linguistic cue (*'The counterargument is '*) for an attack relation. It not only tells us that the second sentence expresses an objection but that some of the preceding sentences must contain a reason to which it is an objection. 
+::: {#tip-2 .callout-tip}
+## Cotext
+For the task of identifying argumentative units, take the cotext or even the whole text into account.
+:::
+
 
 <!-- 
 
 + *Remark:* Holistic nature of argumentation analysis.
 
-A consequence of considering the whole text is that you might often rethink your previous categorization of attack and support relations. A previously made decision on the justificatory relevance of a text segment might demand a recategorization once you read the whole text and better understand the role of other text segments.
+A consequence of considering the whole text is that you might often rethink your previous categorisation of attack and support relations. A previously made decision about the justificatory relevance of a text segment might require recategorization once you read the whole text and better understand the role of other segments.
 
 -->
 
 <!-- EO
    + **Maxim 3:** Consider the cotext of a linguistic cue to decide on what they signify!
 -->
-There is another difficulty with linguistic cues besides their sometimes sparse usage by authors. You should not mindlessly follow them because they can stand for different intentions. One and the same linguistic cue can be utilized for different purposes in different contexts. Again, you have to take the cotext into account. 
+<!--
+There is another difficulty with linguistic cues besides their sometimes sparse usage by authors. You should not mindlessly follow them because they can stand for different intentions. The same linguistic cue can be used for different purposes in different contexts. Again, you have to take the cotext into account. 
 
 ::: {#tip-3 .callout-tip}
 ## Cotext of linguistic cues
-Consider the cotext of a linguistic cue to decide on what they signify!
+Consider the cotext of a linguistic cue to decide what it signifies!
 :::
+-->
 
 ## Justificatory and Explanatory Reasons
 <!-- EO
    + Distinguishing explanatory and justificatory reasons.
 -->
-A prevalent example is the phrase *'x because y'*. Sometimes, it will signpost a presented justification; sometimes, it will signpost an explanation. In both cases, the author presents reasons. However, we have to distinguish between *justificatory reasons* and *explanatory reasons*. Up until now, we only considered justificatory reasons---that is, reasons that are presented as justifications for something. In contrast to justificatory reasons, explanatory reasons provide explanations. A justification for *x* is usually formulated to convince the audience that *x* is true. In this case, the author assumes that the audience needs to be convinced of *x* and provides reasons that justify the truth of *x*. An explanation for *x* is used for different purposes. It can be offered to inform the audience about the cause of *x*, or it can explain the meaning of *x*. In contrast to a justification, an explanation for *x* does not aim to establish the truth of *x*. The truth is either presupposed or simply not the issue at stake. In other words, justifications for *x* answer to the question *'Is x really true?'*; explanations for *x* answer to questions such as *'Why is x true?'*, *'What is the explanation for x?'* or *'What is meant with x?'*
+
+While you should search for linguistic cues, you have to be careful when interpreting them. The same phrase can be utilised for different purposes in different contexts. A prevalent example is the phrase *'x because y'*. Sometimes it will signpost a presented justification, but sometimes it will be used to formulate an explanation without any justificatory relevance. Consequently, we have to distinguish between *justificatory reasons* and *explanatory reasons*. Up until now, we have only considered justificatory reasons---that is, reasons that are presented as justifications for some other statement. In contrast to justificatory reasons, explanatory reasons provide explanations.
+
+The relevant difference between the two concepts can be explained in terms of the questions they answer. Justifications for *x* answer to the question *'Is x true?'*; explanations for *x* answer to questions such as *'Why is x true?'*, *'What is the explanation for x?'* or *'What is meant with x?'* A justification for *x* is usually formulated to convince the audience that *x* is true. In this case, the author assumes that the audience needs to be convinced of *x* and provides reasons that justify the truth of *x*. An explanation for *x* is used for different purposes. It can be offered to inform the audience about the cause of *x*, or it can explain the meaning of *x*. In contrast to a justification, an explanation for *x* does not aim to establish the truth of *x*. The truth is either presupposed or simply not the issue at stake. 
 
 <!-- EO
       + *Example:* Cause of differences in net worth between black and white houshold [@gordon_why_2019].
-	  + *Example:* Parent might prefer to have own chidlren [@harris_pro_2018].
+   + *Example:* Parent might prefer to have own chidlren [@harris_pro_2018].
 -->
-In the following examples, the because-phrase expresses a causal explanation: 
+The following examples illustrate different types of explanatory reasons. In @example-3, the because-phrase expresses a *causal explanation:*
 
 ::: {#example-3}
 > Meanwhile, the average white household has a net worth 13 times that of the average black household and 10 times that of the average Hispanic household, largely *because* whites inherit greater generational wealth. [@gordon_why_2019, emphasis added]
 :::
 
-The inheritance of greater wealth in white households is offered as a causal explanation of why the average net worth of white households exceeds those of black and Hispanic households. We can think of this sentence as an answer to why white households exhibit a larger average net worth. 
+The example formulates a causal explanation in terms of cause and effect: The inheritance of greater wealth in white households is offered as a cause for why the average net worth of white households exceeds that of black and Hispanic households. We can think of this sentence as an answer to why white households exhibit a higher average net worth. Consequently, the sentence does not formulate an argumentative component.
+
+In @example-4, behaviour is explained in terms of personal preferences: 
 
 ::: {#example-4}
 > Some heterosexual couples may hesitate to use this option [using third-party eggs or sperm] *because* they want a child who is not just spared a deleterious gene in their lineage, but is also genetically related to both of them. [@harris_pro_2018, emphasis added]
 :::
 
-This sentence presents an explanation of behaviour in terms of personal preferences. It answers the question of why some couples prefer not to have children that result from using third-party eggs or sperm.
-
+This sentence answers to the question of *why* some couples prefer not to have children that result from using third-party eggs or sperm. Again, the sentence does not contain an argumentative component, as it does not aim to justify the truth of any statement. 
 <!-- EO
       + Difficulty of deciding on the justificatory relevance of explanatory reasons.
 -->
-Understanding whether a presented reason is intended as a justification or an explanation is important. Understanding this distinction is, unfortunately, not sufficient to decide on the justificatory relevance of text segments. Even if a statement offers an explanatory reason, it can be justificatory relevant. There are several difficulties. A text segment can express both a justificatory and an explanatory reason at the same time. Another difficulty is that statements that express a causal explanation can be part of a justification for something. Alternatively, a text segment might elaborate on the meaning of some other text segment that is meant as a justification. There are no clear-cut rules for the interpretation of such cases, as the following examples illustrate: 
+
+Unfortunately, it can get more complicated. Even if a statement formulates an explanatory reason, it can be an argumentative unit at the same time. <!-- There are several difficulties: A text segment can express both a justificatory and an explanatory reason at the same time. Another difficulty is that statements that express a causal explanation can be used to justify another statement. Alternatively, a text segment might elaborate on the meaning of some other text segment that is meant as a justification.--> There are no clear-cut rules for the interpretation of such cases, as @example-5 illustrates: 
 
 <!-- EO
          + *Example:* Religions on embryo experimentation [@doudna_opinion_2017].
@@ -191,20 +203,24 @@ Understanding whether a presented reason is intended as a justification or an ex
 > When it comes to experimentation with human embryos, some Christian communities are opposed *because* they regard the embryo as a person from conception, whereas Jewish and Muslim traditions tend to be more accepting *because* they do not consider embryos created in vitro to be people. [@doudna_opinion_2017, emphasis added]
 :::
 
-The two occurrences of the linguistic cue *'because'* signal explanatory reasons in this example. The reader is offered explanations for the attitudes of different religious communities towards germline editing on embryos for research purposes. In the example, these attitudes are explained in terms of beliefs about embryos. The first explanation explains why Christians are against such experimentation and the second why Jews and Muslims are "more accepting". 
+The two occurrences of the linguistic cue *'because'* signal explanatory reasons in this example. The sentence offers explanations for the attitudes of different religious communities towards germline editing on embryos for research purposes. It explains these attitudes in terms of beliefs about the status of embryos. The first part of the sentence explains why Christians are against such experimentation, and the second why Jews and Muslims are "more accepting".
 
-However, we can also interpret the first explanation as a presented justification. It tells us not only *why* Christians are opposed to germline editing but also how they would justify their stance. The Christian would justify the prohibition of such research with the status of embryos as persons. Such an interpretation is not possible with the second explanation. While it similarly explains the Jew's and Muslim's stance toward the status of the embryo, we do not get to know for what that would be a reason. We only get to know that their belief about the status of the embryo is *not a reason against* germline editing.
+Additionally, we can plausibly reconstruct the Christians' belief as a reason justifying their attitude. It tells us not only *why* they are opposed to germline editing but makes it plausible to reconstruct how they might justify their stance. Christians would justify the prohibition of such research with the status of embryos as persons. 
+
+A similar interpretation with the second explanation is considerably less well supported. While it similarly explains Jews' and Muslims' stance toward the status of the embryo, their position toward germline editing remains somewhat vague. "more accepting" is comparative and underspecified. Even if they reject the personhood claim, it does not follow that they thereby endorse experimentation. Consequently, it remains far more speculative whether they regard the embryo's status as a reason for their stance. We only learn that their belief about the status of the embryo is *not a reason against* germline editing.
+
+@example-5 also illustrates that identification of argumentative units can be interpretatively underdetermined. The identification of explanatory reasons in @example-5 is relatively unproblematic. However, their classification or reconstruction as argumentative units is, to some extent, speculative.
 
 <!-- EO
          + *Example:* GE is not necessary [@harris_pro_2018].
 -->
-The following example provides cotext of the previous @example-4.
+The following example provides cotext of the previous @example-4 and illustrates how additional information can defeat the earlier interpretation of the because-phrase as a mere explanatory reason:
 
 ::: {#example-4-2}
 > Would germline gene editing be justifiable, in spite of the risks, for parents who might transmit an inherited disease? It's certainly not necessary. Parents can have children unaffected by the disease they have or carry by using third-party eggs or sperm, an increasingly common way to form families. Some heterosexual couples may hesitate to use this option *because* they want a child who is not just spared a deleterious gene in their lineage, but is also genetically related to both of them. They can do that too, with the embryo screening technique called preimplantation genetic diagnosis (PGD), a widely available procedure used in conjunction with in vitro fertilization. [@harris_pro_2018, emphasis added]
 :::
 
-We already characterized the sentence containing the *'because'* as expressing an explanation of *why* some couples prefer not to use third-party eggs or sperm for their reproduction. But the sentence is justificatory relevant since it is part of a complex reasoning against germline editing. The authors argue that germline editing is not necessary since there are other options for parents to have children without a genetic disease: There is the option to use egg or sperm donation, and those who prefer to have a child of their genes can use PDG together with IVF. 
+We already characterized the sentence containing the *'because'* as expressing an explanation of *why* some couples prefer not to use third-party eggs or sperm for their reproduction. But now, the sentence can be considered part of an argumentative unit since it is part of a complex argument against germline editing. The authors argue that germline editing is not necessary since there are other options for parents to have children without a genetic disease: There is the option to use egg or sperm donation, and another option (PDG together with IVF) for those who prefer to have a child of their genes.
 
 
 <!-- EO
@@ -216,15 +232,15 @@ The next example employs another linguistic cue for a causal relationship.
 > While genetic correction poses some ethical concerns regarding which diseases and disabilities should be targeted, genetic enhancement may result in dangerous social implications. [...] For example, if parents use CRISPR to select for a specific eye color or skin tone, they will likely choose the most socially preferred traits. *As a result*, increased discrimination and prejudice may follow for those who stray from those specific traits. [@jain_opinion_2021, emphasis added]
 :::
 
-The phrase *'as a result'* characterizes increased discrimination and prejudice as a causal effect of parents selecting socially preferred traits when they are at liberty to choose the genetic makeup of their offspring. Again, the causal explanation is justificatory relevant since the causal statement enters into a reasoning against using germline editing for enhancement purposes. According to this argumentation, we should refrain from using germline editing because of a causal relationship---namely, that enhancement would lead to increased discrimination. 
+The phrase *'as a result'* characterises increased discrimination and prejudice as a causal effect of parents selecting socially preferred traits if they were at liberty to choose the genetic makeup of their offspring. Again, the causal explanation is justificatory relevant since the causal statement enters into reasoning against using germline editing for enhancement purposes. According to this argumentation, we should refrain from using germline editing because of a causal relationship---namely, that enhancement would lead to increased discrimination. 
 
 <!-- EO
       + **Maxim 4:** Be aware of the difference between justificatory and explanatory reasons! Use linguistic cues and the cotext to decide whether explanations are justificatory relevant!
 -->
-These examples suggest that deciding whether explanations are justificatory relevant cannot be answered in a general way. Again, the categorization must take into account the whole cotext. 
+These examples suggest that the question of whether explanations are justificatory relevant cannot be answered in general. The surrounding text must be taken into account, and there might be different but equally valid interpretations.
 
 ::: {#tip-4 .callout-tip}
-## Justificatory vs. explanatory reasons
+## Justificatory vs explanatory reasons
 Be aware of the difference between justificatory and explanatory reasons. Use linguistic cues and the cotext to decide whether explanations are justificatory relevant.
 :::
 
@@ -232,9 +248,9 @@ Be aware of the difference between justificatory and explanatory reasons. Use li
 <!-- EO
    + Distinguishing mere illustrative or elaborative examples from examples that have a justificatory role.
 -->
-The use of examples in argumentative texts is another exemplification of the need to distinguish between justifications and mere explanations. An author might use an example as a mere illustration to explain what was meant by another text segment or as a justification. Unambiguous linguistic cues for examples include phrases such as *'for instance,...'* and *'for example,...'* 
+Examples are often formulated with linguistic cues such as *'for instance,...'* and *'for example,...'*. Often, they are used to illustrate or elaborate on a statement without being (part of) an argumentative component. However, they can also be used to justify a statement. 
 
-How do we decide whether a formulated example is intended as a justification? An example can only be justificatory relevant if there is a statement that is supposed to be justified with the example. For instance, propositions that claim the existence of something are typically justified by providing an example that corresponds to an instance of what is claimed to exist.
+How do we decide whether a formulated example is intended as a justification? An example is justificatory relevant only if there is a statement that is supposed to be justified with the example. For instance, propositions that claim the existence of something are typically justified by providing an example that corresponds to an instance of what is claimed to exist.
 
 <!-- EO
       + **Maxim 5:** To decide on the justificatory relevance of examples, try to identify text segments that are supposed to be justified with the example.
@@ -242,16 +258,11 @@ How do we decide whether a formulated example is intended as a justification? An
 
 ::: {.callout-tip #tip-5}
 ## Examples
-To decide on the justificatory relevance of examples, try to identify text segments that are supposed to be justified with the example.
+To assess the justificatory relevance of examples, identify text segments that are meant to be justified by the example.
 :::
-
 
 Take the example we've just discussed (@example-6): 
 
 > While genetic correction poses some ethical concerns regarding which diseases and disabilities should be targeted, genetic enhancement may result in dangerous social implications. [...] *For example*, if parents use CRISPR to select for a specific eye color or skin tone, they will likely choose the most socially preferred traits. As a result, increased discrimination and prejudice may follow for those who stray from those specific traits. [@jain_opinion_2021, emphasis added]
 
-The first sentence claims the existence of dangerous social implications. Such an existential proposition can be justified by providing an instance of what it claims to exist. The used example, which is introduced with the linguistic cue *'for example'*, is presented as an attempt to do precisely that. It describes the dangerous social consequence of increased discrimination and prejudice. The example is, therefore, presented as a justification for the existential claim. 
-
-
-
-
+The first sentence claims the existence of possible dangerous social implications. Such an existential proposition can be justified by providing an instance of what it claims to exist. The example introduced with the linguistic cue *'for example'* is presented as an attempt to do precisely that. It claims the possibility of increased discrimination and prejudice as a dangerous social consequence. The example is, therefore, presented as a justification for the existential claim.

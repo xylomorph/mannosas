@@ -2,121 +2,120 @@
 
 ## Questions Concerning Main Claims
 
-### What are (main) claims? How do I identify and categorize them?
+### What are (main) claims? How do I identify and categorise them?
 
-There is no special category for claims---and reasons for that matter---besides them being justificatory relevant. We simply call text segments claims if they are not used as reasons for something else and if other text segments are presented as reasons for or against them. In other words, a claim is a text segment with only incoming and no outgoing attack or support relations. This is, in some sense, a technical definition since it differs from our ordinary language usage of the terminus *'claim'*. According to the normal understanding, someone can formulate a claim without presenting justifications for it. However, our usage of the terminus is a mere terminological convention, which has no further bearing on the analysis of argumentation structure.
+There is no special category for claims---and reasons for that matter---besides them being argumentative components. We simply call argumentative components claims if they are not formulated as reasons for or objections against some other statement and if other text segments are presented as argumentative components for or against them. In other words, a claim is an argumentative component with only incoming and no outgoing attack or support relations. This is, in some sense, a technical definition for the purpose of this guideline since it differs from our ordinary use of the term *'claim'*, according to which someone can formulate a claim without presenting justifications for it.
 
-### Question Claims: The main claim is implicitly formulated as a question. Should I understand the main claim as a positive or negative answer to the question? {#sec-faq-two}
+### Question claims: The main claim is implicitly formulated as a question. Should I understand the main claim as a positive or negative answer to the question? {#sec-faq-two}
 
 This is an important question because the answer will dictate whether reasons are reasons *for* or reasons *against* the claim.
 
 ![Example of a main claim implicitly formulated as a question.](figures/fig-annot-guides-doudna-02){width=75%  #fig-annot-guides-doudna-02}
 
-Consider the example in Figure @fig-annot-guides-doudna-02. The argumentation is about germline editing, and the main question is formulated in the first sentence. In the second paragraph, we find an argument against germline editing, which involves the notion of naturalness. We can interpret this reason in two ways: Either as a reason *against* a claim that corresponds to an affirmative answer to the main question or as a reason *in favour of* a claim that corresponds to a negative answer to the main question. In the first case, we would categorize the relation between the reason and the main claim as an attack, and in the second case, as support. 
+Consider the example in @fig-annot-guides-doudna-02. The argument concerns germline editing, and the main question is posed in the first sentence. In the second paragraph, we find an argument against germline editing that invokes the notion of naturalness. We can interpret this reason in two ways: Either as a reason *against* a claim that corresponds to an affirmative answer to the main question or as a reason *in favour of* a claim that corresponds to a negative answer to the main question. In the first case, we would categorise the relation between the reason and the main claim as an attack; in the second, as support. 
 
-There is no rule to decide on this issue, and either possibility is fine. You can choose the main claim according to what feels natural to you. For some, the second paragraph might feel more like an argumentation against something. These people would tend to understand the main claim as the positive answer to the first question and would categorize the second paragraph as formulating a reason that attacks that claim.
+There is no rule to decide on this issue, and either possibility is fine. You can choose the main claim according to what feels natural to you. For some, the second paragraph might feel more like an argument against something. These people would tend to understand the main claim as the positive answer to the first question and would categorise the second paragraph as formulating a reason that attacks that claim.
 
-The only important thing is that you are consistent with that decision. Once you decide to interpret the claim as an affirmative answer or a negative answer, this decision should be regarded as fixed for the analysis of whether other text segments are reasons for or against the claim.
-
-
-### Multiple Claims: Can there be more than one claim in a text?
-
-Yes, that can happen. Sometimes a debate is about two or more questions, which are usually related to each other in some way. Answers to these questions make up for different claims. For instance, the debate about germline editing is about at least two different issues: The question of using this technology for therapeutic uses and the question of further research into this technology by using embryos. Different positions will formulate different answers to these questions, which might represent different claims in the debate about germline editing. 
+The important thing is to be consistent with that decision. Once you decide to interpret the claim as an affirmative answer or a negative answer, this decision should be regarded as fixed for the analysis of other text segments.
 
 
-### Conditional Claims: Can main claims be formulated with conditions?
+### Multiple claims: Can there be more than one claim in a text?
 
-Yes. It is quite common to formulate claims conditionally to, for instance, express exceptions or qualify claims differently. Consider the following formulated claim:
+Yes, a single text can contain multiple claims. Sometimes a debate concerns two or more questions that are typically related to each other in some way. Answers to these questions make up different claims. For instance, the debate about germline editing concerns at least two different issues: the question of using this technology for therapeutic purposes and the question of further research into this technology using embryos. Different positions will formulate different answers to these questions, which might represent different claims in the debate about germline editing. 
+
+
+### Conditional claims: Can main claims be formulated with conditions?
+
+Yes. It is quite common to formulate claims conditionally, for instance, to express exceptions or qualify claims differently. Consider the following claim:
 
 > *Example 16:* Others argue that genome editing, once proved safe and effective, should be allowed to cure genetic disease (and indeed, that it is a moral imperative). [@nhgri_what_2017]
 
 The anonymous proponents do not think that germline editing should be allowed unconditionally for therapeutic uses. Instead, they formulate specific sufficient conditions under which germline editing should be allowed as a therapy. 
 
-### Implicit Claims: It is more or less clear what the main claim is, but no text segment formulates the claim. How should I annotate and categorize reasons that support and attack the main claim? {#sec-implicit-claims}
+### Implicit claims: While the text implicitly pins down the main claim, there is no specific text segment formulating the claim. How should I annotate and categorise reasons that support and attack the main claim? {#sec-implicit-claims}
 
-Such cases represent a widespread phenomenon. Often, the context is clear enough that an author does not think it necessary to explicitly formulate their main claim. In the example in Figure @fig-annot-guides-jain-02, the author provides a reason for why the use of CRISPR as a therapy would constitute a violation of informed consent without explicitly saying that this violation is a reason against the use of germline editing for therapeutic uses ($C_1$). However, the cotext---which is omitted here---makes it quite clear that she presents it as a reason against germline editing since she moves on to bring forward other reasons against germline editing. 
+Such cases represent a widespread phenomenon. Often, the context is clear enough that an author does not think it necessary to formulate their main claim explicitly. In the example in @fig-annot-guides-jain-02, the author provides a reason why the use of CRISPR as a therapy would constitute a violation of informed consent without explicitly stating that this violation is a reason against the use of germline editing for therapeutic purposes ($C_1$). However, the cotext---which is omitted here---makes it quite clear that she presents it as a reason against germline editing since she goes on to present other reasons against germline editing. 
 
 ![Example of dealing with implicit claims.](figures/fig-annot-guides-jain-02){width=75%  #fig-annot-guides-jain-02}
 
-If the main claim lacks a corresponding text segment, text segments presented as attacking or supporting this claim will lack a text segment as a target. In other words, attack and support relations will not point to a specific text segment. So, where should they point to? This is, fortunately, only a technical problem. *On the practical level* you will be provided with labels $C1$, $C2$, \dots in the text that act as placeholders for implicit claims. If there are implicit claims in the text, simply choose for every implicit claim one of these labels and annotate them as if they were the text segments formulating the claims---as indicated in Figure @fig-annot-guides-jain-02.
+When there is no explicit claim in the text, argumentative components attacking or supporting this claim will lack an argumentative unit as a target. In other words, attack and support relations will not point to a specific text segment. But how should we specify their targets in such cases? This is, fortunately, only a technical problem. *On the practical level* you will be provided with labels $C1$, $C2$, $\dots$ in the text that act as placeholders for implicit claims. If there are implicit claims in the text, you can choose for every implicit claim one of these labels and annotate them as if they were the text segments formulating the claims---as indicated in @fig-annot-guides-jain-02.
 
 
-## Questions Concerning the Notion of *Justificatory Relevance*
+## Questions Concerning the Notion of *Argumentative Unit and Argumentative Component*
 
-### Can a text segment be justificatory relevant without having incoming or outgoing support or attack relations? {#sec-faq-six}
+### Can an argumentative component lack incoming and outgoing support or attack relations? {#sec-faq-six}
 
-No. According to the used *definition of justificatory relevance* (see @tip-first-task), a text segment can only be justificatory relevant if it is presented as a justification for something or if some other text segment is presented as a reason for or against it. In the former case, the text segment has at least one outgoing relation and at least one ingoing relation in the latter.^[However, note that in the case of implicit claims, you will encounter text segments with outgoing relations that do not point to other text segments (see @sec-implicit-claims).]
+No. According to the used *definition of argumentative component* (see @tip-first-task), a text segment can only formulate an argumentative component if it is presented as a justification for or objection against some other statement, or if some other text segment is presented as a reason for or against it. In the former case, the text segment has at least one outgoing relation and at least one ingoing relation in the latter.^[However, note that in the case of implicit claims, you will encounter text segments with outgoing relations that do not point to other text segments (see @sec-implicit-claims).]
 
 ### Should I annotate linguistic cues? {#sec-faq-seven}
 
-Linguistic cues should usually not be annotated as justificatory relevant. In other words, we do not consider them as belonging to the formulation of reasons and claims. One exception: Linguistic cues that would tear an otherwise contiguous text segment into different non-contiguous text segments can be considered part of the reason or claim. In the example in Figure @fig-annot-guide-gordon-06, the phrase *'not only \dots, but also \dots'* is a linguistic cue that signposts the formulation of two different reasons ($R_1$ and $R_2$) for the main claim $C$. However, not annotating the *'not only'* as justificatory relevant would mean representing the first reason by two non-contiguous text segments. 
+Linguistic cues should usually not be annotated as justificatory relevant. In other words, we do not consider them as belonging to the formulation of reasons and claims. One exception: Linguistic cues that would tear an otherwise contiguous text segment into different non-contiguous text segments can be considered part of the reason or claim. In the example in @fig-annot-guide-gordon-06, the phrase *'not only $\dots$, but also $\dots$'* is a linguistic cue that signposts the formulation of two different reasons ($R_1$ and $R_2$) for the main claim $C$. However, not annotating the *'not only'* as justificatory relevant would mean representing the first reason by two non-contiguous text segments. 
 
 ![Exception to the rule of not annotating linguistic cues as justificatory relevant.](figures/fig-annot-guide-gordon-06){width=75%  #fig-annot-guide-gordon-06}
 
 
-But even if we usually do not consider linguistic cues as belonging to the formulation of reasons, you should explicitly search for linguistic cues. Annotating them in some kind of way might be very helpful to keep an overview of them. For instance, linguistic cues are annotated in the examples used here by underlining them. 
+But even if we usually do not consider linguistic cues as belonging to the formulation of reasons, you should explicitly search for linguistic cues. Annotating them in some way might be very helpful for keeping an overview. For instance, linguistic cues are annotated in the examples used here by underlining them. 
 
 
-## Questions Concerning the Individuation of Reasons and Claims. 
+## Questions Concerning the Individuation of Argumentative Components. 
 
 ### Can a reason or claim extend over a long text segment---let's say, more than one paragraph in the text? {#sec-faq-eight}
 
-Yes, that can happen. You should, however, also ask yourself if everything the author writes is justificatory relevant. Mere contextual information (see @tip-7) or illustrative examples (see @tip-5) should not be annotated. Keep also in mind that claims and reasons do not necessarily correspond to exactly *one* text segment but can be scattered over many non-contiguous text segments (see the next question).
+Yes, that can be the case. As an annotator, you should, however, also ask yourself whether everything the author writes is part of an argumentative unit. Mere contextual information (see @tip-7) or illustrative examples (see @tip-5) should not be annotated. Keep also in mind that claims and reasons do not necessarily correspond to exactly *one single* text segment but can be scattered over many non-contiguous text segments (see the next question).
 
 ### How should I annotate a text if a reason or claim seems to be scattered over non-contiguous text segments? {#sec-faq-nine}
 
-One reason or one claim does not necessarily correspond to exactly *one* text segment but can be scattered over many non-contiguous text segments. In this case, simply annotate these text segments as belonging to the same reason or claim. @tip-6, [-@tip-7] and [-@tip-8] will help you to identify text segments that belong to the same reason. In short, they tell you that sentences and subclauses that are intended to be taken together to understand the reason's main idea or its relevance are part of the reason (see @tip-6). Everything else is not.
+An argumentative component does not necessarily correspond to exactly *one single* text segment but may be scattered over many non-contiguous text segments. In this case, annotate these text segments as belonging to the same argumentative component. @tip-6, [-@tip-7] and [-@tip-8] will help you to identify text segments that belong to the argumentative component. In short, they tell you that sentences and subclauses that are intended to be taken together to understand the argumentative component's main idea or its relevance are part of it (see @tip-6). Everything else is not.
 
-+ *On the practical level* you will be provided with **different labels** (*R1, R2, ..., C1, C2, ...*) that can be understood as names for reasons and claims. If a reason corresponds to many non-contiguous text segments, you simply have to use the same label. 
++ *On the practical level* you will be provided with **different labels** (*R1, R2, ..., C1, C2, ...*) that can be understood as names for argumentative components. If a reason corresponds to many non-contiguous text segments, you simply have to use the same label.
 
-### How do I annotate a text segment that belongs to different reasons? {#sec-faq-ten}
+### How do I annotate a text segment that belongs to different argumentative components? {#sec-faq-ten}
 
-In can happen that one and the same texts segment belongs to different reasons according to the formulated tips. For instance, the same text segment can be important to understand the main idea for two different reasons. According to @tip-6, this text segment would belong to both reasons. However, one text segment can only be annotated to belong to one reason. In this case, simply do not annotate the text segment as justificatory relevant.
+The same text segment may belong to different argumentative components according to the formulated tips. For instance, the same text segment can be important for understanding the main idea of two different reasons. According to @tip-6, this text segment would belong to both reasons. For the purpose of this guideline, a single text segment can only be annotated to belong to one argumentative component. In such cases, do not annotate the text segment as part of an argumentative unit.
 
-### What if linguistic cues conflict with the tips about reason individuation? {#sec-faq-eleven}
+### What if linguistic cues conflict with the tips about the individuation of argumentative components? {#sec-faq-eleven}
 
 <!-- EO
 + *Todo*: Elaborate why independent.
 -->
 
-For instance, how do I annotate text segments that belong according to the given linguistic cues to one reason but that constitute separate reasons according to @tip-9 ? *The short answer:* The tips for the individuation of reasons (see @tip-6, [-@tip-7], [-@tip-8], [-@tip-9] and [-@tip-10]) should always be prioritized over linguistic cues for the individuation of reasons. 
+How do I annotate text segments that, according to the given linguistic cues, belong to one argumentative component but that, according to the formulated tips, constitute separate argumentative components? *The short answer:* The tips for the individuation of argumentative components (see @tip-6, [-@tip-7], [-@tip-8], [-@tip-9] and [-@tip-10]) should always be prioritised over what linguistic cues tell you.
 
-A simple example is provided in @fig-annot-guide-harris-02. The linguistic cues *'the objection'* and *'this argument'* suggest that the authors think of the second paragraph as one objection. However, we can understand the paragraph as formulating two relevant points, which provide independent support for the main claim being false. The argument from naturalness is grounded in the idea that the natural is somehow better or preferable to the unnatural. The other point against the main claim seems to rely on the notion of hybris---the idea that we, as mere humans, should not claim for ourselves to act as gods. These are, admittedly, speculations of what is meant with both points. However, on the presented understanding, both points are independent. According to @tip-9, we should, therefore, analyze this paragraph as presenting two objections.
+A simple example is provided in @fig-annot-guide-harris-02. The linguistic cues *'the objection'* and *'this argument'* suggest that the authors think of the second paragraph as one objection. However, we can understand the paragraph as presenting two relevant points that provide independent support for the main claim being false. The argument from naturalness is grounded in the idea that the natural is somehow better or preferable to the unnatural. The other point against the main claim seems to rely on the notion of hybris---the idea that we, as mere humans, should not claim to act like gods. These are, admittedly, speculations of what is meant by both points. However, on the presented understanding, both points are independent. According to @tip-9, we should, therefore, analyse this paragraph as presenting two objections.
 
-![Conflict between linguistic cues and tips for the individuation of reasons. The linguistic cues suggest that there is one objection; according to @tip-9, there are two objections.](figures/fig-annot-guide-harris-02){width=75%  #fig-annot-guide-harris-02}
+![Conflict between linguistic cues and tips for the individuation of argumentative components. The linguistic cues suggest that there is one objection; according to @tip-9, there are two objections.](figures/fig-annot-guide-harris-02){width=75%  #fig-annot-guide-harris-02}
 
 
-*Some background:* @tip-6--[-@tip-10] (see @sec-reason-individuation) clarify what we understand as one reason and what we understand as different reasons in the context of analyzing argumentation structure. In other words, these tips spell out how we individuate and count reasons. The suggested understanding can, of course, conflict with what the author understands as one reason instead of many. Hence, the author may intend one particular text segment to express one reason, whereas @tip-6--[-@tip-10] suggest considering it as many reasons---or the other way around. In such conflicting cases, you should always individuate reasons according to the given tips. This rule is important because we might want to compare the number of reasons in different texts, and the result of such a comparison should be grounded in some text-independent criterion to count arguments. In other words, we should count reasons according to clarified and transparent criteria and not necessarily by the subjective understanding of how the author would count their reasons.
+*Some background:* Tips [-@tip-6]--[-@tip-10] (see @sec-reason-individuation) clarify what we understand as one reason and what we understand as different reasons in the context of analyzing argumentation structure. In other words, these tips spell out how we individuate and count reasons. The suggested understanding can, of course, conflict with what the author understands as one reason instead of many. Hence, the author may intend one particular text segment to express one reason, whereas tips [-@tip-6]--[-@tip-10] suggest considering it as many reasons---or the other way around. In such conflicting cases, you should always individuate reasons according to the given tips. This rule is important because we might want to compare the number of reasons in different texts, and the result of such a comparison should be grounded in some text-independent criterion to count arguments. In other words, we should count reasons according to clarified, transparent criteria, not necessarily by the author's subjective understanding of how they would individuate and count their reasons.
 
 
 ## Questions Concerning Attack and Support Relations
 
-### Can a reason be a reason for different things? In other words, can a text segment have more than one outgoing support or attack relation? {#sec-faq-twelve}
+### Can a reason be a reason for different statements? In other words, can an argumentative component have more than one outgoing support or attack relation? {#sec-faq-twelve}
 
-Such a case can happen. A text segment can be presented as a reason for different text segments. In that case, it would have more than one outgoing support relation. The same applies to multiple outgoing attack relations. It might even happen that one text segment is intended to be both a reason for and against something. However, intended multiple outgoing relations are the exception. You should, therefore, always apply the tips, especially @tip-10, to check if there are multiple outgoing relations (see also the next question). 
+Yes, an argumentative component can be formulated as a reason for or objection against different statements. In that case, it would have more than one outgoing support or attack relation, respectively. However, you should always consider the given tips, especially @tip-10, to check if there are really multiple outgoing relations (see also the next question). 
 
-### Target ambiguity: What if I am unsure what is being supported or objected to by a reason? {#sec-faq-thirteen}
+### Target ambiguity: What if I am unsure about what is being supported or objected by a reason? {#sec-faq-thirteen}
 
-What should I do if it is not clear what is being justified? In other words, how should I choose the targets of outgoing support and attack relations if there are different possible interpretations?
+What should I do if it is not clear what is being justified? How should I choose the targets of outgoing support and attack relations if there are different possible interpretations?
 
-If you are not sure what other text segment is supposed to be supported or attacked by a text segment, you should, first, use @tip-10, which might help to decide between different interpretations of what the target is. 
+If you are not sure about which other text segment is supposed to be supported or attacked by a text segment, you should, first, use @tip-10, which might help to decide between different interpretations of what the target is. 
 
-This tip demands that you reformulate the possible attack or support relations in your own words and choose among them by using the principles of charity and accuracy. According to these principles, you should choose the formulation that maximizes argumentative strength (*charity*) and is at the same time faithful to the author's intentions of understanding the presented reasons (*accuracy*). 
+This tip suggests reformulating the possible attack or support relations in your own words and choosing among them using the principles of charity and accuracy. According to these principles, you should choose the formulation that maximises argumentative strength (*charity*) and is at the same time faithful to the author's intentions of understanding the presented reasons (*accuracy*). 
 
 <!-- 
 + *ToDo*: Recheck/rethink
 -->
-However, @tip-10 will not always help to disambiguate between different interpretations of what is supposed to be justified by a text segment. If you are still unsure of what the best interpretation is, you can simply finalize the categorization with different support and attack relations. In other words, consider all remaining plausible interpretations of what the target is as a target.
+However, @tip-10 will not always help disambiguate between different interpretations of what a text segment is supposed to justify. If you are still unsure of the best interpretation, you can categorise multiple support and attack relations. In this case, you would include all plausible interpretations of what the target is as a target.
 
 
 ### Multiple relations: Can two argumentative components be connected by different justificatory relations? {#sec-faq-fourteen}
 
-*Usually*, there will be at most one justificatory relation between two argumentative units. There are two possible situations that can be represented by connecting two argumentative units with two justificatory relations.
+*Usually*, there will be, at most, one justificatory relation between two argumentative components. 
 
-First, an author might express that **two statements are contradictory to each other**. For instance, the author might suggest that two reasons are inconsistent with each other or that two claims cannot be true at the same time. In such cases, you can connect the two argumentative units with attack relations in both directions. 
+However, two situations can be plausibly represented by connecting two argumentative components by two justificatory relations:
 
-Second, an author might express that a **justification is a question-begging**, that it presupposes what it is supposed to justify or that a justification is circular. Support relations in both directions might represent these cases. 
+1. First, an author might express that **two statements are contradictory to each other**. For instance, the author might suggest that two statements are inconsistent, that is, they cannot both be true at the same time. In such cases, you can connect the two argumentative units with attack relations in both directions. 
+2. Second, an author might express that a **justification is a circular** (i.e., that it presupposes what it is supposed to justify). Support relations in both directions might represent these cases. 
 
-It is, however, conceivable that two argumentative units are connected in additional ways by combining different justificatory relations. For instance, it is conceivable that a support and an attack relation at the same time connect two argumentative units. However, such combinations will be flawed from an evaluative point of view. What can it mean, for instance, that something is a reason for *and* an objection to the same claim? It is doubtful that arguers are prone to such fundamental argumentative flaws. Accordingly, you should only connect two argumentative components in this way if the linguistic cues point unambiguously in this direction. If there are no such linguistic cues, the principle of charity recommends dispensing with such interpretations.
-
-
+Besides these plausible possibilities, it is conceivable that an author formulates any number of justificatory relations between two argumentative components. For instance, it is conceivable that they use linguistic cues to formulate support and attack relations that connect two argumentative units. However, such combinations will be flawed from an evaluative standpoint. What can it mean, for instance, that something is a reason for *and* an objection to the same claim? It is doubtful that arguers are prone to such fundamental flaws in argumentation. Accordingly, you should only connect two argumentative components in this way if the linguistic cues point unambiguously in this direction. If there are no such linguistic cues, the principle of charity recommends dispensing with such interpretations.

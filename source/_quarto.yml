@@ -3,8 +3,8 @@ project:
   output-dir: ../docs
 
 book:
-  title: "Analysing Argumentation Structure"
-  subtitle: "Annotation Guidelines for a Minimal Analysis of Argumentation Structure (v1.0)"
+  title: "Analysing Argumentation Structures"
+  subtitle: "A Guideline for Annotators (v1.0)"
   description: "These guidelines provide clarifications, maxims and hints that will help the annotator to analyse the argumentation structure in argumentative texts."
   author: 
     - name: Sebastian Cacean
@@ -44,12 +44,16 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    css: styles.css
     toc-depth: 4
     link-external-newwindow: true
   pdf:
     documentclass: scrreprt
     pdf-engine: pdflatex
-    
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github  
 
 crossref:
   custom:

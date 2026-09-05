@@ -1,55 +1,58 @@
-# Individuation of Reasons {#sec-reason-individuation}
+# Individuation of Argumentative Components {#sec-reason-individuation}
 
 <!-- EO
 + Intro: Identification of reasons = identification of text segment that correspond to reasons.
 -->
-Categorizing *one* particular text segment as justificatory relevant means categorizing it as the formulation of *one* reason for or against something. In other words, identifying a reason in a text demands identifying a text segment that corresponds to the formulation of that reason. But where does the formulation of a reason exactly start and end? Should we count text segments that repeat or reformulate reasons as part of the reason's text segment itself? How do we tell different but similar reasons apart? All these questions pertain to the issue of individuating reasons. The following examples will motivate some tips that will help you to individuate reasons. 
+Categorizing *one* particular text segment as argumentative unit means categorising it as the formulation of *one* particular argumentative component. But where does the formulation of an argumentative component exactly start and end? Should we, for instance, count text segments that repeat or reformulate reasons as part of the reason's text segment itself? How do we tell apart different but similar reasons? All these questions pertain to the issue of individuating argumentative components. The following examples will motivate some tips that will help you, as an annotator, to individuate reasons. 
 
 <!-- EO
 + *Example:* Argument from evolutionary optimization [@doudna_opinion_2017].
    + Reason spanning over more than one sentence. 
    + Contiguous case of reason elaboration.
 -->
-In Figure @fig-annot-guides-doudna-01 you find an example with a suggested annotation of argumentative components and their accompanying support and attack relations. In the example, Doudna responds to the argument from evolutionary optimization against germline editing, which we already encountered in @example-2. Let us understand the suggested interpretation of the text snippet step by step.
+@fig-annot-guides-doudna-01 contains an example with a suggested annotation of argumentative components and their accompanying support and attack relations. In the example, Doudna responds to the argument from evolutionary optimisation against germline editing, which we encountered in @example-2. Let us understand the suggested interpretation of the text snippet step by step.
 
 ![An example of a reason ($R_3$) that extends over many clauses. Identified linguistic cues are underlined, and justificatory relevant text segments are highlighted.](figures/fig-annot-guides-doudna-01){width=75%  #fig-annot-guides-doudna-01}
 
-It is not difficult to determine the exact boundaries of the justificatory relevant text segments in the first two paragraphs. The text snippet starts with a question, which indirectly formulates the main claim in question.^[You will find more information on indirectly and implicitly formulated claims in @sec-faq-two and @sec-implicit-claims.] We already understood the rhetorical question of the second paragraph as an objection to germline editing ($R_1$). According to this objection, germline editing will have unintended side effects that are to be expected when "human genome tinkerers" try to do better than evolution. The point about evolutionary optimization seems to be important to understand the main idea of the argument, which motivates us to consider the sentence that precedes the question as part of the reason against germline editing. 
+It is not difficult to determine the exact boundaries of the argumentative units in the first two paragraphs. The text snippet starts with a question, which indirectly formulates the main claim in question.^[You will find more information on indirectly and implicitly formulated claims in @sec-faq-two and @sec-implicit-claims.] We already understood the rhetorical question of the second paragraph as an objection to germline editing ($R_1$). According to this objection, germline editing will have unintended side effects that are to be expected when "human genome tinkerers" try to do better than evolution. The point about evolutionary optimisation seems important for understanding the main idea of the argument, which motivates us to consider the sentence preceding the question as part of the reason against germline editing. 
 
-The third paragraph is more challenging. The author starts by making explicit her stance on the argument from evolutionary optimization---namely, that she is not convinced of it. The first sentence does not formulate a reason itself but can be considered a linguistic cue that the following sentences present reasons against the argument from evolutionary optimization. She goes on to elaborate on two different ways in which our genome is not optimized. This and the used linguistic cue *'and'* motivate us to interpret the paragraph as formulating two different points---that is, two different objections. The first objection ($R_2$) alludes to a lack of genetic fit to our modern world and extends over one sentence. The second objection ($R_3$) points to genetic diseases, which can, according to the author, hardly be described as the result of an optimization. We can regard all three sentences beginning with the *'and'* as relevant to understanding the main idea of the objection. The main point is that evolution is based on random genetic variations---in contrast to intentional alterations---that result in "suboptimal" results on the individual level. All three sentences contribute to understanding this one point, which motivates us to consider all three sentences as formulating one objection. Admittedly, the metaphor about looking over one's shoulder is irrelevant to the reason itself.
+The third paragraph is more challenging. The author begins by making explicit her stance on the argument from evolutionary optimisation---namely, that she is not convinced by it. The first sentence does not itself formulate a reason, but it can be considered a linguistic cue that the following sentences present reasons against the argument from evolutionary optimisation. The author goes on to elaborate on two different ways in which our genome is not optimised. This and the used linguistic cue *'and'* motivate us to interpret the paragraph as formulating two different points---that is, two different objections. The first objection ($R_2$) alludes to a lack of genetic fit for our modern world and spans more than one sentence. The second objection ($R_3$) points to genetic diseases, which, according to the author, can hardly be described as the result of optimisation. We can regard all three sentences beginning with the *'and'* as relevant to understanding the main idea of the objection. The main point is that evolution is based on random genetic variations---in contrast to intentional alterations---that yield "suboptimal" outcomes at the individual level. All three sentences contribute to understanding this one point, which motivates us to consider them as formulating a single objection. Only the metaphor about looking over one's shoulder is irrelevant to the reason itself and should, consequently, not be annotated as part of the reason.
 
 <!-- EO
 + **Clarification 5:** A reason can be formulated by one sentence, a subclause of a sentence, or stretch over more than one sentence.
 --> 
-The example shows that one justificatory relevant text segment does not necessarily span exactly over one sentence. 
+Thus, the example in @fig-annot-guides-doudna-01 shows that one argumentative unit does not necessarily span exactly one sentence.
 
 ::: {.callout-note}
 ## Clarification 5
-A reason can be formulated by one sentence, a subclause of a sentence, or stretch over more than one sentence.
+An argumentative component can be formulated by one sentence, a subclause of a sentence, or stretch over more than one sentence.
 :::
 
-## Identifying Different Parts of one Reason \label{sec:reason-parts}
+## Identifying Different Parts of an Argumentative Component \label{sec:reason-parts}
 
 <!-- EO
 + **Maxim 6 (reason elaboration):** If sentences or subclauses must be taken together or are intended to be taken together to understand a reason's main idea or relevance, they should be considered as belonging to the formulation of that reason. In other words, if it makes sense to imagine a sentence or subclause as an answer to one of the following questions---*Why is that a reason? Why is that relevant? What is the point of that?*---they are part of the reason.
 --> 
 
-The last clarification shows that it is essential to have some criterion to determine where a reason starts and ends. The intuitive analysis of the last example motivates us to count text segments that help us understand the reason's main point or its relevance as part of the reason. Those text segments should, therefore, be annotated as belonging to the reason. Typical examples of linguistic cues that signpost such clarifications are *'This argument rests on the assumption that ...'*, *'... presuming ...*' and  *'This argument is based on the grounds that...'* However, often you won't find such explicit linguistic cues. The following tip formulates a rule of thumb and accompanying questions that can help to identify the different parts of a reason.
+The last clarification shows that it is essential to have some criterion to determine where an argumentative unit starts and ends. The intuitive analysis of the second objection in @fig-annot-guides-doudna-01 ($R_3$) suggests counting text segments that help us understand an argumentative component's main point or its relevance as part of the argumentative unit. Those text segments should, therefore, be annotated as belonging to the argumentative unit. Typical examples of linguistic cues that signpost such clarifications are *'This argument rests on the assumption that ...'*, *'... presuming ...*' and  *'This argument is based on the grounds that...'* However, often you won't find such explicit linguistic cues. The following tip provides a rule of thumb and accompanying questions to help identify the different parts of an argumentative unit.
 
 
 ::: {#tip-6 .callout-tip}
-## Reason individuation
-If sentences or subclauses must be taken together (or are intended to be taken together) to understand a reason's main idea or relevance, they should be considered as belonging to the formulation of that reason. In other words, if it makes sense to imagine a sentence or subclause as an answer to one of the following questions---*Why is that a reason? Why is that relevant? What is the point of that?*---they are part of the reason.
+## Individuation of Argumentative Components
+If sentences or subclauses must be taken together (or are intended to be taken together) to understand an argumentative component's main idea or relevance, they should be considered as part of the corresponding argumentative unit. In other words, if it makes sense to imagine a sentence or subclause as an answer to one of the following questions---*Why is that a reason? Why is that relevant? What is the point of that?*---they are part of the argumentative unit.
 :::
 
 <!-- EO
    + *Another example for contiguous reason elaboration.* Objection to the argument from naturelness [@harris_pro_2018].
 -->
+In Figure @fig-annot-guide-harris-01, you will find an example that illustrates how to apply @tip-6. The main claim ($C$) is attacked by an argument from naturalness ($R_1$), which is itself the target of a presented refutation ($R_2$). According to @tip-6, we can regard all three sentences as part of a single objection to the argument from naturalness ($R_1$), since the last two sentences seem to elaborate on the objection that diseases are natural. 
 
-![An example of applying @tip-6. $R_2$ corresponds to a text segment spanning over many clauses, which clarify the main idea and relevance of $R_2$.](figures/fig-annot-guide-harris-01){width=75%  #fig-annot-guide-harris-01}
+![An example of applying @tip-6. $R_2$ corresponds to a text segment spanning over many clauses, which clarifies the main idea and relevance of $R_2$.](figures/fig-annot-guide-harris-01){width=75%  #fig-annot-guide-harris-01}
 
+One way to apply @tip-6 is to use text segments from the given text snippet and reformulate them in the form of an imagined dialogue. If it is possible to plausibly use sentences or clauses as answers to the questions *'Why is that a reason? Why is that relevant? What is the point of that?'*, we can regard them as part of the reason. 
 
-In Figure @fig-annot-guide-harris-01, you will find an example that illustrates how to apply @tip-6. The main claim ($C$) is attacked by an argument from naturalness ($R_1$), which is itself the target of a presented refutation ($R_2$). According to @tip-6, we can regard all three sentences as part of one objection to the argument from naturalness ($R_1$) since the last two sentences seem to elaborate on the objection that diseases are natural. We can reasonably imagine the three consecutive sentences to be part of the following dialogue:
+The following dialogue starts with the first sentence of the refutation ($R_2$) of the argument from naturalness ($R_1$):
+
 
 > A: *"But diseases are natural, and humans by the millions fall ill and die prematurely---all perfectly naturally."*
 >
@@ -61,14 +64,13 @@ In Figure @fig-annot-guide-harris-01, you will find an example that illustrates 
 >
 > A: *"[Because we do use antibiotics to kill bacteria.] The healthcare systems maintained by every developed nation can aptly be characterized as a part of what I have previously called a comprehensive attempt to frustrate the course of nature."*
 
-$B$ uses the questions of @tip-6 to better understand or challenge the relevance of $A's$ objection to the argument from naturalness. $A$ answers by repeating the annotated sentences we find in the second paragraph. This, in turn, justifies counting them as part of $A's$ objection.
+$B$ uses the questions of @tip-6 to understand better or challenge the relevance of $A's$ objection to the argument from naturalness. $A$ answers by repeating the annotated sentences in the second paragraph. This, in turn, justifies counting them as part of $A's$ objection.
 
-### Scattered Reasons
+### Scattered Argumentative Components
 <!-- EO
    + *Example for non-contiguous reason elaboration:* Income-based affirmative action vs. race-based affirmative action [@gordon_why_2019].
 -->
-In the last two examples (@fig-annot-guides-doudna-01 and @fig-annot-guide-harris-01), we identified reasons that extends over more than one sentence. These sentences were contiguous, and we simply extended the text segment corresponding to the reason over all sentences. It can, however, also happen that sentences or clauses that explain the main point and the relevance of a reason are not contiguous to one another, as the example in @fig-annot-guide-gordon-02 shows. 
-
+In the last two examples (@fig-annot-guides-doudna-01 and @fig-annot-guide-harris-01), we identified reasons that extend over more than one sentence. Since these sentences are contiguous, the corresponding argumentative unit spans over all these contiguous sentences. It can, however, also happen that sentences or clauses that explain the main point and the relevance of an argumentative component are not contiguous, as the example in @fig-annot-guide-gordon-02 shows. 
 
 ![An example of applying @tip-6. Two non-contiguous text segments belong to one reason ($R_2$).](figures/fig-annot-guide-gordon-02){width=75%  #fig-annot-guide-gordon-02}
 
@@ -76,45 +78,48 @@ In the last two examples (@fig-annot-guides-doudna-01 and @fig-annot-guide-harri
 The authors argue that race-based affirmative action is still needed (the main claim $C$) as a means to reduce the still existing racism in the United States ($R_1$). In the third paragraph, the authors go on to elaborate on the still existing higher incomes of white Americans as compared to black and Hispanic Americans ($R_2$), for which they provide further statistical evidence ($R_3$).^[Alternatively, we could regard both non-contiguous text segments (the third and fourth annotation) as one reason. On this interpretation, the fourth text segment is not a presented justification for the third text segment but rather a reformulation that adds numerical details of what is meant by the latter. See @tip-7 below.] Naturally, we can interpret these income differences as a supporting reason for contemporary racism without there being linguistic cues to corroborate this interpretation. But why are income differences relevant to racism? The authors provide one answer themselves. As the first clause in the last sentence clarifies, income differences "exacerbate racial divisions." Therefore, we can regard this clause as explaining the relevance of $R_2$ and should annotate it as belonging to $R_2$. 
 
 <!-- EO
-+ *Remark:* How to annotate different text segments that belong to one and the same reason.
++ *Remark:* How to annotate different text segments that belong to the same reason.
 -->
-The example illustrates that one reason ($R_2$) can spread over non-contiguous sentences and clauses. There is one practical difference in the case of non-contiguous sentences and clauses. If the sentences and clauses that belong to a reason are contiguous, you annotate these sentences as one text segment by determining the start and endpoint accordingly. However, if the sentences and clauses that belong to a reason are non-contiguous, you have to annotate *different* text segments as belonging to one reason.
+The example illustrates that one reason ($R_2$) can spread over non-contiguous sentences and clauses. There is one practical difference in the case of non-contiguous sentences and clauses. If the sentences and clauses that belong to an argumentative unit are contiguous, you annotate these sentences as one text segment by determining the start and endpoint accordingly. However, if these sentences and clauses are non-contiguous, you have to annotate *different* text segments as belonging to one argumentative unit.
 
 
-### Illustrative examples
+### Illustrative Examples
 <!-- EO
 + **Maxim 7:** Sentences or clauses that provide mere illustrative examples or contextual information and explanations that merely explain the meaning of relevant concepts should not be annotated as belonging to the reason.
 --> 
-According to @tip-6, elaborations on the reason's main idea or relevance should be annotated as part of the reason. However, not every text segment that explains reasons should be annotated this way:
+According to @tip-6, elaborations on the argumentative component's main idea or relevance should be annotated as part of the corresponding argumentative unit. However, not every text segment that explains something in connection to the argumentative component in question should be annotated this way:
 
 ::: {#tip-7 .callout-tip}
 ## Examples are not reasons
-Sentences or clauses that provide mere illustrative examples or contextual information and explanations that merely explain the meaning of relevant concepts should not be annotated as belonging to the reason.
+Sentences or clauses that provide mere illustrative examples or contextual information and explanations that merely explain the meaning of relevant concepts should not be annotated as belonging to an argumentative unit.
 :::
-
-
 
 <!-- EO
    + *Example:* Clarifying the difference between therapy and enhancement [@jain_opinion_2021].
 --> 
 ![An example of applying @tip-7. The first paragraph explains the difference between therapy and enhancement, which is mere contextual information and not part of the reason $R_1$.](figures/fig-annot-guides-jain-01){width=75%  #fig-annot-guides-jain-01}
 
-In the example of Figure @fig-annot-guides-jain-01, the author provides contextual knowledge that should not be annotated as justificatory relevant. The author's main claim is formulated at the end of the text. She argues for confining the use of germline editing to therapeutic uses and banning its use for enhancement. One of her reasons against genetic enhancement invokes the possibility of "dangerous social implications." While her explanations on how the treatment of diseases differs from enhancement help to better understand the reasoning, it is not necessary to understand the main point of the reason. To understand the main idea of the reason, we simply need to know that enhancement differs from therapy and that enhancement is said to have certain dangerous consequences. Since the second sentence implies both points, we do not need the first sentence to understand the main idea of the reason. 
+In the example of @fig-annot-guides-jain-01, the author provides contextual knowledge that should not be annotated as an argumentative unit. The author's main claim is formulated at the end of the text. She argues for confining germline editing to therapeutic uses and banning it for enhancement. One of her reasons against genetic enhancement invokes the possibility of "dangerous social implications." While her explanations of how the treatment of diseases differs from enhancement help clarify the reasoning, they are not necessary to grasp the main point. To understand the main idea of the reason, we simply need to know that enhancement differs from therapy and that enhancement is said to have certain dangerous consequences. Since the second sentence implies both points, we do not need the first sentence to understand the main idea of the reason.
 
 
 ### Reformulations
 <!-- EO
 + **Maxim 8 (reason repetition):** If sentences or clauses are, or are intended to be reformulations or repetitions of a reason, they should be considered as belonging to the formulation of that reason. Mere references to reasons should not be annotated as justificatory relevant.
 -->
-A similar but slightly different case to clarifications and elaborations of reasons are text segments that simply reformulate or repeat a reason. An author might, for instance, explain the same reason in different words to foster a better understanding or to remind the audience of an important point. Similarly, an author might begin by summarizing the main idea of a reason and later provide further details of the same point. In line with clarifications of the reason's relevance (@tip-6), you should consider text segments that are reformulations of the same reason as belonging to that reason:
+A similar but slightly different case to clarifications and elaborations of argumentative components are text segments that reformulate or repeat an argumentative component. An author might, for instance, explain an already mentioned reason in different words to foster a better understanding or to remind the audience of an important point. Similarly, an author might begin by summarising the main idea of a reason and later provide further details of the same point. In line with clarifications of an argumentative component's relevance (@tip-6), you should consider text segments that are reformulations of the same argumentative component as belonging to that reason:
 
 ::: {#tip-8 .callout-tip}
-## Reformulations of and references to reasons 
-If sentences or clauses are (or are intended to be) reformulations or repetitions of a reason, they should be considered as belonging to the formulation of that reason. Mere references to reasons should not be annotated as justificatory relevant.
+## Reformulations of argumentative components 
+If sentences or clauses are (or are intended to be) reformulations or repetitions of an argumentative component, they should be considered as belonging to the corresponding argumentative unit.
 :::
 
+Typical linguistic cues for repetitions and reformulations include:
 
-Typical linguistic cues for repetitions and reformulations include *'In other words, ...'* and *'As x puts it ...'* Similar to the last examples, the repetition of reasons can extend over contiguous or non-contiguous sentences and clauses.
++ *'In other words, ...'*
++ *'As x puts it ...'*
++ *'To put it differently, ...'*
++ *'As I mentioned earlier ...'*
++ *'As stated above, ...'*
 
 <!-- EO
    + *Example for non-contiguous repetition of reasons:* Minorities can gain from affirmative action [@gordon_why_2019].
@@ -122,9 +127,18 @@ Typical linguistic cues for repetitions and reformulations include *'In other wo
 ![An example of applying @tip-8 to identify reformulations of reasons. Two non-contiguous text segments formulate the main idea of one reason ($R_2$) differently.](figures/fig-annot-guide-gordon-01){width=75%  #fig-annot-guide-gordon-01}
 
 
-Similarly to sentences and clauses that elaborate on the relevance of reasons, reasons and their reformulations can come in contiguous or non-contiguous text segments. The example in Figure @fig-annot-guide-gordon-01 depicts an annotation of an argumentation structure with a non-contiguous reformulation of the second reason ($R_2$). This reason is formulated as a justification for the claim that minority groups can benefit more from education at elite universities than other groups ($R_1$)---namely, that they would benefit more from it in terms of increase in income and employment. After formulating another benefit ($R_3$), the authors reformulate the second reason in the third paragraph. By using the phrase *"not only \dots, but also \dots"* the authors begin to pick up an already formulated point ($R_2$) and then move on to add a reason ($R_3$).^[There are, as often, alternative interpretations of the text. What I categorized as a reformulation can be, for instance, interpreted as a repetition of both points that are expressed with $R_2$ and $R_3$. After all, the higher income ($R_2$) presupposes that the individual who is lifted out of poverty graduates ($R_3$).]
+Similarly to sentences and clauses that elaborate on the relevance of argumentative components, repetitions and reformulations may be contiguous or non-contiguous to the first text segment that describes the argumentative component. The example in @fig-annot-guide-gordon-01 depicts an annotation of an argumentation structure with a non-contiguous reformulation of the second reason ($R_2$). This reason is formulated as a justification for the claim that minority groups can benefit more from education at elite universities than other groups ($R_1$)---namely, that they would benefit more from it in terms of income increase and employment opportunities. After formulating another benefit ($R_3$), the authors reformulate the second reason in the third paragraph. By using the phrase *"not only $\dots$, but also $\dots$"* the authors begin to pick up an already formulated point ($R_2$) and then move on to add another reason ($R_3$).^[There are, as often, alternative interpretations of the text. What we categorised as a reformulation can, for instance, be interpreted as a repetition of both points expressed by $R_2$ and $R_3$. After all, the higher income ($R_2$) presupposes that the individual who is lifted out of poverty graduates ($R_3$).]
 
-Reformulations and repetitions usually have an explanatory function. They help the audience understand the reason, remind them of its basic idea, and might describe them from another perspective. In contrast to repetitions and reformulations, mere references do not contribute to the understanding of a reason and should not be annotated as justificatory relevant. A reference to a reason can be formulated, for instance, by using demonstrative determiners such as *'this'*, whose referents are context-dependent, by using proper names such as *'the slippery slope argument'*, or by using definite descriptions such as *'the first argument mentioned by Clint'*. References to reasons can be used after the author elaborates on a reason, for instance, to signpost attack and support relations, or they can be used before the author elaborates on a reason, for instance, to announce reasons. The following linguistic cues encompass some possibilities to refer to reasons: 
+### References
+
+Reformulations and repetitions usually have an explanatory function. They help the audience understand an argumentative component, remind them of its basic idea, and might describe it from another perspective. In contrast to repetitions and reformulations, mere references do not contribute to the understanding of an argumentative component and should not be annotated as part of the corresponding argumentative unit.
+
+::: {#tip-8-2 .callout-tip}
+## References to Argumentative Components 
+Mere references to argumentative components should not be annotated as part of the corresponding argumentative unit.
+:::
+
+A reference to an argumentative component can be formulated, for instance, by using demonstrative determiners such as *'this'*, whose referents are context-dependent, by using proper names such as *'the slippery slope argument'*, or by using definite descriptions such as *'the first argument mentioned by Clint'*. References to argumentative components can be used after the author elaborates on them, for instance, to signpost attack and support relations, or even before the author elaborates them, for instance, to announce argumentative components. The following linguistic cues encompass some possibilities to refer to argumentative components:
 
 + *'... This reason is not convincing since...'*, 
 + *'... The most prominent objection to the argument from x is ...'*, 
@@ -132,30 +146,27 @@ Reformulations and repetitions usually have an explanatory function. They help t
 *'There are two relevant arguments: the argument from x and the argument from y ...'* and 
 + *'After clarifying the stance of y, I will analyze her strongest argument.'*
 
+## Identifying Different Argumentative Components and their Relationships
 
-
-## Identifying Different Reasons and their Relationships
-
-
-### Contigious Reasons
 <!-- EO
 + **Maxim 9:** If sentences or clauses provide or are intended to provide independent justification for some text segment, or if they are intended to provide support on their own, they should be considered as independent reasons. In other words, if it makes sense to imagine each sentence or clause as an answer to the question *'Can you give me an additional reason?'*, they correspond to different reasons for the same text segment.
    + *Example:* PGD is not an alternative to GE for all prospective parents [@nhgri_what_2017].
 -->
-@tip-6 and @tip-8 will help you identify all text segments that belong to the same reason. Another important challenge is correctly realizing when contiguous text segments correspond to different reasons.
+@tip-6 and @tip-8 will help you as an annotator identify all text segments that belong to the argumentative component. Another important challenge is the correct identification of contiguous text segments corresponding to *different* argumentative components reasons.
 
-The example in Figure @fig-annot-guide-nhgri-01 begins with an objection ($R_1$) against germline editing for therapeutic uses ($C$). The objection rests on the premise that there is always a safer alternative to the therapeutic use of germline editing---namely, preimplantation genetic diagnosis (PGD) in combination with in-vitro fertilization (IVF). According to the second reason ($R_2$), this alternative is, in fact, not an alternative for all prospective parents. The presented refutation of $R_1$ is supported by three reasons ($R_{3-5}$). So why should we regard these nearly contiguous text segments as three different supporting reasons for $R_2$? The chosen grammatical form is one hint. The authors invoke an enumeration to list points that seem to be on an equal footing with each other. 
+The example in @fig-annot-guide-nhgri-01 begins with an objection ($R_1$) against germline editing for therapeutic uses ($C$). The objection rests on the premise that there is an alternative---namely, preimplantation genetic diagnosis (PGD) in combination with in vitro fertilisation (IVF)---that has no downside compared with germline editing. According to the second reason ($R_2$), this alternative is, in fact, not an alternative for all prospective parents. The presented refutation of $R_1$ is supported by three reasons ($R_{3-5}$). So why should we regard these nearly contiguous text segments as three different supporting reasons for $R_2$? The chosen grammatical form is one hint. The authors use an enumeration to list points that seem to be on equal footing. 
 
 ![An example of applying @tip-9. Three nearly contiguous text segments correspond to different reasons ($R_{3-5}$) for one other text segment ($R_2$).](figures/fig-annot-guide-nhgri-01){width=75%  #fig-annot-guide-nhgri-01}
 
 
-Additionally, @tip-6 and @tip-8 do not suggest considering the text segments as one reason: Neither of these points clarifies the relevance of the others (@tip-6), and neither of these points is a reformulation of the others (@tip-8). On the contrary, the points are independent. Every one of them supports, or is intended to support $R_2$ without needing the other one; every one of them can be imagined as part of a dialogue in which a challenger successively asks for additional reasons that support the claim that PDG and IVF are not an alternative for all prospective parents ($R_2$). Summarizing these considerations into another tip:
+Additionally, @tip-6 and @tip-8 do not suggest considering the text segments as one reason: Neither of these points clarifies the relevance of the others (@tip-6), and neither of these points is a reformulation of the others (@tip-8). On the contrary, the points are independent. Every one of them supports, or is intended to support $R_2$ without needing the other one; every one of them can be imagined as part of a dialogue in which a challenger successively asks for additional reasons that support the claim that PDG and IVF are not an alternative for all prospective parents ($R_2$). 
+
+To summarise these considerations into another tip:
 
 ::: {#tip-9 .callout-tip}
 ## Independent justification
-If sentences or clauses provide or are intended to provide independent justification for some text segment, or if they are intended to provide support on their own, they should be considered as independent reasons. In other words, if it makes sense to imagine each sentence or clause as an answer to the question \emph{'Can you give me an additional reason?'}, they correspond to different reasons for the same text segment.
+If sentences or clauses provide or are intended to provide independent justification for some claim, or if they are intended to provide support on their own, they should be considered as independent argumentative components. In other words, if it makes sense to imagine each sentence or clause as an answer to the question *'Can you give me an additional reason/objection?'*, they correspond to different argumentative units.
 :::
-
 
 
 <!--
@@ -163,28 +174,26 @@ Alternative/additional suggestion:
 
 John Harris: [\dots] Proponents of such "human germline editing" argue that it could potentially decrease, or even eliminate, the incidence of many serious genetic diseases, reducing human suffering worldwide. [\dots]
  
-Marcy Darnovsky: [\dots] In December 2015, controversy about using CRISPR to produce children was a key agenda item at the International Summit on Human Gene Editing organized by the national science academies of the United States, the United Kingdom, and China. Nearly every speaker agreed that, at present, making irreversible changes to every cell in the bodies of future children and all their descendants would constitute extraordinarily risky human experimentation. By all accounts, far too much is unknown about issues including off-target mutations (unintentional edits to the genome), persistent editing effects, genetic mechanisms in embryonic and fetal development, and longer-term health and safety consequences. [\dots]
+Marcy Darnovsky: [\dots] In December 2015, controversy about using CRISPR to produce children was a key agenda item at the International Summit on Human Gene Editing organised by the national science academies of the United States, the United Kingdom, and China. Nearly every speaker agreed that, at present, making irreversible changes to every cell in the bodies of future children and all their descendants would constitute extraordinarily risky human experimentation. By all accounts, far too much remains unknown about issues such as off-target mutations (unintentional edits to the genome), persistent editing effects, genetic mechanisms in embryonic and fetal development, and longer-term health and safety consequences. [\dots]
 
 Conversations about putting new gene editing tools into fertility clinics need to begin with an obvious but often overlooked point: By definition, germline gene editing would not treat any existing person's medical needs. At best, supporters can say that it might re-weight the genetic lottery in favor of different outcomes for future people---but the unknown mechanisms of both CRISPR and human biology suggest that unforeseeable outcomes are close to inevitable.
 -->
 
 <!-- EO
-+ Intro: Analyzing serial reasoning.
++ Intro: Analysing serial reasoning.
 --> 
-@tip-6 and @tip-8 tell you to count reformulations of a reason and clarifications of its relevance as part of the reason itself. Sometimes, it isn't easy to distinguish a justification for a reason from a clarification of the reason. In other words, a text segment presented as a *reason* for another reason might look at first glance like a repetition or clarification of the second reason's main point. In this case, this apparent repetition should, of course, not be considered as part of the reason it supports. Rather, you should treat both text segments as independent reasons and categorize the first as supporting the second. In other words, you have to split the longer text segment into different ones and use the support relation to categorize the argumentative relation between them. Since it might be difficult to distinguish justifications for reasons from reformulations and clarifications of reasons, you should be attentive to text segments that appear to be one complex reason that stretches over many sentences. 
+@tip-6 and @tip-8 tell you to count reformulations of an argumentative component and clarifications of its relevance as part of the corresponding argumentative unit. Sometimes, it is not easy to distinguish a justification for a reason from a clarification of the reason. A text segment presented as a *reason* for another reason might look at first glance like a repetition or clarification of the second reason's main point. In this case, this apparent repetition should not be considered as part of the reason it supports. Instead, you should treat both text segments as independent reasons and categorise the first as supporting the second. In other words, you have to split the longer text segment into different ones and use the support relation to categorise the argumentative relation between them. Since it might be challenging to distinguish justifications for reasons from reformulations and clarifications of reasons, you should be attentive to text segments that appear to be one complex reason that stretches over many sentences. 
 
-
-## Paraphrasing Reasons
 <!-- EO
 + *Example:* Affirmative action and the mismatch theory [@gordon_why_2019].
 --> 
-By using the following example, we will formulate an additional tip that will not only help you to spot the difference between reason-supporting reasons and reformulations of reasons but will be useful for analyzing the attack and support relations between text segments in general. 
+With @example-13, we will formulate an additional tip that will not only help you spot the difference between reason-supporting reasons and reformulations of reasons, but will also be useful in analysing the attack and support relations between text segments in general. 
 
 ::: {#example-13}
 > But affirmative action is still desperately needed in America's best universities [...] Some well-intentioned people may argue that because of the academic challenges racial minorities tend to face, they may be less qualified than other students to attend elite universities and could struggle to meet the expectations of a rigorous curriculum. This is based in part on the debunked "mismatch" theory, which posits that these students would benefit more from attending less challenging schools more suited to their relative lack of educational attainment. [@gordon_why_2019]
 :::
 
-After formulating the main claim, the remaining text snippet is introduced with a clear linguistic cue for an argumentation (*'people may argue that '*). The last sentence univocally suggests that this argumentation is intended as an objection to affirmative action at universities. But is it adequate to interpret the paragraph as containing only two justificatory relevant text segments, one that represents the main claim ($C$) and one that represents a complex objection to it ($R_1$) as indicated in Figure @fig-annot-guidelines-ex7-01? Or is it a more complex reasoning that has to be broken down into different parts?
+After formulating the main claim, the remaining text snippet is introduced with a clear linguistic cue for an argumentation (*'people may argue that '*). The last sentence univocally suggests that this argumentation is intended as an objection to affirmative action at universities. But is it adequate to interpret the paragraph as containing only two justificatory relevant text segments, one that represents the main claim ($C$) and one that represents a complex objection to it ($R_1$) as indicated in @fig-annot-guidelines-ex7-01? Or is it a more complex reasoning that has to be broken down into different parts?
 
 ![First analysis of @example-13. Annotating a long text segment as one objection ($R_1$) to affirmative action at universities ($C$).](figures/fig-annot-guidelines-ex7-01){width=75%  #fig-annot-guidelines-ex7-01}
 
@@ -192,7 +201,7 @@ After formulating the main claim, the remaining text snippet is introduced with 
 <!-- EO
    + Main question in this example. 
 --> 
-To answer this question, we have to better understand the role of the additional linguistic cues. They pose at least two questions: 
+To answer this question, we have to understand the role of the additional linguistic cues. They pose at least two questions: 
 
 1. What does the *'because'* indicate? A presented justification, a causal explanation or both (see @tip-4)? 
 2. How are we supposed to interpret *'This is based in part on ...'*? Does it indicate a clarification or some form of support relation between the text segments that precede and follow this phrase? If this phrase has to be interpreted as expressing a support relation, we should identify at least two reasons in the paragraph.
@@ -201,26 +210,28 @@ To answer this question, we have to better understand the role of the additional
 + **Maxim 10:** Reformulate the basic idea of reasons in your own words to identify support and attack relations!
   + *Explicitness:* Your reformulation should be explicit about what is being justified by the reason.
   + *Accuracy:* Try to stay as close as possible to the original formulation and the known or hypothesized intention of the author.
-  + *Charity:* If there are different and conflicting possibilities to reformulate the basic idea of a reason, choose the  formulation that results in the most plausible and convincing reasoning.
+  + *Charity:* If there are different and conflicting possibilities to reformulate the basic idea of a reason, choose the formulation that results in the most plausible and convincing reasoning.
 --> 
 Our natural language is too flexible to answer such questions with simple and precise instructions. Confronted with such a complex case, you should, instead, employ the following rule of thumb:
 
 ::: {#tip-10 .callout-tip}
-## Paraphrazing
-Reformulate the basic idea of reasons in your own words to identify support and attack relations!
+## Paraphrasing
+Reformulate the basic idea of argumentative components in your own words to identify support and attack relations. Use the following principles to guide your reformulation:
 
-+ *Explicitness:* Your reformulation should be explicit about what is being justified by the reason. 
-+ *Accuracy:* Try to stay as close as possible to the original formulation and the known or hypothesized intention of the author.
-+ *Charity:* If there are different and conflicting possibilities to reformulate the basic idea of a reason, choose the formulation that results in the most plausible and convincing reasoning.
++ *Explicitness:* Your reformulation should be explicit about the source and target of support and attack relation. 
++ *Accuracy:* Stay as close as possible to the original formulation and the known or hypothesized intention of the author.
++ *Charity:* If there are different and conflicting possibilities to reformulate the argumentative component's basic idea, choose the formulation that results in the most plausible and convincing reasoning.
 :::
 
-The idea of this tip is to make your understanding of the reasoning explicit. Explicitness requires you to reflect on which text segment is being presented as a justification for which other text segment. That is why you should use a formulation that explicitly explains the relational character of reasons. For instance, you can use the following phrases for *y* being a reason that supports *x*:
+The idea of this tip is to make your understanding of the reasoning explicit. Explicitness requires reflecting on which text segment is being presented as a justification for which other text segment. That is why you should use a formulation that explicates the relational character of argumentative components.
+
+You could, for instance, use one of the following schemata to explicate a support relation between two argumentative components *y* and *x*:
 
 + *'x because y.'*
 + *'x since y.'*
 + *'y is a reason for x.'*
 
-and the following for *y* being a reason that attacks *x* (*y* being an objection to *x*):
+and the following to explicate an attack relation between *y* and *x*:
 
 + *'x is not true because y.'*
 + *'x is implausible because y.'*
@@ -230,13 +241,13 @@ and the following for *y* being a reason that attacks *x* (*y* being an objectio
 <!-- EO
 + Reformulating the basic idea in the example about the mismatch theory. 
 --> 
-How can we formulate the main idea of the objection ($R_1$) of the last example (@fig-annot-guidelines-ex7-01)? One suggestion is the following:
+Let us now apply @tip-10 to the example from @fig-annot-guidelines-ex7-01. How can we formulate the main idea of the objection ($R_1$)? One suggestion is the following:
 
-> Students from racial minorities (= "these students") would benefit from attending less challenging schools *since* they could struggle to meet the expectation of a rigorous curriculum at elite universities. 
+> Students from racial minorities (= "these students") would benefit from attending less challenging schools *since* they could struggle to meet the expectations of a rigorous curriculum at an elite university.
 
-This reformulation catches an important point of the reasoning and is formulated in one of the suggested forms (*'x since y'*). However, the clause following *'since'* does not directly formulate a reason against affirmative action since *x* says nothing directly about affirmative action. It is a reason in favour of why the described students should not attend elite universities. However, the context is clear enough to close this gap: Affirmative action is supposed to enable students from minority groups to attend elite universities. Since it would be better for them to not attend these universities, affirmative action is *not* needed, or so the argument goes. 
+This reformulation catches an important point of the reasoning and is formulated using one of the suggested forms (*'x since y'*). However, the clause following *'since'* does not directly formulate a reason against affirmative action since *x* says nothing directly about affirmative action. It is a reason justifying that the described students should not attend elite universities. Fortunately, the context closes this gap: Affirmative action is supposed to enable students from minority groups to attend elite universities. However, since it would be better for these students not to attend elite universities, affirmative action is *not* needed, or so the argument goes. 
 
-This consideration suggests to separate the reasoning into two reasons:
+This consideration suggests separating the reasoning into two reasons:
 
 > Affirmative action is *not* needed *since* students from racial minorities would benefit from attending less challenging schools. (*$C$ is not true since $R_1$*)
 
@@ -250,17 +261,17 @@ According to this interpretation, the paragraph formulates a chain of reasons as
 
 The preliminary result is a much more adequate analysis of the argumentation structure than the first interpretation. The remaining task is to clarify the role of the text segment that precedes the *'and'*. It seems to be justificatory relevant. But so far, we have not used it in our reformulation of the reasoning structure. Additionally, we must still analyze the role of the linguistic cue *'because'*. Does it indicate a justification, a causal relationship or both? The indicator word *'and'* only suggests that the clauses that are linked together by the *'and'* are independent points. 
 
-Again, it might help to reformulate the presented text segment as reasons (see @tip-10). The following reformulations continue to interpret the argumentation structure as a chain of reasoning. We could ask why these students struggle at elite universities ($R_2$), and the text seems to answer by pointing to their lesser academic qualification ($R_3$); we could ask why they are lesser qualified, and the text seems to answer by pointing to academic challenges minorities have to face prior to university ($R_4$). In one of the suggested standard forms:
+Again, it might help to reformulate the presented text segment as reasons (see @tip-10). The following reformulations continue to interpret the argumentation structure as a chain of reasoning. We could ask why these students struggle at elite universities ($R_2$), and the text seems to answer by pointing to their lesser academic qualification ($R_3$); we could ask why they are less qualified, and the text seems to answer by pointing to academic challenges minorities have to face before university ($R_4$). In one of the suggested standard forms:
 
 > Students from racial minorities could struggle to meet the expectation of a rigorous curriculum at elite universities, *since* they may be less qualified than other students. (*$R_2$ since $R_3$*)
 
-> Students from racial minorities may be less qualified than other students, *since* they tend to face academic challenges prior to university. (*$R_3$ since $R_4$*)
+> Students from racial minorities may be less qualified than other students, *since* they tend to face academic challenges before university. (*$R_3$ since $R_4$*)
 
 
 <!-- EO
    + Final interpretation of the example.
 --> 
-Figure @fig-annot-guidelines-ex7-03 illustrates the resulting final interpretation of the argumentation structure. We started with a preliminary analysis by identifying the main claim and longer text segment, whose internal structure posed some questions (see Figure @fig-annot-guidelines-ex7-01). We then used the tip to reformulate the main idea of reasons and objections. By making explicit what is presented as a justification and what is presented as being justified, we were able to analyze the argumentation structure deeper and identified four separate text segments that correspond to a chain of reasons ($R_1-R_4$). 
+@fig-annot-guidelines-ex7-03 illustrates the resulting final interpretation of the argumentation structure. We started with a preliminary analysis by identifying the main claim and a longer text segment whose internal structure raised some questions (see @fig-annot-guidelines-ex7-01). We then used the tip to reformulate the main idea of reasons and objections. By making explicit what is presented as a justification and what is presented as justified, we were able to analyse the argumentation structure more deeply and identify four separate text segments that correspond to a chain of reasons ($R_1-R_4$). 
 
 ![Final analysis of @example-13. Applying @tip-10 reveals a chain of support relations (from $R_4$ to $R_1$) between four text segments.](figures/fig-annot-guidelines-ex7-03){width=75%  #fig-annot-guidelines-ex7-03}
 
@@ -269,7 +280,9 @@ Figure @fig-annot-guidelines-ex7-03 illustrates the resulting final interpretati
 <!-- EO
    + *Remark:* Importance of accuracy. 
 --> 
-In applying @tip-10, you must be faithful to the text. That means that your reformulations of reasons must not deviate too much from the author's formulations and that the reformulation does not distort the author's intended meaning. Instead, your reformulations should stay as close as possible to the text. Otherwise, you might be unable to determine which text segments correspond to the reasons in your formulation. You should reassess your formulation if you cannot determine which text segments correspond to *x* and *y* in a reformulation of the form *'y since x'*. For instance, I formulated the attack between the first reason and the main claim as follows:
+In applying @tip-10, you must be faithful to the text. That means that your reformulations of reasons must not deviate too much from the author's formulations and that the reformulation does not distort the author's intended meaning. Instead, your reformulations should stay as close as possible to the text. In particular, you should not add new information that is not present in the text, and you should be able to identify the text segments that correspond to your reformulations. 
+
+Consider the following example. Above, we formulated the attack between the first reason and the main claim as follows:
 
 > Affirmative action is *not* needed *since* students from racial minorities would benefit from attending less challenging schools. (*$C$ is not true since $R_1$*)
 
@@ -279,5 +292,4 @@ Now, it might make sense to insert another reason step $R^*$ between $C$ and $R_
 
 > Affirmative action is supposed to help students from racial minorities, which it doesn't, *since* students from racial minorities would benefit from attending less challenging schools. ($R^*$ since $R_1$)
 
-Now, I have formulated the additional reason $R^*$ that attacks $C$ and is supported by $R^1$. However, there is no text segment to be found that corresponds to this reason. Faithfulness to the text demands the use of reformulations that make it possible---and preferably easy---to identify the text segments that correspond to reasons. 
-
+Now, we have formulated the additional reason $R^*$ that attacks $C$ and is supported by $R^1$. However, no text segment corresponds to this reason. Faithfulness to the text demands the use of reformulations that make it possible---and preferably easy---to identify the text segments that correspond to reasons.
