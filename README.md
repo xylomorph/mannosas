@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔎 MAnnoSAS - A Minimalistic Annotation Scheme of Argumentation Structures (v1.0).
+# 🔎 MAnnoSAS - A Minimalistic Annotation Scheme for Argumentation Structures (v1.0).
 
 [⚙️ Features](#features) •
 [🛠️ Usage](#usage) •
@@ -10,9 +10,9 @@
 </div>
 <br/>
 
-This repository contains annotation guidelines for a content analysis of argumentation structures designed to narrow down the degree of variability between (independently working) annotators. In other words, `MAnnoSAS` helps to increase inter-annotator reliability when identifying argumentation structures.
+This repository contains annotation guidelines for analysing argumentation structures. The annotation scheme is designed to narrow the degree of variability among (independently working) annotators. In other words, `MAnnoSAS` helps to increase inter-annotator reliability when identifying argumentation structures.
 
-The annotation scheme is based on concepts and insights from argumentation theory. It is minimalistic in the sense that it is parsimonious in the number of introduced categories and theoretical baggage. The design of `MAnnoSAS` is motivated by the following question: How can we employ tools from argumentation theory to minimize the degree of interpretation without requiring annotators to be experts in argumentation theory?
+The annotation scheme is based on concepts and insights from argumentation theory. It is minimalistic in the sense that it is parsimonious in the number of categories introduced and the theoretical baggage. The design of `MAnnoSAS` is motivated by the following question: How can we employ tools from argumentation theory to minimise the degree of interpretation without requiring annotators to be experts in argumentation theory?
 
 
 <!-- 
@@ -22,15 +22,15 @@ ToDo: What about the "technical features" of the annotations scheme? (free segme
 
 `MAnnoSAS`:
 
-1. is designed to analyze argumentation structure with a **focus on macrostructure**
-2. in annotation studies with **(free) unitizing**,
+1. is designed to analyse argumentation structure with a **focus on macrostructure**
+2. in annotation studies with **(free) unitising**,
 2. is grounded on **relational categories only**,
 3. is based on a **non-reconstructive analysis** of arguments and 
 4. **can be complemented** with additional categories and analytical tools.
 
 ### 1. Focus on Macrostructure
 
-`MAnnoSAS` is confined to the analysis of argumentation structure&mdash;that is, the identification of expressed argumentative components (reasons, arguments, objections, refutations, etc.). It will, for instance, not address rhetorical power, style, persuasiveness or literary merit. Additionally, the category system will abstract away from dialogical aspects of argumentation. In particular, it is not concerned with who maintains which stance, who puts forward which argument or who tries to persuade whom. The aim is to strictly distinguish mere structural properties of argumentation from other aspects. It is, of course, possible to introduce additional categories that account for these features later.
+`MAnnoSAS` is confined to the analysis of argumentation structure&mdash;that is, the identification of expressed argumentative components (reasons, arguments, objections, refutations, etc.). It will, for instance, not address rhetorical power, style, persuasiveness or literary merit. Additionally, the category system will abstract away from dialogical aspects of argumentation. In particular, it is not concerned with who maintains which stance, who puts forward which argument or who tries to persuade whom. The aim is to distinguish mere structural properties of argumentation from other aspects. It is, of course, possible to introduce additional categories that account for these features later.
 
 ### 2. Free Unitizing
 
@@ -38,18 +38,18 @@ The challenges `MAnnoSAS` was designed to meet (see [📑 Background](#backgroun
 
 ### 3. Relational Categories
 
-`MAnnoSAS`'s category system is confined to relational categories between text segments since all relevant argumentative components (reasons, objections, premises, conclusions, assumption, etc.) are relational. They categorize a text segment as having a justificatory role for another text segment.
+`MAnnoSAS`'s category system is confined to relational categories among text segments, since all relevant argumentative components (reasons, objections, premises, conclusions, assumptions, etc.) are relational. They categorise a text segment as having a justificatory role for another text segment.
 
-The annotation scheme is based on **two justificatory relations: a support relation and an attack relation**. The idea is that many important natural-language concepts relevant for analyzing argumentation structure can be captured with this simplistic model. For instance:
+The annotation scheme is based on **two justificatory relations: a support relation and an attack relation**. The idea is that this simplistic model captures many important natural-language concepts relevant for analysing argumentation structure. For instance:
 
 + y being presented as a *reason or an argument* for x will be modelled with a support relation between y and x,
 + y being presented as an *objection to or refutation* of x will be modelled by an attack relation between y and x, 
 + z being presented as a *rebutting defeater* of the justification of x by y will be modelled by an attack relation between z and x, 
 + z being presented as an *undermining defeater* of the justification of x by y will be modelled by an attack relation between z and y.
 
-The annotation scheme does not introduce further subcategories of justificatory relations besides the attack and support relation. In particular, it does not contain categories that further qualify the intended probative force of support and attack relations. Additionally, it does not distinguish between undercutting and undermining defeaters.
+The annotation scheme does not introduce any further subcategories of justificatory relations beyond the attack and support relations. In particular, it does not include categories that further qualify the intended probative force of support and attack relations. Additionally, it does not distinguish between undercutting and undermining defeaters.
 
-The result of a `MAnnoSAS`-guided annotation can be visualized with a reason map, as illustrated by the schematic example in Figure 1. There are five annotated text segments: The first text segment represents the main claim ($C$), which is supported by two reasons that are formulated by the second ($R_1$) and the fifth text segment ($R_4$). Both the third ($R_2$) and the fourth text segment ($R_3$) represent reasons against&mdash;that is, objections to the supporting reason $R_1$.
+The result of a `MAnnoSAS`-guided annotation can be visualised with a reason map, as illustrated by the schematic example in Figure 1. There are five annotated text segments: The first text segment represents the main claim ($C$), which is supported by two reasons that are formulated by the second ($R_1$) and the fifth text segment ($R_4$). Both the third ($R_2$) and the fourth text segment ($R_3$) represent reasons against&mdash;that is, objections to the supporting reason $R_1$.
 
 
 <figure>
@@ -57,17 +57,17 @@ The result of a `MAnnoSAS`-guided annotation can be visualized with a reason map
     <img src="source/figures/fig-annot-guidelines-03.png" alt="Reason Map" style="width:50%; height:auto;"/>
     </div>
     <div align="center">
-    <figcaption><b>Figure 1:</b> A schematic example of annotating the argumentation structure of an argumentative text. The annotated structure is visualized as an argument map.</figcaption>
+    <figcaption><b>Figure 1:</b> A schematic example of annotating the argumentation structure of an argumentative text. The annotated structure is visualised as an argument map.</figcaption>
     </div>
 </figure>
 
 ### 4. Non-Reconstructive Analysis
 
-`MAnnoSAS` does not demand a reconstructive analysis of argumentation. Annotators are not asked to transform arguments they find into an explicit premise-conclusion structure. Such a design decision can be motivated by pragmatic considerations. The reconstruction of arguments is time-consuming and demands extensive training. The content analyst has to decide in their specific research context whether a reconstructive analysis is necessary and worth the effort.
+`MAnnoSAS` does not demand a reconstructive analysis of argumentation. Annotators are not asked to transform arguments they find into an explicit premise-conclusion structure. Such a design decision can be motivated by pragmatic considerations. The reconstruction of arguments is time-consuming and demands extensive training. The content analyst must decide, in their specific research context, whether a reconstructive analysis is necessary and worth the effort.
 
 ### 5. Complementing `MAnnoSAS`
 
-`MAnnoSAS` can be used as a starting point to devise a more ambitious annotation scheme. Content analysts can extend the bare structural analysis of the suggested annotation scheme with topical features of argumentative units by introducing subcategories that distinguish between different types of argumentative units. In this way, the researcher could, for instance, 
+`MAnnoSAS` can serve as a starting point for devising a more ambitious annotation scheme. Content analysts can extend the bare structural analysis of the suggested annotation scheme with topical features of argumentative units by introducing subcategories that distinguish between different types of argumentative units. In this way, the researcher could, for instance, 
 
 + categorize reasons according to argument schemes and assess what kind of argumentation occurs (how often), 
 + introduce evaluative subcategories that assess, for instance, argument strength or rhetorical style of reasons and whole argumentations or  
@@ -75,25 +75,29 @@ The result of a `MAnnoSAS`-guided annotation can be visualized with a reason map
 
 <h2 id="usage">🛠️ Usage</h2>
 
-`MAnnoSAS` was intended to be used within a context of *reliability-orientated* content analysis (of argumentation structures). If you want to stick to such a design, you should consider the following instructions:
+`MAnnoSAS` was intended to be used within a context of *reliability-orientated* content analysis (of argumentation structures). If you want to stick to such a design, you should adhere to the following rules:
 
-+ Content analysts should not themselves annotate the corpus in question. Especially, if they complemented or revised the annotation scheme. 
-+ Instead, they should appoint and instruct annotators using a standardized instruction scheme. For instance, a straightforward instruction scheme lets annotators read the annotation instructions but nothing else. A more elaborate instruction regime might involve further training sessions (which should be reproducible). For reproducibility, the instruction regime must be transparently documented.
++ Content analysts should not themselves annotate the corpus in question, especially if they complemented or revised the annotation scheme.
++ Instead, they should appoint and instruct annotators using a standardised instruction scheme. For instance, a straightforward instruction scheme lets annotators read the annotation instructions but nothing else. A more elaborate instructional regimen might involve additional training sessions (which should be reproducible). For reproducibility, the instruction regime must be transparently documented.
 + You should use more than one annotator and assess inter-annotator reliability. 
 
+
+#### Technical Conventions 
 
 Some of the instructions correspond to *technical decisions*, which presuppose some features of the used annotation software:
 
 + For the annotation of implicit claims, the annotator should be provided with pseudo-labels that can be used to annotate relations between the implicit claim and other argumentative components (see XXX {#sec-faq-nine}). 
-
++ For scattered argumentative components (see XXX , faq 7.3.2) it is assumed that annotators can use annotation labels as proper names for argumentative components. In this way, annotators do not have to use an equivalence relation to indicate that different text segments represent the same argumentative component. If the annotation software does not support such labels, you might have to allow for the annotation of an additional relation expressing *equivalence*.
 
 <h2 id="background">📑 Background</h2>
 
-The analysis of natural-language argumentation involves a systematic study of texts, which includes the identification of argumentative components and their connecting justificatory relations. Usually, this task requires the consideration of semantical and pragmatic aspects that cannot be read mechanically from the text but demand considering co-text, background knowledge of annotators (qua them being competent speakers) and additional extra-linguistic context information. Consequently, as emphasized by argumentation theorists, the analysis of natural-language argumentation is a hermeneutical process, and the results are an interpretation, which can differ between independently working annotators. Such interpretational indeterminacies can result in low reliabilities. 
+The analysis of natural-language argumentation involves a systematic study of texts, which includes the identification of argumentative components and their connecting justificatory relations. Usually, this task requires consideration of semantic and pragmatic aspects that cannot be read mechanically from the text but demand consideration of co-text, background knowledge of annotators (qua them being competent speakers), and additional extralinguistic context information. Consequently, as emphasised by argumentation theorists, the analysis of natural-language argumentation is a hermeneutical process, and the results are interpretations that can differ among independently working annotators. Such interpretational indeterminacies can result in low reliabilities. 
 
-`MAnnoSAS` was designed to minimize these interpretational indeterminacies&mdash;though it won't establish unique interpretations in all cases. There will be argumentative texts that allow more than one correct annotation of their argumentation structure (w.r.t. the given explications in `MAnnoSAS`). 
+`MAnnoSAS` was designed to minimise these interpretational indeterminacies&mdash;though it won't establish unique interpretations in all cases. There will be argumentative texts that allow more than one correct annotation of their argumentation structure (w.r.t. the given explications in `MAnnoSAS`). 
 
 In particular, it provides guidance with respect to the following types of ambiguity:
+
+#### Technical Hints
 
 ### Node Ambiguity
 
@@ -108,7 +112,7 @@ Annotators might come to different conclusions as to whether a particular text s
     </div>
 </figure>
 
-To minimize node ambiguity `MAnnoSAS` covers the following aspects:
+To minimise node ambiguity, `MAnnoSAS` covers the following aspects:
 
 + How can we use cotext and linguistic cues to identify argumentative units?
 + How do you tell apart justificatory and explanatory reasons?
@@ -128,7 +132,7 @@ reason, whereas the other identifies two (as exemplified in Figure 3).
     </div>
 </figure>
 
-To minimize granularisation ambiguity, `MAnnoSAS` covers the following aspects:
+To minimise granularisation ambiguity, `MAnnoSAS` covers the following aspects:
 
 + Can two contiguous text segments express more than one reason? How do we decide in these cases on the number of reasons?^[The individuation of reasons in `MAnnoSAS` is based on a criterion I borrowed from Freeman, J. B. (2011). *Argument Structure: Representation and Theory.* Dordrecht: Springer.]
 + How do we deal with reformulations of the same point or reason? Are they considered as different reasons, or do they belong to the reason they reformulate? What if reformulations express clarifications or provide illustrative examples?
@@ -151,19 +155,19 @@ Finally, annotators might disagree in analysing the intended justificatory relat
 
 ### Citing
 
-If you use `MAnnoSAS` in an annotation study, please cite this works as, for instance:
+If you use `MAnnoSAS` in an annotation study, please cite this work as, for instance:
 
-> Cacean, S. (2024). *MAnnoSAS - A Minimalistic Annotation Scheme of Argumentation Structures (v1.0)*. <https://doi.org/xxx>
+> Cacean, S. (2026). *Analysing Argumentation Structures - A Minimalistic Annotation Scheme.*. <https://doi.org/xxx>
 
 
-BibTex citation:
+BibTeX citation:
 
 ```bibtex
-@article{cacean_xxx,
-  title = {MAnnoSAS - A Minimalistic Annotation Scheme of Argumentation Structures (v1.0)},
+@article{cacean_2026,
+  title = {Analysing Argumentation Structures - A Minimalistic Annotation Scheme.},
   author = {Cacean, Sebastian},
-  year = {2024},
-  month = december,
+  year = {2026},
+  month = september,
   doi = {xxx},
   langid = {english},
   url = {xxx},
@@ -173,19 +177,18 @@ BibTex citation:
 
 ### Credits
 
-This annotation scheme was part of my PdD Thesis *"Content Analysis of Argumentation Structures - The Role of Reliability in Argument Mapping"*. 
+This annotation scheme was developed as part of my PhD Thesis [*"Content Analysis of Argumentation Structures - The Role of Reliability in Argument Mapping"*](https://doi.org/10.5445/IR/1000182475).
+
 
 
 
 <h2 id="development">🚧 Further Development</h2>
 
-`MAnnoSAS` (v1.0) will be subject to further improvements (which will be published in new versions). If you have feedback and suggestions to improve the annotation scheme, feel free to open a github issue and/or create a pull request. 
+`MAnnoSAS` (v1.0) will be subject to further improvements (which will be published in new versions). If you have feedback and suggestions to improve the annotation scheme, feel free to open a GitHub issue and/or create a pull request. 
 
 <!--
 ### Known Issues/Caveats
 -->
-
-
 
 ---
 
