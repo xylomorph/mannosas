@@ -1,0 +1,28 @@
+% Front page fragment for Quarto's include-before-body hook.
+% This file is inserted into the generated book document body, so it must not
+% declare a document class, load packages, or open/close the document.
+
+\begin{titlepage}
+\newgeometry{left=1in, right=1in, top=1in, bottom=0in}
+\pagecolor[HTML]{FFFFFF}
+\thispagestyle{empty}
+
+\begin{flushright}
+{\usekomafont{disposition}\usekomafont{section}\fontsize{52}{58}\selectfont Analysing Argumentation Structures\par}
+\vspace{0.15in}
+{\usekomafont{disposition}\usekomafont{section}\fontsize{26}{32}\selectfont A Minimalistic Annotation Scheme (v1.0)\par}
+\end{flushright}
+
+\vfill
+
+{\centering
+\begin{tikzpicture}
+\node[scope fading=softnorthfade, inner sep=0pt, outer sep=0pt]{
+	\makebox[\textwidth]{\includegraphics[width=\paperwidth]{figures/IMG_1899.JPG}}
+};
+\end{tikzpicture}
+\par}
+
+\end{titlepage}
+\nopagecolor
+\restoregeometry
