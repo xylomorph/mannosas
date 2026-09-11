@@ -1,0 +1,10 @@
+book:
+  chapters:
+    - index.qmd
+    - ch01.qmd
+    - ch02.qmd
+    - ch03.qmd
+    - ch04.qmd
+    - ch05.qmd
+    - ch06.qmd
+    - ch07.qmd

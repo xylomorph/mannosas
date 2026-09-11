@@ -1,34 +1,33 @@
 project:
   type: book
   output-dir: ../docs
+  pre-render: ../scripts/pre-render.sh
+  post-render:
+    - ../scripts/post-render.sh
+    - bash ../scripts/post-render-thumbnail.sh
+  resources:
+    - ../.nojekyll
+
+# Profile group: html is the default (quarto render / quarto preview)
+# For PDF use: quarto render --profile pdf --to pdf
+profile:
+  group:
+    - [html, pdf]
 
 book:
   title: "Analysing Argumentation Structures"
-  subtitle: "A Guideline for Annotators (v1.0)"
-  description: "These guidelines provide clarifications, maxims and hints that will help the annotator to analyse the argumentation structure in argumentative texts."
+  subtitle: "A Minimalistic Annotation Scheme for Argumentation Structures (v1.0)"
+  description: "These guidelines provide clarifications, maxims and hints that will help annotators to analyse the argumentation structure in argumentative texts."
   author: 
     - name: Sebastian Cacean
-      affiliation: 
-      - name: Karlsruhe Institute of Technology (KIT)
-        url: https://www.kit.edu/
-  date: December 1, 2024
+  date: September, 2026
   version: v1.0
   doi: xxx
-  downloads: [pdf]
+  downloads: [pdf, docx]
   sharing: [twitter, linkedin]
   site-url: https://xylomorph.github.io/caas_annotation_guidelines/
   repo-url: https://github.com/xylomorph/caas_annotation_guidelines/
   license: "CC BY"
-  chapters:
-    - index.qmd
-    - ch01.qmd
-    - ch02.qmd
-    - ch03.qmd
-    - ch04.qmd
-    - ch05.qmd
-    - ch06.qmd
-    - ch07.qmd
-    - references.qmd
   keyword: "one, two"
 
 citation: 
@@ -39,6 +38,7 @@ citation:
 google-scholar: true
 
 bibliography: references.bib
+reference-section-title: "Literature"
 
 
 format:
@@ -47,9 +47,31 @@ format:
     css: styles.css
     toc-depth: 4
     link-external-newwindow: true
+    google-scholar: true
+    
   pdf:
     documentclass: scrreprt
     pdf-engine: pdflatex
+    header-includes:
+      - \usepackage{geometry}
+      - \usepackage{afterpage}
+      - \usepackage{xcolor}
+      - \usepackage{lmodern}
+      - \usepackage{fix-cm}
+      - \usepackage{tikz}
+      - \usetikzlibrary{fadings}
+      - \usepackage{pdfpages}
+      - \AtBeginDocument{\renewcommand{\maketitle}{}} # we use a dedicated `front_page.pdf` as front
+      - \AtBeginDocument{\tikzfading[name=softnorthfade, bottom color=transparent!0, top color=transparent!85]}
+      - \usepackage{hyperref}
+      - \hypersetup{breaklinks=true, colorlinks=true, urlcolor=blue}
+      # tcolorbox (used for callouts) resets \parindent and \parskip to 0pt internally.
+      # Restore them via the `before upper` hook so that paragraph spacing inside callouts
+      # matches the main text (parskip=half) and \vspace{\parskip} works as expected.
+      - \AtBeginDocument{\tcbset{before upper={\setlength{\parindent}{0pt}\setlength{\parskip}{0.5\baselineskip}}}}
+    include-before-body:
+      - tex/frontpage.tex
+      - tex/copyrightpage.tex
   docx:
     toc: true
     number-sections: true
@@ -60,6 +82,11 @@ crossref:
     - kind: float
       reference-prefix: Example
       key: example
+      latex-env: example
+    - kind: float
+      reference-prefix: Clarification
+      key: clarification
+      latex-env: clarification
 
 tbl-cap-location: bottom
 
