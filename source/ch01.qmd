@@ -42,7 +42,7 @@ Audrey reacts to Clint's answer by demanding another justification, and Clint wi
 
 ## Reason Maps 
 
-We can thus describe the structure of the argumentation thus follows: The argumentation contains a claim for which a reason is presented, and this reason is itself backed up by an additional reason.<!--Such a structure is called *serial reasoning* since it concatenates reasons successively to each other.--> @fig-annot-guidelines-01 is a *reason map*, which visualises these reasons and their relationships to each other and to claims. As we will see, reason maps can get more complex.
+We can thus describe the structure of the argumentation as follows: The argumentation contains a claim for which a reason is presented, and this reason is itself backed up by an additional reason.<!--Such a structure is called *serial reasoning* since it concatenates reasons successively to each other.--> @fig-annot-guidelines-01 is a *reason map*, which visualises the main claim, reasons and their relationships to each other. As we will see, reason maps can get more complex.
 
 <!-- EO
 + The example as a reason map.
@@ -61,7 +61,7 @@ So far, the dialogue's argumentation structure is simple. Let us look at the fol
 
 > *Audrey:* But even if that were true, there are alternative ways to breed animals. Grass-fed meat comes from animals raised in open grass pastures and not confined to these cramped living spaces.
 >
-> *Clint:* Yes, but there are other reasons to be a vegetarian. Animal farming produces more greenhouse gas emissions than the world's entire transport system, and these greenhouse gases are causing dangerous climate change. 
+> *Clint:* Yes, but there are other reasons to be a vegetarian. Animal farming produces more greenhouse gas emissions than the world's entire transport system, and these greenhouse gases are causing a dangerous climate change. 
 
 Audrey begins by raising an objection. Similar to reasons, objections are relational: An objection is always an objection to another argumentative component and should be described in some standard form (e.g., *'x is an objection to y'*), which makes the relata of that relation explicit. Often, an objection to *y* is a reason that *y* is false or implausible. 
 
@@ -74,6 +74,6 @@ So, what is the nature and target of Audrey's objection? She does not question t
 ![Graphical representation of the dialogue's argumentation structure as a reason map.](figures/fig-annot-guidelines-02){width=75%  #fig-annot-guidelines-02}
 
 
-Objections will be visualised in a reason map by an attack relation represented by a red arrow, as illustrated in Figure @fig-annot-guidelines-02. 
+Objections will be visualised in a reason map by an attack relation represented by a red arrow, as illustrated in @fig-annot-guidelines-02. 
 
 Clint's point about greenhouse gas emissions illustrates that reason maps can be more branched than the simple serial reasoning we began with (see @fig-annot-guidelines-01). His reply to Audrey does not refute her objection ($R_3$). On the contrary, he seems to concede her point. Hence, Clint's point is not an objection to Audrey's reasons. Instead, he presents an alternative reason to the main claim as visualised in @fig-annot-guidelines-02.

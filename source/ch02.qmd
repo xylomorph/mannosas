@@ -1,4 +1,4 @@
-# Two Tasks of Analysing Argumentation Structures
+# Two Tasks of Analysing Argumentation Structures {#sec-tasks}
 
 <!-- EO
 + *Definition:* Justificatory relevance.
@@ -12,6 +12,7 @@ The simple dialogue from @sec-intro exemplifies that analysing the argumentation
 ::: {.callout-tip #tip-first-task}
 ## Annotation of argumentative unit (first task)
 You should annotate a text segment *x* as an *argumentative unit* if and only if one of the following holds:
+
 1. *x* is presented as a justification for some other text segment *y*, or
 2. *x* is the target of a justification or objection.
 :::
@@ -68,4 +69,4 @@ You may encounter the following challenges when analysing the argumentation stru
 + Third, it can be ambiguous what the target of an argumentative unit is. In other words, it can be difficult to determine which other text segment is supposed to be justified or objected to by a particular argumentative unit. In some cases, the target of a reason or objection is not even explicitly formulated in the text.
 + Finally, you may wonder whether a text segment that is formulated as a justification represents just one or several argumentative components. We will refer to this latter challenge as the *problem of reason individuation*.
 
-In the following, you will be provided with clarifications and maxims that will help you alleviate the problems of interpretive indeterminacy. First, we will better understand how to delineate argumentative units from other text segments. In other words, we will have to say more about what we mean by reasons, arguments and objections and how they can be distinguished from text segments with functions other than justifying something else (@sec-justificatory-relevance). We will then address the problem of individuating reasons (@sec-reason-individuation). Finally, we will look more closely at how to determine the targets of the support and attack relations (@sec-identifying-targets). There are also minor challenges that will be addressed in the frequently asked questions section at the end of these guidelines (@sec-freq-questions).
+In the following, you will be provided with clarifications and maxims that will help you alleviate the problems of interpretive indeterminacy. First, we will better understand how to delineate argumentative units from other text segments. In other words, we will have to say more about what we mean by reasons, arguments and objections and how they can be distinguished from text segments with functions other than justifying something else (@sec-justificatory-relevance). We will then address the problem of individuating argumentative components (@sec-reason-individuation). Finally, we will look more closely at how to determine the targets of the support and attack relations (@sec-identifying-targets). There are also minor challenges that will be addressed in the frequently asked questions section at the end of these guidelines (@sec-freq-questions).

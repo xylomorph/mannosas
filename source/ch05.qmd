@@ -3,7 +3,7 @@
 <!-- EO
 + Intro: Identification of reasons = identification of text segment that correspond to reasons.
 -->
-Categorizing *one* particular text segment as argumentative unit means categorising it as the formulation of *one* particular argumentative component. But where does the formulation of an argumentative component exactly start and end? Should we, for instance, count text segments that repeat or reformulate reasons as part of the reason's text segment itself? How do we tell apart different but similar reasons? All these questions pertain to the issue of individuating argumentative components. The following examples will motivate some tips that will help you, as an annotator, to individuate reasons. 
+Categorising *one* particular text segment as argumentative unit means categorising it as the formulation of *one* particular argumentative component. But where does the formulation of an argumentative component exactly start and end? Should we, for instance, count text segments that repeat or reformulate reasons as part of the reason's text segment itself? How do we tell apart different but similar reasons? All these questions pertain to the issue of individuating argumentative components. The following examples will motivate some tips that will help you, as an annotator, to individuate reasons. 
 
 <!-- EO
 + *Example:* Argument from evolutionary optimization [@doudna_opinion_2017].
@@ -14,7 +14,7 @@ Categorizing *one* particular text segment as argumentative unit means categoris
 
 ![An example of a reason ($R_3$) that extends over many clauses. Identified linguistic cues are underlined, and justificatory relevant text segments are highlighted.](figures/fig-annot-guides-doudna-01){width=75%  #fig-annot-guides-doudna-01}
 
-It is not difficult to determine the exact boundaries of the argumentative units in the first two paragraphs. The text snippet starts with a question, which indirectly formulates the main claim in question.^[You will find more information on indirectly and implicitly formulated claims in @sec-faq-two and @sec-implicit-claims.] We already understood the rhetorical question of the second paragraph as an objection to germline editing ($R_1$). According to this objection, germline editing will have unintended side effects that are to be expected when "human genome tinkerers" try to do better than evolution. The point about evolutionary optimisation seems important for understanding the main idea of the argument, which motivates us to consider the sentence preceding the question as part of the reason against germline editing. 
+It is not difficult to determine the exact boundaries of the argumentative units in the first two paragraphs. The text snippet starts with a question, which indirectly formulates the main claim in question.^[You will find more information on indirectly and implicitly formulated claims in @sec-faq-two and @sec-implicit-claims.] We already understood the rhetorical question of the second paragraph as an objection to germline editing ($R_1$). According to this objection, germline editing will have unintended side effects that are to be expected when "human genome tinkerers" try to do better than evolution. The point about evolutionary optimisation seems important for understanding the main idea of the argument. Accordingly, we can consider the sentence preceding the question as part of the reason against germline editing. 
 
 The third paragraph is more challenging. The author begins by making explicit her stance on the argument from evolutionary optimisation---namely, that she is not convinced by it. The first sentence does not itself formulate a reason, but it can be considered a linguistic cue that the following sentences present reasons against the argument from evolutionary optimisation. The author goes on to elaborate on two different ways in which our genome is not optimised. This and the used linguistic cue *'and'* motivate us to interpret the paragraph as formulating two different points---that is, two different objections. The first objection ($R_2$) alludes to a lack of genetic fit for our modern world and spans more than one sentence. The second objection ($R_3$) points to genetic diseases, which, according to the author, can hardly be described as the result of optimisation. We can regard all three sentences beginning with the *'and'* as relevant to understanding the main idea of the objection. The main point is that evolution is based on random genetic variations---in contrast to intentional alterations---that yield "suboptimal" outcomes at the individual level. All three sentences contribute to understanding this one point, which motivates us to consider them as formulating a single objection. Only the metaphor about looking over one's shoulder is irrelevant to the reason itself and should, consequently, not be annotated as part of the reason.
 
@@ -45,7 +45,7 @@ If sentences or subclauses must be taken together (or are intended to be taken t
 <!-- EO
    + *Another example for contiguous reason elaboration.* Objection to the argument from naturelness [@harris_pro_2018].
 -->
-In Figure @fig-annot-guide-harris-01, you will find an example that illustrates how to apply @tip-6. The main claim ($C$) is attacked by an argument from naturalness ($R_1$), which is itself the target of a presented refutation ($R_2$). According to @tip-6, we can regard all three sentences as part of a single objection to the argument from naturalness ($R_1$), since the last two sentences seem to elaborate on the objection that diseases are natural. 
+In @fig-annot-guide-harris-01, you will find an example that illustrates how to apply @tip-6. The main claim ($C$) is attacked by an argument from naturalness ($R_1$), which is itself the target of a presented refutation ($R_2$). According to @tip-6, we can regard all three sentences as part of a single objection to the argument from naturalness ($R_1$), since the last two sentences seem to elaborate on the objection that diseases are natural. 
 
 ![An example of applying @tip-6. $R_2$ corresponds to a text segment spanning over many clauses, which clarifies the main idea and relevance of $R_2$.](figures/fig-annot-guide-harris-01){width=75%  #fig-annot-guide-harris-01}
 
@@ -144,7 +144,7 @@ A reference to an argumentative component can be formulated, for instance, by us
 + *'... The most prominent objection to the argument from x is ...'*, 
 + *'All of these objections can be refuted.'*,
 *'There are two relevant arguments: the argument from x and the argument from y ...'* and 
-+ *'After clarifying the stance of y, I will analyze her strongest argument.'*
++ *'After clarifying the stance of y, I will analyse her strongest argument.'*
 
 ## Identifying Different Argumentative Components and their Relationships
 
@@ -259,7 +259,7 @@ According to this interpretation, the paragraph formulates a chain of reasons as
 
 ![Second analysis of @example-13. Applying @tip-10 reveals a support relation between the third and fourth text segment.](figures/fig-annot-guidelines-ex7-02){width=75%  #fig-annot-guidelines-ex7-02}
 
-The preliminary result is a much more adequate analysis of the argumentation structure than the first interpretation. The remaining task is to clarify the role of the text segment that precedes the *'and'*. It seems to be justificatory relevant. But so far, we have not used it in our reformulation of the reasoning structure. Additionally, we must still analyze the role of the linguistic cue *'because'*. Does it indicate a justification, a causal relationship or both? The indicator word *'and'* only suggests that the clauses that are linked together by the *'and'* are independent points. 
+The preliminary result is a much more adequate analysis of the argumentation structure than the first interpretation. The remaining task is to clarify the role of the text segment that precedes the *'and'*. It seems to be justificatory relevant. But so far, we have not used it in our reformulation of the reasoning structure. Additionally, we must still analyse the role of the linguistic cue *'because'*. Does it indicate a justification, a causal relationship or both? The indicator word *'and'* only suggests that the clauses that are linked together by the *'and'* are independent points. 
 
 Again, it might help to reformulate the presented text segment as reasons (see @tip-10). The following reformulations continue to interpret the argumentation structure as a chain of reasoning. We could ask why these students struggle at elite universities ($R_2$), and the text seems to answer by pointing to their lesser academic qualification ($R_3$); we could ask why they are less qualified, and the text seems to answer by pointing to academic challenges minorities have to face before university ($R_4$). In one of the suggested standard forms:
 
@@ -290,6 +290,6 @@ Now, it might make sense to insert another reason step $R^*$ between $C$ and $R_
 
 > Affirmative action is *not* needed *since* it is supposed to help students from racial minorities, which it doesn't. (*$C$ is not true since $R^*$*)
 
-> Affirmative action is supposed to help students from racial minorities, which it doesn't, *since* students from racial minorities would benefit from attending less challenging schools. ($R^*$ since $R_1$)
+> Affirmative action is supposed to help students from racial minorities, which it doesn't, *since* students from racial minorities would benefit from attending less challenging schools. (*$R^*$ since $R_1$*)
 
-Now, we have formulated the additional reason $R^*$ that attacks $C$ and is supported by $R^1$. However, no text segment corresponds to this reason. Faithfulness to the text demands the use of reformulations that make it possible---and preferably easy---to identify the text segments that correspond to reasons.
+Now, we have formulated the additional reason $R^*$ that attacks $C$ and is supported by $R_1$. However, no text segment corresponds to this reason. Faithfulness to the text demands the use of reformulations that make it possible---and preferably easy---to identify the text segments that correspond to reasons.

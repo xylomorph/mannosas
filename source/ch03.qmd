@@ -1,4 +1,4 @@
-# Examples Used
+# Examples Used {#sec-examples}
 
 To provide a realistic impression of how reasons are formulated in actual debates, this guideline will use examples from online articles on two debates: germline editing and affirmative action.
 

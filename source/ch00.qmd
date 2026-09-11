@@ -1,0 +1,28 @@
+# Introduction {.unnumbered}
+
+Welcome to *MAnnoSAS* (A Minimalistic Annotation Scheme for Argumentation Structures). This manual is written for annotators who will analyse argumentative texts by identifying argumentative components and the support or attack relations between them.
+
+The central challenge of this task is that argument analysis is not purely mechanical. Different competent readers can arrive at different but plausible interpretations of the same text. *MAnnoSAS* is designed to reduce this variability without demanding advanced training in argumentation theory. Its goal is not to eliminate interpretation entirely, but to narrow it in a transparent and reproducible way.
+
+In practical terms, this manual supports a reliability-oriented annotation process. You will learn how to identify argumentative units, how to decide whether one unit supports or attacks another, and how to handle difficult boundary cases that often produce disagreement across annotators.
+
+The scheme is intentionally minimalistic:
+
+- it focuses on macrostructure (how parts of a text are argumentatively connected),
+- it uses relational categories (support and attack),
+- it is non-reconstructive (you are not asked to rewrite arguments into formal premise-conclusion form).
+
+The remaining chapters are organised as a step-by-step guide:
+
+- **@sec-intro** introduces reason maps and explains how argumentation structures can be visualised.
+- **@sec-tasks** presents the two core annotation tasks: identifying argumentative units and identifying support/attack relations.
+- **@sec-examples** introduces the running examples used throughout the manual.
+- **@sec-justificatory-relevance** gives criteria for identifying argumentative units (including linguistic cues, cotext, and distinctions such as justificatory vs. explanatory reasons).
+- **@sec-reason-individuation** explains how to individuate argumentative components, including difficult cases such as reformulations and scattered components.
+- **@sec-identifying-targets** focuses on identifying the target of support and attack relations.
+- **@sec-freq-questions** answers frequently asked questions and addresses recurring annotation problems.
+
+You should treat this manual as a practical decision aid: when in doubt, follow the explicit rules and clarifications given here, and apply them consistently. 
+
+If you work through the manual in order, you will have a compact set of tools for producing annotations that are both interpretable and comparable across annotators.
+

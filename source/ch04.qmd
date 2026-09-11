@@ -5,7 +5,7 @@
    + **Clarification 1:** You do not have to evaluate presented reasons and objections.
 -->
 
-The definition of what counts as an argumentative component provided above (@tip-first-task) covers several different ways to formulate reasons and objections. The notions of reason and objection carry different connotations for different people, and some are irrelevant to the concept of *argumentative component* used in this guideline. In particular, you do not have to worry about the following aspects:
+The definition of what counts as an argumentative component provided above (@tip-first-task) covers several different ways to formulate reasons and objections. The notions of reason and objection carry different connotations for different people, and some are irrelevant to the concept of *argumentative component*. The following clarifications and tips explicate to some extent the concept of argumentative component used in this guideline. They are meant to help you identify argumentative units in a consistent way.
 
 ## The Irrelevance of Evaluating Reasons and Objections
 
@@ -32,7 +32,7 @@ Often, an author will formulate their own stance on a particular issue. They wil
 A text segment counts as an argumentative unit independent of whose reasons are presented.
 :::
 
-Consider the following example:
+@example-1 illustrates these points.
 
 ::: {#example-1}
 > Some people worry that it is impossible to obtain informed consent for germline therapy because the patients affected by the edits are the embryo and future generations. The counterargument is that parents already make many decisions that affect their future children, including similarly complicated decisions such as PGD [preimplantation genetic diagnosis] with IVF [in vitro fertilisation]. [@nhgri_what_2017]
@@ -49,6 +49,13 @@ In a similar vein, we cannot determine whether the authors want to persuade the 
 Whether a text segment formulates an argumentative component does not depend on whether the author intends to persuade the audience.
 :::
 
+<!-- XXX
+::: {.callout-note #clarification-3}
+## Clarification 3
+Whether a text segment formulates an argumentative component does not depend on whether the author intends to persuade the audience.
+:::
+-->
+
 Often, the author of an argumentative text presents reasons to persuade the audience of the author's main claims. However, an author might present reasons without such an intention. They might, for instance, seek to summarise a debate. Therefore, identifying argumentative units is independent of *why* the author presents something as a reason. 
 
 ## Oblique Reasons
@@ -59,7 +66,7 @@ Often, the author of an argumentative text presents reasons to persuade the audi
    + *Example:* Argument from naturelness and evolutional optimization (Doudna and Sternberg 2017).
 -->
 
-Consider the following example that contains two different types of indirect presentation of reasons:
+Sometimes reasons are presented in indirect ways. @example-2 illustrate this point.
 
 ::: {#example-2}
 > For many people, the very idea [of germline editing] feels unnatural and wrong, and I was one of those people when I first started thinking about the issue. Humans have been reproducing for millennia, aided only by the DNA mutations that arise naturally, and for us to begin directing the process---similar to the way that plant biologists might genetically modify corn---seems almost perverse at first glance. As National Institutes of Health director Francis Collins put it, "Evolution has been working toward optimizing the human genome for 3.85 billion years. Do we really think that some small group of human genome tinkerers could do better without all sorts of unintended consequences?" [@doudna_opinion_2017]
@@ -69,7 +76,7 @@ The first two sentences appeal to emotions. It is about what people feel towards
 
 The second reason is formulated as a rhetorical question in the last sentence. The stated reason points to the possibility of severe side effects: Germline editing will have unintended effects because human genome editing cannot be better than the evolutionary optimisation of the human genome. 
 
-Again, it is unimportant how we evaluate the argumentative strength of these reasons to categorise them as justificatory relevant (see @nte-clar-1). The example shows that reasons can be formulated indirectly, for instance, through appeals to emotion and rhetorical questions.
+Again, it is unimportant how we evaluate the argumentative strength of these reasons to categorise them as argumentative components (see @nte-clar-1). The example shows that reasons can be formulated indirectly, for instance, through appeals to emotion and rhetorical questions.
 
 ::: {.callout-note}
 ## Clarification 4
@@ -82,14 +89,14 @@ Reasons and objections can be presented indirectly.
 <!-- EO
    + **Maxim 1:** Search for linguistic cues that indicate what text segments are presented as justifications!
 -->
-How do we recognise text segments as being justificatory relevant? Often, authors employ linguistic cues to signal to the audience what they intend as a reason or an objection. 
+How do we recognise text segments as expressing argumentative components? Often, authors employ linguistic cues to signal to the audience what they intend as a reason or an objection. 
 
 ::: {#tip-1 .callout-tip}
 ## Linguistic cues
 Search for linguistic cues that indicate the formulation of argumentative components!
 :::
 
-Linguistic cues are indicator words, phrases, clauses, or whole sentences used by an author (or interlocutor) to help the audience interpret the text's (or utterance's) intended meaning. Linguistic cues for reasons and objections serve as direct or indirect signs that characterise text segments as justificatory relevant.
+Linguistic cues are indicator words, phrases, clauses, or whole sentences used by an author (or interlocutor) to help the audience interpret the text's (or utterance's) intended meaning. Linguistic cues for reasons and objections serve as direct or indirect signs that characterise text segments as argumentative units.
 
 Typical phrases that indicate a support relation between x and y include:
 
@@ -189,7 +196,7 @@ In @example-4, behaviour is explained in terms of personal preferences:
 > Some heterosexual couples may hesitate to use this option [using third-party eggs or sperm] *because* they want a child who is not just spared a deleterious gene in their lineage, but is also genetically related to both of them. [@harris_pro_2018, emphasis added]
 :::
 
-This sentence answers to the question of *why* some couples prefer not to have children that result from using third-party eggs or sperm. Again, the sentence does not contain an argumentative component, as it does not aim to justify the truth of any statement. 
+This sentence answers to the question of *why* some couples prefer not to have children that result from using third-party eggs or sperm. On its own, the sentence does not contain an argumentative component, as it does not aim to justify the truth of any statement. 
 <!-- EO
       + Difficulty of deciding on the justificatory relevance of explanatory reasons.
 -->
@@ -214,19 +221,19 @@ A similar interpretation with the second explanation is considerably less well s
 <!-- EO
          + *Example:* GE is not necessary [@harris_pro_2018].
 -->
-The following example provides cotext of the previous @example-4 and illustrates how additional information can defeat the earlier interpretation of the because-phrase as a mere explanatory reason:
+@example-4-2 provides cotext of the previous @example-4 and illustrates how additional information can defeat the earlier interpretation of the because-phrase as a mere explanatory reason.
 
 ::: {#example-4-2}
 > Would germline gene editing be justifiable, in spite of the risks, for parents who might transmit an inherited disease? It's certainly not necessary. Parents can have children unaffected by the disease they have or carry by using third-party eggs or sperm, an increasingly common way to form families. Some heterosexual couples may hesitate to use this option *because* they want a child who is not just spared a deleterious gene in their lineage, but is also genetically related to both of them. They can do that too, with the embryo screening technique called preimplantation genetic diagnosis (PGD), a widely available procedure used in conjunction with in vitro fertilization. [@harris_pro_2018, emphasis added]
 :::
 
-We already characterized the sentence containing the *'because'* as expressing an explanation of *why* some couples prefer not to use third-party eggs or sperm for their reproduction. But now, the sentence can be considered part of an argumentative unit since it is part of a complex argument against germline editing. The authors argue that germline editing is not necessary since there are other options for parents to have children without a genetic disease: There is the option to use egg or sperm donation, and another option (PDG together with IVF) for those who prefer to have a child of their genes.
+We already characterised the sentence containing the *'because'* as expressing an explanation of *why* some couples prefer not to use third-party eggs or sperm for their reproduction. But now, the sentence can be considered part of an argumentative unit since it is part of a complex argument against germline editing. The authors argue that germline editing is not necessary since there are other options for parents to have children without a genetic disease: There is the option to use egg or sperm donation, and another option (PDG together with IVF) for those who prefer to have a child of their genes.
 
 
 <!-- EO
          + *Example:* Social implication of GE [@jain_opinion_2021].
 -->
-The next example employs another linguistic cue for a causal relationship.
+@example-6 employs another linguistic cue for a causal relationship.
 
 ::: {#example-6}
 > While genetic correction poses some ethical concerns regarding which diseases and disabilities should be targeted, genetic enhancement may result in dangerous social implications. [...] For example, if parents use CRISPR to select for a specific eye color or skin tone, they will likely choose the most socially preferred traits. *As a result*, increased discrimination and prejudice may follow for those who stray from those specific traits. [@jain_opinion_2021, emphasis added]
