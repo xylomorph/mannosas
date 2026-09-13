@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="These guidelines provide clarifications, maxims and hints that will help annotators to analyse the argumentation structure in argumentative texts.">
+
+<title>4&nbsp; Identifying Argumentative Units – Analysing Argumentation Structures</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./ch05.html" rel="next">
+<link href="./ch03.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="4&nbsp; Identifying Argumentative Units – Analysing Argumentation Structures">
+<meta property="og:description" content="These guidelines provide clarifications, maxims and hints that will help annotators to analyse the argumentation structure in argumentative texts.">
+<meta property="og:image" content="https://xylomorph.github.io/mannosas/figures/featured.png">
+<meta property="og:site_name" content="Analysing Argumentation Structures">
+<meta property="og:image:height" content="998">
+<meta property="og:image:width" content="1054">
+<meta name="twitter:title" content="4&nbsp; Identifying Argumentative Units – Analysing Argumentation Structures">
+<meta name="twitter:description" content="These guidelines provide clarifications, maxims and hints that will help annotators to analyse the argumentation structure in argumentative texts.">
+<meta name="twitter:image" content="https://xylomorph.github.io/mannosas/figures/featured.png">
+<meta name="twitter:image-height" content="998">
+<meta name="twitter:image-width" content="1054">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="citation_title" content="Analysing Argumentation Structures - A Minimalistic Annotation Scheme.">
+<meta name="citation_abstract" content="These guidelines provide clarifications, maxims and hints that will help annotators to analyse the argumentation structure in argumentative texts.
+">
+<meta name="citation_author" content="Sebastian Cacean">
+<meta name="citation_publication_date" content="2026-09-11">
+<meta name="citation_cover_date" content="2026-09-11">
+<meta name="citation_year" content="2026">
+<meta name="citation_fulltext_html_url" content="https://xylomorph.github.io/mannosas/">
+<meta name="citation_doi" content="10.5281/zenodo.22709968">
+<meta name="citation_language" content="en">
+<meta name="citation_technical_report_number" content="v1.0">
+<meta name="citation_reference" content="citation_title=Opinion: Should we use gene editing to produce disease-free babies? A scientist who helped discover CRISPR weighs in.;,citation_abstract=Researchers recently reported that they were able to edit human embryos to fix a dangerous mutation. The technology is inching closer to reality, so we need to take a stand, says biochemist Jennife…;,citation_author=Jennifer A. Doudna;,citation_author=Samuel H. Sternberg;,citation_publication_date=2017-08;,citation_cover_date=2017-08;,citation_year=2017;,citation_fulltext_html_url=https://ideas.ted.com/opinion-should-we-use-gene-editing-to-produce-disease-free-babies-a-scientist-who-helped-discover-crispr-weighs-in/;,citation_language=en-US;,citation_journal_title=ideas.ted.com;">
+<meta name="citation_reference" content="citation_title=Why We Still Need Affirmative Action;,citation_abstract=Harvard University is known for many things, including its academic prestige, its use as the primary filming location of “Legally Blonde,” and its controversial affirmative action policy.&nbsp; As much as we’d love to discuss “Legally Blonde,” it’s a perfect movie that can speak for itself. Instead, we’ve decided to tackle something slightly more unpopular: that...;,citation_author=Jarom Gordon;,citation_author=Miles Wang;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_fulltext_html_url=https://www.themuseatdreyfoos.com/opinion/2019/12/09/on-affirmative-action/;,citation_journal_title=THE MUSE;">
+<meta name="citation_reference" content="citation_title=Pro and Con: Should Gene Editing Be Performed on Human Embryos?;,citation_abstract=The most potent use of the new gene editing technique CRISPR is also the most controversial: tweaking the genomes of human embryos to eliminate genes that cause disease. We don’t allow it now. Should we ever?;,citation_author=John Harris;,citation_author=Marcy Darnovsky;,citation_publication_date=2018-11;,citation_cover_date=2018-11;,citation_year=2018;,citation_fulltext_html_url=https://www.nationalgeographic.com/magazine/article/human-gene-editing-pro-con-opinions;,citation_language=en-US;,citation_journal_title=Magazine;">
+<meta name="citation_reference" content="citation_title=Opinion: CRISPR Technology Violates Informed Consent, May Usher Era of Eugenics;,citation_abstract=Gene editing has been an important biotechnological tool aimed at altering and correcting DNA. This technology could decrease risk for disease and change physical features. Due to these powerful sc…;,citation_author=Aliya Jain;,citation_publication_date=2021-05;,citation_cover_date=2021-05;,citation_year=2021;,citation_fulltext_html_url=https://bruinmedicalreview.com/2021/05/07/opinion-crispr-technology-violates-informed-consent-may-usher-era-of-eugenics/;,citation_language=en-US;,citation_journal_title=Bruin Medical Review;">
+<meta name="citation_reference" content="citation_title=What are the Ethical Concerns of Genome Editing?;,citation_abstract=Most ethical discussions about genome editing center on human germline editing because changes are passed down to future generations.;,citation_author=undefined NHGRI;,citation_publication_date=2017;,citation_cover_date=2017;,citation_year=2017;,citation_fulltext_html_url=https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/ethical-concerns;,citation_language=en-US;,citation_journal_title=Genome.gov;">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ch04.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Identifying Argumentative Units</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Analysing Argumentation Structures</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/xylomorph/mannosas/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Analysing-Argumentation-Structures.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Analysing-Argumentation-Structures.docx">
+              <i class="bi bi-file-word pe-1"></i>
+            Download Docx
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch00.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Visualising Argumentation Structures with Reason Maps</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Two Tasks of Analysing Argumentation Structures</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Examples Used</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch04.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Identifying Argumentative Units</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Individuation of Argumentative Components</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Identifying the Target of Support and Attack Relations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Frequently Asked Questions</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-irrelevance-of-evaluating-reasons-and-objections" id="toc-the-irrelevance-of-evaluating-reasons-and-objections" class="nav-link active" data-scroll-target="#the-irrelevance-of-evaluating-reasons-and-objections"><span class="header-section-number">4.1</span> The Irrelevance of Evaluating Reasons and Objections</a></li>
+  <li><a href="#the-irrelevance-of-the-authors-stance" id="toc-the-irrelevance-of-the-authors-stance" class="nav-link" data-scroll-target="#the-irrelevance-of-the-authors-stance"><span class="header-section-number">4.2</span> The Irrelevance of the Author’s Stance</a></li>
+  <li><a href="#oblique-reasons" id="toc-oblique-reasons" class="nav-link" data-scroll-target="#oblique-reasons"><span class="header-section-number">4.3</span> Oblique Reasons</a></li>
+  <li><a href="#using-linguistic-cues" id="toc-using-linguistic-cues" class="nav-link" data-scroll-target="#using-linguistic-cues"><span class="header-section-number">4.4</span> Using Linguistic Cues</a></li>
+  <li><a href="#relevance-of-the-cotext" id="toc-relevance-of-the-cotext" class="nav-link" data-scroll-target="#relevance-of-the-cotext"><span class="header-section-number">4.5</span> Relevance of the Cotext</a></li>
+  <li><a href="#justificatory-and-explanatory-reasons" id="toc-justificatory-and-explanatory-reasons" class="nav-link" data-scroll-target="#justificatory-and-explanatory-reasons"><span class="header-section-number">4.6</span> Justificatory and Explanatory Reasons</a></li>
+  <li><a href="#the-role-of-examples" id="toc-the-role-of-examples" class="nav-link" data-scroll-target="#the-role-of-examples"><span class="header-section-number">4.7</span> The Role of Examples</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Literature</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-justificatory-relevance" class="quarto-section-identifier"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Identifying Argumentative Units</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- EO
++ What is not important for justificatory relevance: 
+   + **Clarification 1:** You do not have to evaluate presented reasons and objections.
+-->
+<p>The definition of what counts as an argumentative component provided above (<a href="ch02.html#tip-first-task" class="quarto-xref">Tip&nbsp;<span>2.1</span></a>) covers several different ways to formulate reasons and objections. The notions of reason and objection carry different connotations for different people, and some are irrelevant to the concept of <em>argumentative component</em>. The following clarifications and tips explicate to some extent the concept of argumentative component used in this guideline. They are meant to help you identify argumentative units in a consistent way.</p>
+<section id="the-irrelevance-of-evaluating-reasons-and-objections" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="the-irrelevance-of-evaluating-reasons-and-objections"><span class="header-section-number">4.1</span> The Irrelevance of Evaluating Reasons and Objections</h2>
+<div id="nte-clar-1" class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note&nbsp;4.1: Clarification 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You do not have to evaluate or assess the strength of reasons and objections.</p>
+</div>
+</div>
+<!-- ToDo
+Revise: It is perhaps better to take commitments as the relevant feature (not intented meanings).
+-->
+<p>A text segment counts as an argumentative unit, regardless of whether the presented justification succeeds. It does not matter whether a presented reason is a good reason. What counts are the author’s intention and commitments. As an annotator, you only have to ask yourself whether the author meant the text segment to represent a justification or whether they are committed to it by what they said.</p>
+</section>
+<section id="the-irrelevance-of-the-authors-stance" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="the-irrelevance-of-the-authors-stance"><span class="header-section-number">4.2</span> The Irrelevance of the Author’s Stance</h2>
+<!-- EO
+   + **Clarification 2:** It is not necessarily about who puts forward a reason. 
+      + *Example:* Objection to the consent argument (NHGRI 2017).
+-->
+<p>Often, an author will formulate their own stance on a particular issue. They will present <em>their</em> arguments and possibly try to refute other’s objections to <em>their</em> position. However, you may also encounter argumentative texts in which the author presents reasons and objections without revealing their own position. An author might simply describe others’ arguments without evaluating them or revealing their own stance. Understanding the author’s stance might, in some cases, help identify the reasons presented. However, whether a text segment counts as an argumentative unit is independent of whose reasons are presented.</p>
+<div id="nte-clar-2" class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note&nbsp;4.2: Clarification 2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A text segment counts as an argumentative unit independent of whose reasons are presented.</p>
+</div>
+</div>
+<p><a href="#example-1" class="quarto-xref">Example&nbsp;<span>4.1</span></a> illustrates these points.</p>
+<div id="example-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-example figure">
+<div aria-describedby="example-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>Some people worry that it is impossible to obtain informed consent for germline therapy because the patients affected by the edits are the embryo and future generations. The counterargument is that parents already make many decisions that affect their future children, including similarly complicated decisions such as PGD [preimplantation genetic diagnosis] with IVF [in vitro fertilisation]. <span class="citation" data-cites="nhgri_what_2017">(<a href="#ref-nhgri_what_2017" role="doc-biblioref">NHGRI 2017</a>)</span></p>
+</blockquote>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-example quarto-uncaptioned" id="example-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Example&nbsp;4.1
+</figcaption>
+</figure>
+</div>
+<p>The authors do not reveal their own stance towards germline therapy. Nevertheless, we have no problems identifying text segments as argumentative units. The first sentence expresses a reason against germline therapy, and the second sentence expresses an objection to that reason. <!-- EO
+   + **Clarification 3:** It is not necessarily about persuasion.
+--> In a similar vein, we cannot determine whether the authors want to persuade the audience of something, which brings us to the following clarification.</p>
+<div id="nte-clar-3" class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note&nbsp;4.3: Clarification 3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Whether a text segment formulates an argumentative component does not depend on whether the author intends to persuade the audience.</p>
+</div>
+</div>
+<!-- XXX
+::: {.callout-note #clarification-3}
+## Clarification 3
+Whether a text segment formulates an argumentative component does not depend on whether the author intends to persuade the audience.
+:::
+-->
+<p>Often, the author of an argumentative text presents reasons to persuade the audience of the author’s main claims. However, an author might present reasons without such an intention. They might, for instance, seek to summarise a debate. Therefore, identifying argumentative units is independent of <em>why</em> the author presents something as a reason.</p>
+</section>
+<section id="oblique-reasons" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="oblique-reasons"><span class="header-section-number">4.3</span> Oblique Reasons</h2>
+<!-- EO
++ What is important for justificatory relevance:
+   + **Clarification 4:** Reasons and objections can be presented in indirect ways. 
+   + *Example:* Argument from naturelness and evolutional optimization (Doudna and Sternberg 2017).
+-->
+<p>Sometimes reasons are presented in indirect ways. <a href="#example-2" class="quarto-xref">Example&nbsp;<span>4.2</span></a> illustrate this point.</p>
+<div id="example-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-example figure">
+<div aria-describedby="example-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>For many people, the very idea [of germline editing] feels unnatural and wrong, and I was one of those people when I first started thinking about the issue. Humans have been reproducing for millennia, aided only by the DNA mutations that arise naturally, and for us to begin directing the process—similar to the way that plant biologists might genetically modify corn—seems almost perverse at first glance. As National Institutes of Health director Francis Collins put it, “Evolution has been working toward optimizing the human genome for 3.85 billion years. Do we really think that some small group of human genome tinkerers could do better without all sorts of unintended consequences?” <span class="citation" data-cites="doudna_opinion_2017">(<a href="#ref-doudna_opinion_2017" role="doc-biblioref">Doudna and Sternberg 2017</a>)</span></p>
+</blockquote>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-example quarto-uncaptioned" id="example-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Example&nbsp;4.2
+</figcaption>
+</figure>
+</div>
+<p>The first two sentences appeal to emotions. It is about what people feel towards the idea of germline editing. There is a common misconception that emotions and arguments are mutually exclusive. While it is true that emotions are no reasons on their own, emotions can express or point to reasons. The reason implicitly formulated in the snippet above is known as the argument from naturalness: we should not pursue germline editing because it is unnatural.</p>
+<p>The second reason is formulated as a rhetorical question in the last sentence. The stated reason points to the possibility of severe side effects: Germline editing will have unintended effects because human genome editing cannot be better than the evolutionary optimisation of the human genome.</p>
+<p>Again, it is unimportant how we evaluate the argumentative strength of these reasons to categorise them as argumentative components (see <a href="#nte-clar-1" class="quarto-xref">Note&nbsp;<span>4.1</span></a>). The example shows that reasons can be formulated indirectly, for instance, through appeals to emotion and rhetorical questions.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Clarification 4
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Reasons and objections can be presented indirectly.</p>
+</div>
+</div>
+</section>
+<section id="using-linguistic-cues" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="using-linguistic-cues"><span class="header-section-number">4.4</span> Using Linguistic Cues</h2>
+<!-- EO
+   + **Maxim 1:** Search for linguistic cues that indicate what text segments are presented as justifications!
+-->
+<p>How do we recognise text segments as expressing argumentative components? Often, authors employ linguistic cues to signal to the audience what they intend as a reason or an objection.</p>
+<div id="tip-1" class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip&nbsp;4.1: Linguistic cues
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Search for linguistic cues that indicate the formulation of argumentative components!</p>
+</div>
+</div>
+<p>Linguistic cues are indicator words, phrases, clauses, or whole sentences used by an author (or interlocutor) to help the audience interpret the text’s (or utterance’s) intended meaning. Linguistic cues for reasons and objections serve as direct or indirect signs that characterise text segments as argumentative units.</p>
+<p>Typical phrases that indicate a support relation between x and y include:</p>
+<ul>
+<li><em>x is true. Hence/Therefore, y.</em></li>
+<li><em>y because x.</em></li>
+<li><em>y since x.</em></li>
+<li><em>y for the reason that x.</em></li>
+<li>…</li>
+</ul>
+<p>Attack relations can be formulated, for instance, by the following phrases:</p>
+<ul>
+<li><em>x is false/implausible/irrelevant because y.</em></li>
+<li><em>x. This is obviously false since y.</em></li>
+<li><em>x. This argument is based on the assumption that …, which is false since y.</em></li>
+<li><em>An important objection to x is that y.</em></li>
+<li>…</li>
+</ul>
+<p>Often, text segments are presented as reasons by attributing claims together with their reasons and objections to specific groups or people:</p>
+<ul>
+<li><em>S argues for x by y.</em></li>
+<li><em>The main reason for x is put forward by S. According to them … y.</em></li>
+<li><em>S objects to x by saying that y.</em></li>
+<li>…</li>
+</ul>
+<!-- EO
++ Annotation of linguistic cues.
+-->
+<p>One important question is whether annotators should consider linguistic cues as part of the corresponding argumentative unit—in other words, whether annotators should count them as belonging to the formulation of reasons. There is no particular reason to do it one way or the other. However, to make the results of different annotators comparable, we should adopt one consistent rule: You should not annotate linguistic cues as part of the argumentative unit (for more details and exceptions, see <a href="ch07.html#sec-faq-seven" class="quarto-xref"><span>Section 7.2.2</span></a>). Nevertheless, <em>searching</em> for linguistic cues and <em>independently</em> annotating them is very helpful for the task of identifying argumentative units. In the following examples, we will either underline or italicise linguistic cues.</p>
+</section>
+<section id="relevance-of-the-cotext" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="relevance-of-the-cotext"><span class="header-section-number">4.5</span> Relevance of the Cotext</h2>
+<!-- EO
+   + **Maxim 2:** Consider the cotext of a text segment to decide on its justificatory relevance! (one example)
+      + *Example:* Objection to the consent argument (NHGRI 2017).
+-->
+<p>While searching for linguistic cues is an indispensable means to identify argumentative units, you cannot always count on finding informative linguistic cues. Often, linguistic cues will be amiss. Fortunately, the surrounding text—which we will refer to as cotext—will often provide enough information to decide on whether a text segment is an argumentative unit.</p>
+<!-- The cotext of a text segment $S$ in a text $T$ is $T$ minus $S$. -->
+<!--\footnote{Depending on the resources, it might even be possible to invoke contextual knowledge of $T$. The context includes every relevant knowledge to the interpretation of $T$ that is not contained in $T$. For instance, other published works of the author might be helpful in interpreting the particular text $T$. However, we assume you do not possess any particular contextual knowledge here. We even ask you not to inquire into additional contextual information to ensure that every analyst invokes roughly the same background knowledge.}-->
+<p>Let’s have a second look at <a href="#example-1" class="quarto-xref">Example&nbsp;<span>4.1</span></a>:</p>
+<blockquote class="blockquote">
+<p><em>Some people worry that</em> it is impossible to obtain informed consent for germline therapy because the patients affected by the edits are the embryo and future generations. <em>The counterargument is that</em> parents already make many decisions that affect their future children, including similarly complicated decisions such as PGD [preimplantation genetic diagnosis] with IVF [in vitro fertilization]. <span class="citation" data-cites="nhgri_what_2017">(<a href="#ref-nhgri_what_2017" role="doc-biblioref">NHGRI 2017</a>, emphasis added)</span></p>
+</blockquote>
+<p>We already characterised the first sentence as a reason against germline therapy. How do we know that? The phrase <em>‘Some people worry that x.’</em> is not a unique linguistic cue for <em>x</em> being a reason. It simply presents <em>x</em> as being a worry. But often such ascriptions serve as an indirect means of expressing a reason. In this example, the cotext—here, the second sentence—corroborates this interpretation. It contains a linguistic cue (<em>‘The counterargument is’</em>) for an attack relation. It not only tells us that the second sentence expresses an objection but that some of the preceding sentences must contain a reason to which it is an objection.</p>
+<div id="tip-2" class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip&nbsp;4.2: Cotext
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For the task of identifying argumentative units, take the cotext or even the whole text into account.</p>
+</div>
+</div>
+<!-- 
+
++ *Remark:* Holistic nature of argumentation analysis.
+
+A consequence of considering the whole text is that you might often rethink your previous categorisation of attack and support relations. A previously made decision about the justificatory relevance of a text segment might require recategorization once you read the whole text and better understand the role of other segments.
+
+-->
+<!-- EO
+   + **Maxim 3:** Consider the cotext of a linguistic cue to decide on what they signify!
+-->
+<!--
+There is another difficulty with linguistic cues besides their sometimes sparse usage by authors. You should not mindlessly follow them because they can stand for different intentions. The same linguistic cue can be used for different purposes in different contexts. Again, you have to take the cotext into account. 
+
+::: {#tip-3 .callout-tip}
+## Cotext of linguistic cues
+Consider the cotext of a linguistic cue to decide what it signifies!
+:::
+-->
+</section>
+<section id="justificatory-and-explanatory-reasons" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="justificatory-and-explanatory-reasons"><span class="header-section-number">4.6</span> Justificatory and Explanatory Reasons</h2>
+<!-- EO
+   + Distinguishing explanatory and justificatory reasons.
+-->
+<p>While you should search for linguistic cues, you have to be careful when interpreting them. The same phrase can be utilised for different purposes in different contexts. A prevalent example is the phrase <em>‘x because y’</em>. Sometimes it will signpost a presented justification, but sometimes it will be used to formulate an explanation without any justificatory relevance. Consequently, we have to distinguish between <em>justificatory reasons</em> and <em>explanatory reasons</em>. Up until now, we have only considered justificatory reasons—that is, reasons that are presented as justifications for some other statement. In contrast to justificatory reasons, explanatory reasons provide explanations.</p>
+<p>The relevant difference between the two concepts can be explained in terms of the questions they answer. Justifications for <em>x</em> answer to the question <em>‘Is x true?’</em>; explanations for <em>x</em> answer to questions such as <em>‘Why is x true?’</em>, <em>‘What is the explanation for x?’</em> or <em>‘What is meant with x?’</em> A justification for <em>x</em> is usually formulated to convince the audience that <em>x</em> is true. In this case, the author assumes that the audience needs to be convinced of <em>x</em> and provides reasons that justify the truth of <em>x</em>. An explanation for <em>x</em> is used for different purposes. It can be offered to inform the audience about the cause of <em>x</em>, or it can explain the meaning of <em>x</em>. In contrast to a justification, an explanation for <em>x</em> does not aim to establish the truth of <em>x</em>. The truth is either presupposed or simply not the issue at stake.</p>
+<!-- EO
+      + *Example:* Cause of differences in net worth between black and white houshold [@gordon_why_2019].
+   + *Example:* Parent might prefer to have own chidlren [@harris_pro_2018].
+-->
+<p>The following examples illustrate different types of explanatory reasons. In <a href="#example-3" class="quarto-xref">Example&nbsp;<span>4.3</span></a>, the because-phrase expresses a <em>causal explanation:</em></p>
+<div id="example-3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-example figure">
+<div aria-describedby="example-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>Meanwhile, the average white household has a net worth 13 times that of the average black household and 10 times that of the average Hispanic household, largely <em>because</em> whites inherit greater generational wealth. <span class="citation" data-cites="gordon_why_2019">(<a href="#ref-gordon_why_2019" role="doc-biblioref">Gordon and Wang 2019</a>, emphasis added)</span></p>
+</blockquote>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-example quarto-uncaptioned" id="example-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Example&nbsp;4.3
+</figcaption>
+</figure>
+</div>
+<p>The example formulates a causal explanation in terms of cause and effect: The inheritance of greater wealth in white households is offered as a cause for why the average net worth of white households exceeds that of black and Hispanic households. We can think of this sentence as an answer to why white households exhibit a higher average net worth. Consequently, the sentence does not formulate an argumentative component.</p>
+<p>In <a href="#example-4" class="quarto-xref">Example&nbsp;<span>4.4</span></a>, behaviour is explained in terms of personal preferences:</p>
+<div id="example-4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-example figure">
+<div aria-describedby="example-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>Some heterosexual couples may hesitate to use this option [using third-party eggs or sperm] <em>because</em> they want a child who is not just spared a deleterious gene in their lineage, but is also genetically related to both of them. <span class="citation" data-cites="harris_pro_2018">(<a href="#ref-harris_pro_2018" role="doc-biblioref">Harris and Darnovsky 2018</a>, emphasis added)</span></p>
+</blockquote>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-example quarto-uncaptioned" id="example-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Example&nbsp;4.4
+</figcaption>
+</figure>
+</div>
+<p>This sentence answers to the question of <em>why</em> some couples prefer not to have children that result from using third-party eggs or sperm. On its own, the sentence does not contain an argumentative component, as it does not aim to justify the truth of any statement. <!-- EO
+      + Difficulty of deciding on the justificatory relevance of explanatory reasons.
+--></p>
+<p>Unfortunately, it can get more complicated. Even if a statement formulates an explanatory reason, it can be an argumentative unit at the same time. <!-- There are several difficulties: A text segment can express both a justificatory and an explanatory reason at the same time. Another difficulty is that statements that express a causal explanation can be used to justify another statement. Alternatively, a text segment might elaborate on the meaning of some other text segment that is meant as a justification.--> There are no clear-cut rules for the interpretation of such cases, as <a href="#example-5" class="quarto-xref">Example&nbsp;<span>4.5</span></a> illustrates:</p>
+<!-- EO
+         + *Example:* Religions on embryo experimentation [@doudna_opinion_2017].
+-->
+<div id="example-5" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-example figure">
+<div aria-describedby="example-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>When it comes to experimentation with human embryos, some Christian communities are opposed <em>because</em> they regard the embryo as a person from conception, whereas Jewish and Muslim traditions tend to be more accepting <em>because</em> they do not consider embryos created in vitro to be people. <span class="citation" data-cites="doudna_opinion_2017">(<a href="#ref-doudna_opinion_2017" role="doc-biblioref">Doudna and Sternberg 2017</a>, emphasis added)</span></p>
+</blockquote>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-example quarto-uncaptioned" id="example-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Example&nbsp;4.5
+</figcaption>
+</figure>
+</div>
+<p>The two occurrences of the linguistic cue <em>‘because’</em> signal explanatory reasons in this example. The sentence offers explanations for the attitudes of different religious communities towards germline editing on embryos for research purposes. It explains these attitudes in terms of beliefs about the status of embryos. The first part of the sentence explains why Christians are against such experimentation, and the second why Jews and Muslims are “more accepting”.</p>
+<p>Additionally, we can plausibly reconstruct the Christians’ belief as a reason justifying their attitude. It tells us not only <em>why</em> they are opposed to germline editing but makes it plausible to reconstruct how they might justify their stance. Christians would justify the prohibition of such research with the status of embryos as persons.</p>
+<p>A similar interpretation with the second explanation is considerably less well supported. While it similarly explains Jews’ and Muslims’ stance toward the status of the embryo, their position toward germline editing remains somewhat vague. “more accepting” is comparative and underspecified. Even if they reject the personhood claim, it does not follow that they thereby endorse experimentation. Consequently, it remains far more speculative whether they regard the embryo’s status as a reason for their stance. We only learn that their belief about the status of the embryo is <em>not a reason against</em> germline editing.</p>
+<p><a href="#example-5" class="quarto-xref">Example&nbsp;<span>4.5</span></a> also illustrates that identification of argumentative units can be interpretatively underdetermined. The identification of explanatory reasons in <a href="#example-5" class="quarto-xref">Example&nbsp;<span>4.5</span></a> is relatively unproblematic. However, their classification or reconstruction as argumentative units is, to some extent, speculative.</p>
+<!-- EO
+         + *Example:* GE is not necessary [@harris_pro_2018].
+-->
+<p><a href="#example-4-2" class="quarto-xref">Example&nbsp;<span>4.6</span></a> provides cotext of the previous <a href="#example-4" class="quarto-xref">Example&nbsp;<span>4.4</span></a> and illustrates how additional information can defeat the earlier interpretation of the because-phrase as a mere explanatory reason.</p>
+<div id="example-4-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-example figure">
+<div aria-describedby="example-4-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>Would germline gene editing be justifiable, in spite of the risks, for parents who might transmit an inherited disease? It’s certainly not necessary. Parents can have children unaffected by the disease they have or carry by using third-party eggs or sperm, an increasingly common way to form families. Some heterosexual couples may hesitate to use this option <em>because</em> they want a child who is not just spared a deleterious gene in their lineage, but is also genetically related to both of them. They can do that too, with the embryo screening technique called preimplantation genetic diagnosis (PGD), a widely available procedure used in conjunction with in vitro fertilization. <span class="citation" data-cites="harris_pro_2018">(<a href="#ref-harris_pro_2018" role="doc-biblioref">Harris and Darnovsky 2018</a>, emphasis added)</span></p>
+</blockquote>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-example quarto-uncaptioned" id="example-4-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Example&nbsp;4.6
+</figcaption>
+</figure>
+</div>
+<p>We already characterised the sentence containing the <em>‘because’</em> as expressing an explanation of <em>why</em> some couples prefer not to use third-party eggs or sperm for their reproduction. But now, the sentence can be considered part of an argumentative unit since it is part of a complex argument against germline editing. The authors argue that germline editing is not necessary since there are other options for parents to have children without a genetic disease: There is the option to use egg or sperm donation, and another option (PDG together with IVF) for those who prefer to have a child of their genes.</p>
+<!-- EO
+         + *Example:* Social implication of GE [@jain_opinion_2021].
+-->
+<p><a href="#example-6" class="quarto-xref">Example&nbsp;<span>4.7</span></a> employs another linguistic cue for a causal relationship.</p>
+<div id="example-6" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-example figure">
+<div aria-describedby="example-6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>While genetic correction poses some ethical concerns regarding which diseases and disabilities should be targeted, genetic enhancement may result in dangerous social implications. […] For example, if parents use CRISPR to select for a specific eye color or skin tone, they will likely choose the most socially preferred traits. <em>As a result</em>, increased discrimination and prejudice may follow for those who stray from those specific traits. <span class="citation" data-cites="jain_opinion_2021">(<a href="#ref-jain_opinion_2021" role="doc-biblioref">Jain 2021</a>, emphasis added)</span></p>
+</blockquote>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-example quarto-uncaptioned" id="example-6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Example&nbsp;4.7
+</figcaption>
+</figure>
+</div>
+<p>The phrase <em>‘as a result’</em> characterises increased discrimination and prejudice as a causal effect of parents selecting socially preferred traits if they were at liberty to choose the genetic makeup of their offspring. Again, the causal explanation is justificatory relevant since the causal statement enters into reasoning against using germline editing for enhancement purposes. According to this argumentation, we should refrain from using germline editing because of a causal relationship—namely, that enhancement would lead to increased discrimination.</p>
+<!-- EO
+      + **Maxim 4:** Be aware of the difference between justificatory and explanatory reasons! Use linguistic cues and the cotext to decide whether explanations are justificatory relevant!
+-->
+<p>These examples suggest that the question of whether explanations are justificatory relevant cannot be answered in general. The surrounding text must be taken into account, and there might be different but equally valid interpretations.</p>
+<div id="tip-4" class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip&nbsp;4.3: Justificatory vs explanatory reasons
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Be aware of the difference between justificatory and explanatory reasons. Use linguistic cues and the cotext to decide whether explanations are justificatory relevant.</p>
+</div>
+</div>
+</section>
+<section id="the-role-of-examples" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="the-role-of-examples"><span class="header-section-number">4.7</span> The Role of Examples</h2>
+<!-- EO
+   + Distinguishing mere illustrative or elaborative examples from examples that have a justificatory role.
+-->
+<p>Examples are often formulated with linguistic cues such as <em>‘for instance,…’</em> and <em>‘for example,…’</em>. Often, they are used to illustrate or elaborate on a statement without being (part of) an argumentative component. However, they can also be used to justify a statement.</p>
+<p>How do we decide whether a formulated example is intended as a justification? An example is justificatory relevant only if there is a statement that is supposed to be justified with the example. For instance, propositions that claim the existence of something are typically justified by providing an example that corresponds to an instance of what is claimed to exist.</p>
+<!-- EO
+      + **Maxim 5:** To decide on the justificatory relevance of examples, try to identify text segments that are supposed to be justified with the example.
+-->
+<div id="tip-5" class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip&nbsp;4.4: Examples
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To assess the justificatory relevance of examples, identify text segments that are meant to be justified by the example.</p>
+</div>
+</div>
+<p>Take the example we’ve just discussed (<a href="#example-6" class="quarto-xref">Example&nbsp;<span>4.7</span></a>):</p>
+<blockquote class="blockquote">
+<p>While genetic correction poses some ethical concerns regarding which diseases and disabilities should be targeted, genetic enhancement may result in dangerous social implications. […] <em>For example</em>, if parents use CRISPR to select for a specific eye color or skin tone, they will likely choose the most socially preferred traits. As a result, increased discrimination and prejudice may follow for those who stray from those specific traits. <span class="citation" data-cites="jain_opinion_2021">(<a href="#ref-jain_opinion_2021" role="doc-biblioref">Jain 2021</a>, emphasis added)</span></p>
+</blockquote>
+<p>The first sentence claims the existence of possible dangerous social implications. Such an existential proposition can be justified by providing an instance of what it claims to exist. The example introduced with the linguistic cue <em>‘for example’</em> is presented as an attempt to do precisely that. It claims the possibility of increased discrimination and prejudice as a dangerous social consequence. The example is, therefore, presented as a justification for the existential claim.</p>
+
+
+</section>
+<section id="bibliography" class="level1 unnumbered">
+<h1 class="unnumbered">Literature</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-doudna_opinion_2017" class="csl-entry" role="listitem">
+Doudna, Jennifer A., and Samuel H. Sternberg. 2017. <span>“Opinion: <span>Should</span> We Use Gene Editing to Produce Disease-Free Babies? <span>A</span> Scientist Who Helped Discover <span>CRISPR</span> Weighs In.”</span> In <em>Ideas.ted.com</em>. <a href="https://ideas.ted.com/opinion-should-we-use-gene-editing-to-produce-disease-free-babies-a-scientist-who-helped-discover-crispr-weighs-in/">https://ideas.ted.com/opinion-should-we-use-gene-editing-to-produce-disease-free-babies-a-scientist-who-helped-discover-crispr-weighs-in/</a>.
+</div>
+<div id="ref-gordon_why_2019" class="csl-entry" role="listitem">
+Gordon, Jarom, and Miles Wang. 2019. <span>“Why <span>We Still Need Affirmative Action</span>.”</span> OPINION in <em>THE MUSE</em>. <a href="https://www.themuseatdreyfoos.com/opinion/2019/12/09/on-affirmative-action/">https://www.themuseatdreyfoos.com/opinion/2019/12/09/on-affirmative-action/</a>.
+</div>
+<div id="ref-harris_pro_2018" class="csl-entry" role="listitem">
+Harris, John, and Marcy Darnovsky. 2018. <span>“Pro and <span>Con</span>: <span>Should Gene Editing Be Performed</span> on <span>Human Embryos</span>?”</span> Magazine in <em>Magazine</em>. <a href="https://www.nationalgeographic.com/magazine/article/human-gene-editing-pro-con-opinions">https://www.nationalgeographic.com/magazine/article/human-gene-editing-pro-con-opinions</a>.
+</div>
+<div id="ref-jain_opinion_2021" class="csl-entry" role="listitem">
+Jain, Aliya. 2021. <span>“Opinion: <span>CRISPR Technology Violates Informed Consent</span>, <span>May Usher Era</span> of <span>Eugenics</span>.”</span> In <em>Bruin Medical Review</em>. <a href="https://bruinmedicalreview.com/2021/05/07/opinion-crispr-technology-violates-informed-consent-may-usher-era-of-eugenics/">https://bruinmedicalreview.com/2021/05/07/opinion-crispr-technology-violates-informed-consent-may-usher-era-of-eugenics/</a>.
+</div>
+<div id="ref-nhgri_what_2017" class="csl-entry" role="listitem">
+NHGRI. 2017. <span>“What Are the <span>Ethical Concerns</span> of <span>Genome Editing</span>?”</span> In <em>Genome.gov</em>. <a href="https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/ethical-concerns">https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/ethical-concerns</a>.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/xylomorph\.github\.io\/mannosas\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./ch03.html" class="pagination-link" aria-label="Examples Used">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Examples Used</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./ch05.html" class="pagination-link" aria-label="Individuation of Argumentative Components">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Individuation of Argumentative Components</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

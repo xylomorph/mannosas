@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="These guidelines provide clarifications, maxims and hints that will help annotators to analyse the argumentation structure in argumentative texts.">
+
+<title>2&nbsp; Two Tasks of Analysing Argumentation Structures – Analysing Argumentation Structures</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./ch03.html" rel="next">
+<link href="./ch01.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="2&nbsp; Two Tasks of Analysing Argumentation Structures – Analysing Argumentation Structures">
+<meta property="og:description" content="These guidelines provide clarifications, maxims and hints that will help annotators to analyse the argumentation structure in argumentative texts.">
+<meta property="og:image" content="https://xylomorph.github.io/mannosas/figures/featured.png">
+<meta property="og:site_name" content="Analysing Argumentation Structures">
+<meta property="og:image:height" content="998">
+<meta property="og:image:width" content="1054">
+<meta name="twitter:title" content="2&nbsp; Two Tasks of Analysing Argumentation Structures – Analysing Argumentation Structures">
+<meta name="twitter:description" content="These guidelines provide clarifications, maxims and hints that will help annotators to analyse the argumentation structure in argumentative texts.">
+<meta name="twitter:image" content="https://xylomorph.github.io/mannosas/figures/featured.png">
+<meta name="twitter:image-height" content="998">
+<meta name="twitter:image-width" content="1054">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="citation_title" content="Analysing Argumentation Structures - A Minimalistic Annotation Scheme.">
+<meta name="citation_abstract" content="These guidelines provide clarifications, maxims and hints that will help annotators to analyse the argumentation structure in argumentative texts.
+">
+<meta name="citation_author" content="Sebastian Cacean">
+<meta name="citation_publication_date" content="2026-09-11">
+<meta name="citation_cover_date" content="2026-09-11">
+<meta name="citation_year" content="2026">
+<meta name="citation_fulltext_html_url" content="https://xylomorph.github.io/mannosas/">
+<meta name="citation_doi" content="10.5281/zenodo.22709968">
+<meta name="citation_language" content="en">
+<meta name="citation_technical_report_number" content="v1.0">
+<meta name="citation_reference" content="citation_title=Opinion: Should we use gene editing to produce disease-free babies? A scientist who helped discover CRISPR weighs in.;,citation_abstract=Researchers recently reported that they were able to edit human embryos to fix a dangerous mutation. The technology is inching closer to reality, so we need to take a stand, says biochemist Jennife…;,citation_author=Jennifer A. Doudna;,citation_author=Samuel H. Sternberg;,citation_publication_date=2017-08;,citation_cover_date=2017-08;,citation_year=2017;,citation_fulltext_html_url=https://ideas.ted.com/opinion-should-we-use-gene-editing-to-produce-disease-free-babies-a-scientist-who-helped-discover-crispr-weighs-in/;,citation_language=en-US;,citation_journal_title=ideas.ted.com;">
+<meta name="citation_reference" content="citation_title=Why We Still Need Affirmative Action;,citation_abstract=Harvard University is known for many things, including its academic prestige, its use as the primary filming location of “Legally Blonde,” and its controversial affirmative action policy.&nbsp; As much as we’d love to discuss “Legally Blonde,” it’s a perfect movie that can speak for itself. Instead, we’ve decided to tackle something slightly more unpopular: that...;,citation_author=Jarom Gordon;,citation_author=Miles Wang;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_fulltext_html_url=https://www.themuseatdreyfoos.com/opinion/2019/12/09/on-affirmative-action/;,citation_journal_title=THE MUSE;">
+<meta name="citation_reference" content="citation_title=Pro and Con: Should Gene Editing Be Performed on Human Embryos?;,citation_abstract=The most potent use of the new gene editing technique CRISPR is also the most controversial: tweaking the genomes of human embryos to eliminate genes that cause disease. We don’t allow it now. Should we ever?;,citation_author=John Harris;,citation_author=Marcy Darnovsky;,citation_publication_date=2018-11;,citation_cover_date=2018-11;,citation_year=2018;,citation_fulltext_html_url=https://www.nationalgeographic.com/magazine/article/human-gene-editing-pro-con-opinions;,citation_language=en-US;,citation_journal_title=Magazine;">
+<meta name="citation_reference" content="citation_title=Opinion: CRISPR Technology Violates Informed Consent, May Usher Era of Eugenics;,citation_abstract=Gene editing has been an important biotechnological tool aimed at altering and correcting DNA. This technology could decrease risk for disease and change physical features. Due to these powerful sc…;,citation_author=Aliya Jain;,citation_publication_date=2021-05;,citation_cover_date=2021-05;,citation_year=2021;,citation_fulltext_html_url=https://bruinmedicalreview.com/2021/05/07/opinion-crispr-technology-violates-informed-consent-may-usher-era-of-eugenics/;,citation_language=en-US;,citation_journal_title=Bruin Medical Review;">
+<meta name="citation_reference" content="citation_title=What are the Ethical Concerns of Genome Editing?;,citation_abstract=Most ethical discussions about genome editing center on human germline editing because changes are passed down to future generations.;,citation_author=undefined NHGRI;,citation_publication_date=2017;,citation_cover_date=2017;,citation_year=2017;,citation_fulltext_html_url=https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/ethical-concerns;,citation_language=en-US;,citation_journal_title=Genome.gov;">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ch02.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Two Tasks of Analysing Argumentation Structures</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Analysing Argumentation Structures</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/xylomorph/mannosas/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Analysing-Argumentation-Structures.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Analysing-Argumentation-Structures.docx">
+              <i class="bi bi-file-word pe-1"></i>
+            Download Docx
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch00.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Visualising Argumentation Structures with Reason Maps</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch02.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Two Tasks of Analysing Argumentation Structures</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Examples Used</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Identifying Argumentative Units</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Individuation of Argumentative Components</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Identifying the Target of Support and Attack Relations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ch07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Frequently Asked Questions</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#identifying-argumentative-units" id="toc-identifying-argumentative-units" class="nav-link active" data-scroll-target="#identifying-argumentative-units"><span class="header-section-number">2.1</span> Identifying Argumentative Units</a></li>
+  <li><a href="#identifying-support-and-attack-relations" id="toc-identifying-support-and-attack-relations" class="nav-link" data-scroll-target="#identifying-support-and-attack-relations"><span class="header-section-number">2.2</span> Identifying Support and Attack Relations</a></li>
+  <li><a href="#challenges-in-annotating-argumentation-structures" id="toc-challenges-in-annotating-argumentation-structures" class="nav-link" data-scroll-target="#challenges-in-annotating-argumentation-structures"><span class="header-section-number">2.3</span> Challenges in Annotating Argumentation Structures</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-tasks" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Two Tasks of Analysing Argumentation Structures</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- EO
++ *Definition:* Justificatory relevance.
++ Two tasks of annotating argumentation structure: 
+   1. Annotation of text segment as justificatory relevant.
+-->
+<p>The simple dialogue from <a href="ch01.html" class="quarto-xref"><span>Chapter 1</span></a> exemplifies that analysing the argumentation structure of a text involves two interdependent tasks: The annotation of text segments as argumentative components (i.e., the identification of argumentative units) and the categorisation of their interrelationships as support and attack relations.</p>
+<section id="identifying-argumentative-units" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="identifying-argumentative-units"><span class="header-section-number">2.1</span> Identifying Argumentative Units</h2>
+<div id="tip-first-task" class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip&nbsp;2.1: Annotation of argumentative unit (first task)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You should annotate a text segment <em>x</em> as an <em>argumentative unit</em> if and only if one of the following holds:</p>
+<ol type="1">
+<li><em>x</em> is presented as a justification for some other text segment <em>y</em>, or</li>
+<li><em>x</em> is the target of a justification or objection.</li>
+</ol>
+</div>
+</div>
+<p>Text segments that are formulated as arguments, reasons, objections, and refutations (i.e., argumentative components) are argumentative units. Text segments that are formulated with another function (e.g., as a question, an explanation, a description, a narrative, etc.) are not argumentative units. For instance, Audrey’s critical questions are not argumentative units since they do not formulate reasons or objections on their own. But Clint’s replies are argumentative units. Similarly, text segments that are the target of arguments, reasons, objections and refutations are argumentative units. While Clint’s first statement (“I think we should all follow a vegetarian lifestyle.”) is not presented as a justification for some claim, other statements are presented as a justification for it.</p>
+<!--
+In what follows, we will often refer to o of reasons since objections and refutations can always be understood as *reasons against* something. If *x* is an objection to *y*, it can usually be understood as a reason that *y* is false, implausible, not acceptable, irrelevant or something similar. Additionally, we will neither distinguish between reasons and arguments on the one hand nor between different kinds of objections on the other hand.
+-->
+<p>As the above example (see <a href="ch01.html#fig-annot-guidelines-02" class="quarto-xref">Figure&nbsp;<span>1.2</span></a>) illustrates, an argumentative component can be the source <em>and</em> the target of argumentative relations. In other words, an argumentative unit can be presented as a justification for some other argumentative unit, and, at the same time, there can be another argumentative unit that is presented as a justification for it. For instance, in <a href="ch01.html#fig-annot-guidelines-02" class="quarto-xref">Figure&nbsp;<span>1.2</span></a> <span class="math inline">\(R_1\)</span> is presented as a reason for the main claim and is, additionally, justified by <span class="math inline">\(R_2\)</span>.</p>
+<p>Statements that are neither presented as a justification nor as an objection, but that are the target of a justification or objection, are also argumentative units. For instance, in <a href="ch01.html#fig-annot-guidelines-02" class="quarto-xref">Figure&nbsp;<span>1.2</span></a>, the main claim is not presented as a justification for another statement but is the target of two reasons (<span class="math inline">\(R_1\)</span> and <span class="math inline">\(R_4\)</span>). In the following, we will refer to argumentative components that have only incoming relations but no outgoing relations as <em>claims</em> or <em>main claims</em>.</p>
+<p>It is also important to keep in mind that identifying argumentative units requires understanding the author’s intentions and commitments. It is about understanding what is <em>presented</em> as a justification—independent of how you or someone else would evaluate the success of this presented justification.</p>
+<p>Finally, annotating argumentative units requires the individuation of argumentative components. As an annotator, you have to determine the start and endpoint of an argumentative unit by highlighting the corresponding text segment in some way. Argumentative units can encompass sentences, clauses or even smaller units, but they will not split words. Each argumentative unit should correspond to exactly one argumentative component. If a longer text segment formulates more than one argumentative component, you have to split up the longer text segment into smaller units.</p>
+</section>
+<section id="identifying-support-and-attack-relations" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="identifying-support-and-attack-relations"><span class="header-section-number">2.2</span> Identifying Support and Attack Relations</h2>
+<!-- EO
+   2. Determination of the justificatory role of justificatory relevant text segments (type and target).
+-->
+<p>The first task (<a href="#tip-first-task" class="quarto-xref">Tip&nbsp;<span>2.1</span></a>) is the annotation of argumentative units; the second is the categorisation of their interrelationships by using attack and support relations.</p>
+<div id="tip-second-task" class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip&nbsp;2.2: Identifying support and attack relations (second task)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Categorise for each argumentative unit its ingoing and outgoing support and attack relations.</p>
+</div>
+</div>
+<p>A text segment is an argumentative unit to the extent that it is presented as a reason (or objection) for some other text segment or as the target of a reason (or objection). As annotator, you have to categorise argumentative units as targets or sources of these relations and you should only use <strong>two relations:</strong></p>
+<ol type="1">
+<li><strong>Support relation:</strong> If an argumentative unit <em>x</em> is presented as justification for some other text segment <em>y</em>, we will categorise this justificatory relation as a<em>support relation</em> between <em>x</em> and <em>y</em> (represented by a green arrow from <em>x</em> to <em>y</em>),</li>
+<li><strong>Attack relation:</strong> If an argumentative unit <em>x</em> is being presented as an objection or refutation of some other text segment <em>y</em>, we will categorise this justificatory relation as an <em>attack relation</em> between <em>x</em> and <em>y</em> (represented by a red arrow from <em>x</em> to <em>y</em>).</li>
+</ol>
+<div id="fig-annot-guidelines-03" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-annot-guidelines-03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/fig-annot-guidelines-03.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-annot-guidelines-03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.1: A schematic example of annotating the argumentation structure of a text. There are five argumentative units: The first one represents the main claim (<span class="math inline">\(C\)</span>), which is supported by two reasons that are formulated by the second (<span class="math inline">\(R_1\)</span>) and the fifth text segment (<span class="math inline">\(R_4\)</span>). Both the third (<span class="math inline">\(R_2\)</span>) and the fourth text segment (<span class="math inline">\(R_3\)</span>) represent reasons against—that is, objections to the supporting reason <span class="math inline">\(R_1\)</span>.
+</figcaption>
+</figure>
+</div>
+<p><a href="#fig-annot-guidelines-03" class="quarto-xref">Figure&nbsp;<span>2.1</span></a> schematically illustrates the result of completing both tasks: an annotated text with identified argumentative units and with a categorisation of their interrelationships by support and attack relations.</p>
+</section>
+<section id="challenges-in-annotating-argumentation-structures" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="challenges-in-annotating-argumentation-structures"><span class="header-section-number">2.3</span> Challenges in Annotating Argumentation Structures</h2>
+<!-- EO
++ Interpretational nature of analysing argumentation structure.
+-->
+<p>To analyse the argumentation structure of a text, you have to understand the conveyed meaning of the text. Since understanding a text’s meaning is, to some extent, subjective and can differ from person to person, analysing the text’s argumentation structure is also a process of interpretation that may allow for different interpretations. In other words, the analysis of argumentation structures is interpretational in nature.</p>
+<!-- EO
++ Typical challenges of annotating the argumentation structure.
+-->
+<p>You may encounter the following challenges when analysing the argumentation structure of a text:</p>
+<ul>
+<li>First, you may find it difficult to decide whether a particular text segment is meant as a reason, objection or something else. Text segments often serve functions beyond simply formulating reasons and objections. The line between argumentative units and other types of text segments is blurry and continuous.</li>
+<li>Second, it can be unclear to identify the exact beginning and end point of an argumentative unit.</li>
+<li>Third, it can be ambiguous what the target of an argumentative unit is. In other words, it can be difficult to determine which other text segment is supposed to be justified or objected to by a particular argumentative unit. In some cases, the target of a reason or objection is not even explicitly formulated in the text.</li>
+<li>Finally, you may wonder whether a text segment that is formulated as a justification represents just one or several argumentative components. We will refer to this latter challenge as the <em>problem of reason individuation</em>.</li>
+</ul>
+<p>In the following, you will be provided with clarifications and maxims that will help you alleviate the problems of interpretive indeterminacy. First, we will better understand how to delineate argumentative units from other text segments. In other words, we will have to say more about what we mean by reasons, arguments and objections and how they can be distinguished from text segments with functions other than justifying something else (<a href="ch04.html" class="quarto-xref"><span>Chapter 4</span></a>). We will then address the problem of individuating argumentative components (<a href="ch05.html" class="quarto-xref"><span>Chapter 5</span></a>). Finally, we will look more closely at how to determine the targets of the support and attack relations (<a href="ch06.html" class="quarto-xref"><span>Chapter 6</span></a>). There are also minor challenges that will be addressed in the frequently asked questions section at the end of these guidelines (<a href="ch07.html" class="quarto-xref"><span>Chapter 7</span></a>).</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/xylomorph\.github\.io\/mannosas\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./ch01.html" class="pagination-link" aria-label="Visualising Argumentation Structures with Reason Maps">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Visualising Argumentation Structures with Reason Maps</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./ch03.html" class="pagination-link" aria-label="Examples Used">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Examples Used</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

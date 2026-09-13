@@ -1,0 +1,29 @@
+/* Keep the quote text in custom "Example" floats left-aligned. */
+.quarto-float-example blockquote,
+.quarto-float-example blockquote p {
+  text-align: left;
+}
+
+/* Float an element to the right so that surrounding text wraps around it.
+   On small screens the float is removed and the element is centered above the text. */
+.float-right {
+  float: right;
+  margin-left: 24px;
+  margin-bottom: 12px;
+}
+
+.float-right img {
+  display: block;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .float-right {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+  .funding-logo {
+    margin: 0 auto 24px auto;
+  }
+}
