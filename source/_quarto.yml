@@ -20,20 +20,33 @@ book:
   description: "These guidelines provide clarifications, maxims and hints that will help annotators to analyse the argumentation structure in argumentative texts."
   author: 
     - name: Sebastian Cacean
-  date: September, 2026
+  date: 2026-09-11
   version: v1.0
-  doi: xxx
+  doi: 10.5281/zenodo.22709968
   downloads: [pdf, docx]
   sharing: [twitter, linkedin]
-  site-url: https://xylomorph.github.io/caas_annotation_guidelines/
-  repo-url: https://github.com/xylomorph/caas_annotation_guidelines/
-  license: "CC BY"
-  keyword: "one, two"
+  site-url: https://sebastiancacean.de/mannosas/
+  repo-url: https://github.com/xylomorph/mannosas/
+  license: "CC BY 4.0"
+  keyword: "argument analysis, argument mapping, content analysis, argument annotation, argument mining, argumentation"
+  # chapters are defined per-profile in _quarto-html.yml and _quarto-pdf.yml
+  twitter-card:
+    image: figures/featured.png
+  open-graph:
+    image: figures/featured.png
+
 
 citation: 
   type: report
-  url: https://xylomorph.github.io/caas_annotation_guidelines/
-  doi: xxx
+  url: https://sebastiancacean.de/mannosas/
+  doi: 10.5281/zenodo.22709968
+  title: "Analysing Argumentation Structures - A Minimalistic Annotation Scheme."
+  author: "Sebastian Cacean"
+  issued: "2026-09-11"
+  number: "v1.0"
+  abstract: |
+    These guidelines provide clarifications, maxims and hints that will help annotators to analyse the argumentation structure in argumentative texts.
+
 
 google-scholar: true
 
