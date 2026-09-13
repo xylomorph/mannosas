@@ -32,9 +32,9 @@ BibTeX citation:
   author = {Cacean, Sebastian},
   year = {2026},
   month = september,
-  doi = {xxx},
+  doi = {10.5281/zenodo.22709968},
   langid = {english},
-  url = {xxx},
+  url = {https://sebastiancacean.de/mannosas/},
 }
 ```
 
@@ -43,7 +43,7 @@ BibTeX citation:
 
 ## For attribution, please cite this works as, for instance:
 
-Cacean, S. (2026). *Analysing Argumentation Structures - A Minimalistic Annotation Scheme.*. <https://doi.org/xxx>
+Cacean, S. (2026). *Analysing Argumentation Structures - A Minimalistic Annotation Scheme.* <https://doi.org/10.5281/zenodo.22709968>
 :::
 
 ## Credits
