@@ -9,8 +9,9 @@
 
 </div>
 <div align="center">
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22709968.svg)](https://doi.org/10.5281/zenodo.22709968) 
-[![CC BY 4.0][cc-by-shield]][cc-by]
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22709968.svg)](https://doi.org/10.5281/zenodo.22709968) [![CC BY 4.0][cc-by-shield]][cc-by]
+
 </div>
 <br/>
 
