@@ -61,7 +61,11 @@ format:
     toc-depth: 4
     link-external-newwindow: true
     google-scholar: true
-    
+    header-includes: |
+      <meta name="citation_pdf_url" content="https://sebastiancacean.de/mannosas/Analysing-Argumentation-Structures.pdf">
+      <meta name="DC.type" content="Text.Report">
+      <meta name="citation_publication_type" content="report">
+      <meta property="og:type" content="book">
   pdf:
     documentclass: scrreprt
     pdf-engine: pdflatex
