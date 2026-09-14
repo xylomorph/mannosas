@@ -8,6 +8,10 @@
 [🚧 Further Development](#development)
 
 </div>
+<div align="center">
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22709968.svg)](https://doi.org/10.5281/zenodo.22709968) 
+[![CC BY 4.0][cc-by-shield]][cc-by]
+</div>
 <br/>
 
 This repository contains annotation guidelines for analysing argumentation structures. The annotation scheme is designed to narrow the degree of variability among (independently working) annotators. In other words, `MAnnoSAS` helps to increase inter-annotator reliability when identifying argumentation structures.
@@ -86,8 +90,8 @@ The result of a `MAnnoSAS`-guided annotation can be visualised with a reason map
 
 Some of the instructions correspond to *technical decisions*, which presuppose some features of the used annotation software:
 
-+ For the annotation of implicit claims, the annotator should be provided with pseudo-labels that can be used to annotate relations between the implicit claim and other argumentative components (see XXX {#sec-faq-nine}). 
-+ For scattered argumentative components (see XXX , faq 7.3.2) it is assumed that annotators can use annotation labels as proper names for argumentative components. In this way, annotators do not have to use an equivalence relation to indicate that different text segments represent the same argumentative component. If the annotation software does not support such labels, you might have to allow for the annotation of an additional relation expressing *equivalence*.
++ For the annotation of implicit claims, the annotator should be provided with pseudo-labels that can be used to annotate relations between the implicit claim and other argumentative components (see [Section 7.1.5](https://sebastiancacean.de/mannosas/ch07.html#sec-implicit-claims)). 
++ For scattered argumentative components (see [Section 5.1.1](https://sebastiancacean.de/mannosas/ch05.html#scattered-argumentative-components) and [Section 7.3.2](https://sebastiancacean.de/mannosas/ch07.html#sec-faq-nine)) it is assumed that annotators can use annotation labels as proper names for argumentative components. In this way, annotators do not have to use an equivalence relation to indicate that different text segments represent the same argumentative component. If the annotation software does not support such labels, you might have to allow for the annotation of an additional relation expressing something like *equivalence* or *repetition*.
 
 <h2 id="background">📑 Background</h2>
 
@@ -157,7 +161,7 @@ Finally, annotators might disagree in analysing the intended justificatory relat
 
 If you use `MAnnoSAS` in an annotation study, please cite this work as, for instance:
 
-> Cacean, S. (2026). *Analysing Argumentation Structures - A Minimalistic Annotation Scheme.*. <https://doi.org/xxx>
+> Cacean, S. (2026). *Analysing Argumentation Structures - A Minimalistic Annotation Scheme.*. <https://doi.org/10.5281/zenodo.22709968>
 
 
 BibTeX citation:
@@ -168,9 +172,9 @@ BibTeX citation:
   author = {Cacean, Sebastian},
   year = {2026},
   month = september,
-  doi = {xxx},
+  doi = {10.5281/zenodo.22709968},
   langid = {english},
-  url = {xxx},
+  url = {https://sebastiancacean.de/mannosas/},
 }
 ```
 
@@ -178,8 +182,6 @@ BibTeX citation:
 ### Credits
 
 This annotation scheme was developed as part of my PhD Thesis [*"Content Analysis of Argumentation Structures - The Role of Reliability in Argument Mapping"*](https://doi.org/10.5445/IR/1000182475).
-
-
 
 
 <h2 id="development">🚧 Further Development</h2>
@@ -194,8 +196,8 @@ This annotation scheme was developed as part of my PhD Thesis [*"Content Analysi
 
 <!--
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13294165.svg)](https://doi.org/10.5281/zenodo.13294165)
--->
 [![CC BY 4.0][cc-by-shield]][cc-by]
+-->
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
