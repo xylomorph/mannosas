@@ -1,7 +1,7 @@
 # Overview {.unnumbered}
 
 <a href="./Analysing-Argumentation-Structures.pdf" target="_blank">
-  <img src="./figures/frontpage-thumbnail.png" alt="Download PDF" class="float-right" style="width:220px;">
+  <img src="./figures/frontpage-thumbnail.png" alt="Download PDF" class="float-right" style="width:220px; border: 1px solid #d0d0d0;">
 </a>
 
 This website contains `MAnnoSAS`, a minimalistic annotation scheme for argumentation structures. The annotation scheme is designed to narrow the degree of variability among (independently working) annotators. In other words, it helps to increase inter-annotator reliability when identifying argumentation structures.
